@@ -1,0 +1,43 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_great_project_cashel"	
+		texturefile = "gfx//interface//great_projects//great_project_cashel.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_pisatower"	
+		texturefile = "gfx//interface//great_projects//great_project_pisatower.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_colosseum"	
+		texturefile = "gfx//interface//great_projects//great_project_colosseum.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_louvre"	
+		texturefile = "gfx//interface//great_projects//great_project_louvre.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_brusselscityhall"	
+		texturefile = "gfx//interface//great_projects//great_project_brusselscityhall.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_globe_theatre"	
+		texturefile = "gfx//interface//great_projects//great_project_globe_theatre.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_mont_saint_michel"	
+		texturefile = "gfx//interface//great_projects//great_project_mont_saint_michel.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_compostela_cathedral"	
+		texturefile = "gfx//interface//great_projects//great_project_compostela_cathedral.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_sanktgallabbey"	
+		texturefile = "gfx//interface//great_projects//great_project_sanktgallabbey.dds"
+	}
+	spriteType = {
+		name = "GFX_great_project_saintmarkbasilica"	
+		texturefile = "gfx//interface//great_projects//great_project_saintmarkbasilica.dds"
+	}
+}
