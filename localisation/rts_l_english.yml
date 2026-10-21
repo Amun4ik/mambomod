@@ -1,0 +1,23 @@
+﻿l_english:
+ high_american_tech_mod:0 "High American civilization"
+ eastern_tech_mod:0 "Eastern European civilization"
+ ottoman_tech_mod:0 "Anatolian civilization"
+ muslim_tech_mod:0 "Muslim civilization"
+ indian_tech_mod:0 "Indian civilization"
+ east_african_tech_mod:0 "East African civilization"
+ chinese_tech_mod:0 "Chinese civilization"
+ sub_saharan_tech_mod:0 "West African civilization"
+ central_african_tech_mod:0 "Central African civilization"
+ nomad_group_tech_mod:0 "Nomad civilization"
+ mesoamerican_tech_mod:0 "Mesoamerican civilization"
+ andean_tech_mod:0 "Andean civilization"
+ north_american_tech_mod:0 "North American civilization"
+ south_american_tech_mod:0 "South American civilization"
+ aboriginal_tech_tech_mod:0 "Aboriginal civilization"
+ polynesian_tech_tech_mod:0 "Polynesian civilization"
+ tech_mod_desc:0 "Loyalty that we show for the traditions of our ancestors sometimes can stand in a way of progress..."
+ 
+ social_conservatism_title:0 "Social conservatism"
+ social_conservatism_desc:0 "In this emerging modern world new ideas are still not so easily accepted"
+ 
+
