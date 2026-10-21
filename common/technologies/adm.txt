@@ -128,7 +128,7 @@ technology = { #Courthouse
 
 	courthouse = yes
 	governing_capacity = 100
-
+	sawmill = yes #MOD
 }
 
 technology = { #The Scythe
@@ -142,6 +142,7 @@ technology = { #The Scythe
 	#The Scythe
 	production_efficiency 	=	0.02
 	allowed_idea_groups = 4
+  vineyard_estate = yes #MOD
 	
 
 }
