@@ -1,0 +1,1436 @@
+country_decisions = {
+
+	decision_enable_modtradegoods = {
+		#major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = enabled_modtradegoods }
+			NOT = { is_year = 1445 }
+		}
+		
+		allow = {
+			always = yes
+		}
+		
+		effect = {
+		
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							province_id = 1843 
+							province_id = 109
+							province_id = 477
+							province_id = 478
+							province_id = 4682
+							province_id = 4678
+							province_id = 721
+							province_id = 4202
+							province_id = 2187
+							province_id = 4660
+							province_id = 708
+							province_id = 4671
+							province_id = 2213
+							province_id = 432
+							province_id = 4292
+							province_id = 4281
+							province_id = 282
+							province_id = 296
+							province_id = 468
+							province_id = 281
+							province_id = 4244
+							province_id = 4264
+							province_id = 2180
+							province_id = 2189
+							province_id = 2315
+							province_id = 4551
+							province_id = 287
+							province_id = 2332
+							province_id = 2347
+							province_id = 2368
+							province_id = 2465
+							province_id = 277 
+							province_id = 328 
+							province_id = 720
+							province_id = 467
+							province_id = 2416
+							province_id = 283
+							province_id = 471
+							province_id = 304
+							province_id = 4219
+							province_id = 4218
+							province_id = 4223
+							province_id = 2193
+							province_id = 5147
+							province_id = 2746
+							province_id = 4126
+							province_id = 153
+							province_id = 225
+							province_id = 4373
+							province_id = 1860
+							province_id = 392
+							province_id = 168 #G
+							province_id = 5144
+							province_id = 5042
+							province_id = 4724
+						}
+					}
+					
+					change_trade_goods = horses #56
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {	
+							province_id = 4525
+							province_id = 1940
+							province_id = 4252
+							province_id = 1956
+							province_id = 303
+							province_id = 4266
+							province_id = 2369
+							province_id = 269
+							province_id = 175
+							province_id = 373
+							province_id = 252
+							province_id = 293
+							province_id = 5217
+						}
+					}
+					
+					change_trade_goods = vodka #12
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							province_id = 41
+							province_id = 43
+							province_id = 1984
+							province_id = 39
+							province_id = 2052
+							province_id = 1197
+							province_id = 1194
+							province_id = 2705
+							province_id = 603
+							province_id = 4131
+							province_id = 37
+							province_id = 271
+						}
+					}
+					
+					change_trade_goods = amber #12
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 310
+					province_id = 1082
+					province_id = 33
+					province_id = 295
+					province_id = 1936
+					province_id = 40
+					province_id = 17
+					province_id = 23
+					province_id = 1
+					province_id = 1863
+					province_id = 2968
+					province_id = 374
+					province_id = 237
+					province_id = 235
+					province_id = 95
+					province_id = 1865
+					province_id = 65
+					province_id = 86
+					province_id = 66
+					province_id = 1868
+					province_id = 1859
+					province_id = 1939
+					province_id = 162
+					province_id = 4240
+					province_id = 135
+					province_id = 4125
+					province_id = 5005
+					province_id = 88
+					province_id = 231
+					province_id = 1870
+					province_id = 4720
+					province_id = 3000
+					province_id = 138
+					province_id = 161
+					province_id = 256
+					province_id = 5038
+					province_id = 5184
+					province_id = 2955
+					province_id = 4760
+					province_id = 4965 #W #more important than cloth
+						}
+					}
+					
+					change_trade_goods = beer #43
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 312
+					province_id = 311
+					province_id = 274
+					province_id = 278
+					province_id = 289
+					province_id = 5172
+					province_id = 290
+					province_id = 4946
+					province_id = 4963
+					province_id = 263
+					province_id = 2998
+					province_id = 4529
+					province_id = 141
+					province_id = 139
+					province_id = 180
+					province_id = 81
+					province_id = 2965
+					province_id = 5117
+					province_id = 229
+					province_id = 4554
+					province_id = 324
+					province_id = 330
+					province_id = 144
+					province_id = 4705
+					province_id = 1224
+					province_id = 1213
+					province_id = 4069
+					province_id = 2949
+					province_id = 1117
+					province_id = 1200
+					province_id = 4027
+					province_id = 4472
+					province_id = 4461
+					province_id = 4822
+					province_id = 2381
+					province_id = 662
+					province_id = 2152
+					province_id = 2356
+					province_id = 4331
+					province_id = 2712
+					province_id = 4868
+					province_id = 5196
+					province_id = 5040 #W
+					province_id = 5016
+					province_id = 5171
+					province_id = 5214
+					province_id = 4956
+					province_id = 5167
+					province_id = 4973
+					province_id = 4945
+						}
+					}
+					
+					change_trade_goods = honey #49
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2999
+					province_id = 396
+					province_id = 394
+					province_id = 2026
+					province_id = 4407
+					province_id = 534
+					province_id = 4182
+					province_id = 651
+					province_id = 1230
+					province_id = 365
+					province_id = 1166
+						}
+					}
+					
+					change_trade_goods = pearls #11
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 1171
+					province_id = 4798
+					province_id = 2039
+					province_id = 2646
+					province_id = 1242
+					province_id = 1240
+					province_id = 4594
+					province_id = 4588
+					province_id = 4574
+					province_id = 413
+					province_id = 518
+					province_id = 4468
+					province_id = 4459
+					province_id = 4424
+					province_id = 4828
+					province_id = 4833
+					province_id = 592
+					province_id = 2385
+					province_id = 4820
+					province_id = 4819
+					province_id = 2164
+					province_id = 4090
+					province_id = 610
+					province_id = 4841
+					province_id = 602
+					province_id = 1815
+					province_id = 2400
+					province_id = 579
+					province_id = 2398
+					province_id = 573
+					province_id = 566
+					province_id = 2049
+					province_id = 366
+					province_id = 367
+					province_id = 163
+					province_id = 126
+					province_id = 222
+					province_id = 757
+					province_id = 4091
+					province_id = 4817
+					province_id = 4803
+					province_id = 2392
+					province_id = 2034
+						}
+					}
+					
+					change_trade_goods = bananas #52
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4550
+					province_id = 1748
+					province_id = 124
+					province_id = 4566
+					province_id = 2459
+					province_id = 345
+					province_id = 4561
+					province_id = 4298
+					province_id = 381
+					province_id = 5084
+					province_id = 4834
+					province_id = 4842
+					province_id = 616
+					province_id = 4827
+					province_id = 4734
+						}
+					}
+					
+					change_trade_goods = citruses #15
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 535
+					province_id = 2030
+					province_id = 2673
+					province_id = 4809
+					province_id = 623
+					province_id = 4797
+					province_id = 624
+					province_id = 1198
+					province_id = 4826
+					province_id = 4831
+					province_id = 596
+						}
+					}
+					
+					change_trade_goods = pepper #11
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4590
+					province_id = 842
+					province_id = 4587
+					province_id = 2805
+					province_id = 2634
+						}
+					}
+					
+					change_trade_goods = pineapple #5
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4241
+					province_id = 4534
+					province_id = 4952
+					province_id = 1841
+					province_id = 2997
+					province_id = 2993
+					province_id = 4786
+					province_id = 5194
+					province_id = 292
+					province_id = 276
+					province_id = 4381
+					province_id = 5210
+						}
+					}
+					
+					change_trade_goods = bricks #12
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2751
+					province_id = 1934
+					province_id = 2978
+					province_id = 4737
+					province_id = 145
+					province_id = 4994
+					province_id = 5026
+					province_id = 2348
+					province_id = 2455
+					province_id = 340
+					province_id = 4563
+					province_id = 4564
+					province_id = 321
+					province_id = 1849
+					province_id = 379
+					province_id = 2753
+						}
+					}
+					
+					change_trade_goods = olives #16
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 116
+					province_id = 118
+					province_id = 121
+					province_id = 146
+					province_id = 319
+					province_id = 2296
+					province_id = 2473
+					province_id = 354
+					province_id = 2987
+					province_id = 201
+						}
+					}
+					
+					change_trade_goods = marble #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 5037
+					province_id = 1978
+					province_id = 1979
+					province_id = 315
+					province_id = 968
+					province_id = 1847
+					province_id = 1034
+					province_id = 5057
+					province_id = 4121
+					province_id = 376
+					province_id = 171
+						}
+					}
+					
+					change_trade_goods = whales #11
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2716
+					province_id = 642
+						}
+					}
+					
+					change_trade_goods = nutmeg
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2991
+					province_id = 5003
+					province_id = 204
+					province_id = 5001
+					province_id = 4112
+					province_id = 2981
+					province_id = 2976
+					province_id = 106
+					province_id = 4557
+					province_id = 4701
+					province_id = 4702
+					province_id = 4699
+					province_id = 5023
+					province_id = 378
+					province_id = 5216
+					province_id = 5030
+						}
+					}
+					
+					change_trade_goods = lavender #16
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4558
+					province_id = 239
+					province_id = 4943
+					province_id = 22
+					province_id = 4166
+					province_id = 267
+					province_id = 1952
+					province_id = 4992
+					province_id = 2958
+					province_id = 5046
+					province_id = 4971
+					province_id = 4950
+					province_id = 4993
+					province_id = 1960
+					province_id = 5034
+					province_id = 5160
+					province_id = 4260
+					province_id = 1959
+					province_id = 472
+					province_id = 725
+					province_id = 2186
+					province_id = 4654
+					province_id = 2108
+					province_id = 4653
+					province_id = 4412
+					province_id = 4431
+					province_id = 4451
+					province_id = 2097
+					province_id = 4471
+					province_id = 4485
+					province_id = 2069
+					province_id = 4911
+					province_id = 918
+					province_id = 939
+					province_id = 4921
+					province_id = 934
+					province_id = 935
+					province_id = 4882
+					province_id = 2541
+					province_id = 951
+					province_id = 4877
+					province_id = 4902
+					province_id = 912
+					province_id = 2591
+					province_id = 1001
+					province_id = 969
+					province_id = 2565
+					province_id = 4966
+						}
+					}
+					
+					change_trade_goods = lumber
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4955
+					province_id = 4164
+					province_id = 2963
+					province_id = 4998
+					province_id = 767
+					province_id = 5047
+					province_id = 4974
+					province_id = 5177
+					province_id = 4148
+					province_id = 1958
+					province_id = 4261
+					province_id = 4117
+					province_id = 2353
+					province_id = 2357
+					province_id = 2185
+					province_id = 2105
+					province_id = 4215
+					province_id = 731
+					province_id = 4663
+					province_id = 4217
+					province_id = 1946
+					province_id = 2081
+					province_id = 2070
+						}
+					}
+					
+					change_trade_goods = timber #23
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2460
+					province_id = 2457
+					province_id = 2449
+					province_id = 356
+					province_id = 2326
+					province_id = 5135
+					province_id = 1231
+					province_id = 1229
+					province_id = 2271
+					province_id = 2765
+					province_id = 2343
+					province_id = 2336
+					province_id = 4275
+					province_id = 2330
+					province_id = 2337
+					province_id = 4270
+					province_id = 4271
+					province_id = 405
+					province_id = 397
+					province_id = 4285
+					province_id = 2232
+					province_id = 4506
+					province_id = 2086
+					province_id = 4508
+					province_id = 2078
+					province_id = 4507
+					province_id = 512
+					province_id = 2066
+					province_id = 4502
+					province_id = 701
+					province_id = 2747
+					province_id = 4670
+					province_id = 4677
+					province_id = 4676
+					province_id = 2191
+					province_id = 707
+					province_id = 2123
+					province_id = 711
+					province_id = 881
+					province_id = 2490
+						}
+					}
+					
+					change_trade_goods = dates #40
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2532
+					province_id = 919
+					province_id = 2524
+					province_id = 2557
+					province_id = 989
+					province_id = 915
+					province_id = 886
+					province_id = 2495
+					province_id = 4632
+					province_id = 4634
+					province_id = 2943
+					province_id = 778
+					province_id = 847
+					province_id = 4642
+					province_id = 2642
+					province_id = 854
+					province_id = 2624
+						}
+					}
+					
+					change_trade_goods = corn #17
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 816
+					province_id = 2825
+					province_id = 814
+					province_id = 2827
+					province_id = 807
+					province_id = 2947
+					province_id = 2831
+						}
+					}
+					
+					change_trade_goods = potatoes #7
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 850
+					province_id = 4641
+					province_id = 2628
+					province_id = 2650
+					province_id = 2635
+					province_id = 2638
+					province_id = 4575
+					province_id = 2621
+					province_id = 4598
+					province_id = 858
+						}
+					}
+					
+					change_trade_goods = tomatoes #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 662
+					province_id = 2164
+					province_id = 4228
+					province_id = 841
+					province_id = 846
+					province_id = 584
+					province_id = 2171
+					province_id = 4212
+					province_id = 844
+					province_id = 710
+						}
+					}
+					
+					change_trade_goods = jade
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 572
+					province_id = 2100
+					province_id = 4413
+					province_id = 4415
+					province_id = 622
+					province_id = 617
+					province_id = 630
+					province_id = 641
+					province_id = 586
+					province_id = 388
+						}
+					}
+					
+					change_trade_goods = cinnamon
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 558
+					province_id = 2057
+					province_id = 4476
+					province_id = 4474
+					province_id = 429
+					province_id = 2235
+					province_id = 2226
+					province_id = 4308
+					province_id = 360
+					province_id = 4312
+						}
+					}
+					
+					change_trade_goods = poppy #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 427
+					province_id = 4330
+					province_id = 4521
+					province_id = 446
+					province_id = 4547 #la mancha prox
+					province_id = 3001
+					province_id = 416
+					province_id = 506
+					province_id = 504
+					province_id = 442
+						}
+					}
+					
+					change_trade_goods = saffron #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 1086
+					province_id = 4868
+					province_id = 2728
+					province_id = 2739
+					province_id = 4938
+						}
+					}
+					
+					change_trade_goods = turtles #5
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 186
+					province_id = 192
+					province_id = 183
+					province_id = 178
+					province_id = 5002
+					province_id = 75
+					province_id = 78
+					province_id = 4719
+					province_id = 104
+					province_id = 1774
+						}
+					}
+					
+					change_trade_goods = champagnegood #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 1879
+					province_id = 191
+					province_id = 4777
+					province_id = 4721
+					province_id = 100
+					province_id = 2979
+					province_id = 105
+					province_id = 1873
+					province_id = 68
+					province_id = 4707
+					province_id = 4785
+					province_id = 244
+					province_id = 4555
+					province_id = 4789
+					province_id = 5158
+					province_id = 198
+					province_id = 176
+					province_id = 240
+					province_id = 4377
+					province_id = 2960
+					province_id = 164
+					province_id = 4739
+					province_id = 5193
+					province_id = 4130
+					province_id = 1867
+					province_id = 14
+					province_id = 5021
+					province_id = 4697
+					province_id = 4523 #kuyavia
+					province_id = 1937
+						}
+					}
+					
+					change_trade_goods = cheese #30
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 61 #Freiburg
+					province_id = 5159 #kuttenberg
+					province_id = 73
+					province_id = 219
+					province_id = 210
+					province_id = 795
+					province_id = 856
+					province_id = 2615
+					province_id = 1018
+					province_id = 509
+					province_id = 4527
+						}
+					}
+					
+					change_trade_goods = silver #11
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4813
+					province_id = 593
+					province_id = 2680
+					province_id = 2704
+					province_id = 1248
+					province_id = 4408
+					province_id = 2039
+					province_id = 4078
+					province_id = 4024
+					province_id = 4937
+					province_id = 4934
+					province_id = 4821
+						}
+					}
+					
+					change_trade_goods = coconut #12
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2144
+					province_id = 1838
+					province_id = 4197
+					province_id = 2150
+					province_id = 2157
+					province_id = 670
+					province_id = 671
+					province_id = 2172
+					province_id = 2168
+					province_id = 4213
+					province_id = 2395
+					province_id = 4404
+					province_id = 4394
+					province_id = 4399
+					province_id = 4398
+					province_id = 1844
+					province_id = 614
+					province_id = 611
+					province_id = 2386
+					province_id = 2383
+					province_id = 4830
+					province_id = 4825
+					province_id = 2376
+					province_id = 2378
+					province_id = 1823
+					province_id = 2700
+					province_id = 2682
+					province_id = 4818
+					province_id = 4475
+					province_id = 562
+					province_id = 4488
+					province_id = 2055
+					province_id = 4497
+					province_id = 4452
+					province_id = 2082
+					province_id = 550
+					province_id = 4466
+					province_id = 4501
+					province_id = 2036
+					province_id = 2035
+					province_id = 541
+					province_id = 2031
+					province_id = 1792
+					province_id = 4068
+					province_id = 4066
+						}
+					}
+					
+					change_trade_goods = rice
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 234
+					province_id = 4368
+					province_id = 4378
+					province_id = 5006
+					province_id = 4384
+					province_id = 182
+					province_id = 1759
+					province_id = 4165
+					province_id = 4942
+					province_id = 4958
+					province_id = 2959
+					province_id = 207
+					province_id = 4715
+					province_id = 5013
+					province_id = 5052
+						}
+					}
+					
+					change_trade_goods = fruits #13
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2622
+					province_id = 5130
+					province_id = 2266
+					province_id = 2283
+					province_id = 2776
+					province_id = 1222
+					province_id = 4422
+					province_id = 2082
+					province_id = 4488
+					province_id = 2748
+					province_id = 4836
+					province_id = 4829
+					province_id = 670
+					province_id = 1228
+					province_id = 348
+					province_id = 1123
+					province_id = 4881
+					province_id = 4071
+					province_id = 4030
+						}
+					}
+					
+					change_trade_goods = exoticfruits #
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4385
+					province_id = 4696
+					province_id = 4374
+					province_id = 4731
+					province_id = 2982
+					province_id = 5154
+					province_id = 216
+					province_id = 59
+					province_id = 4709
+					province_id = 1768
+					province_id = 1220
+					province_id = 2322
+					province_id = 25
+						}
+					}
+					
+					change_trade_goods = stone #13
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2643
+					province_id = 883
+					province_id = 2498
+					province_id = 862
+					province_id = 870
+					province_id = 877
+						}
+					}
+					
+					change_trade_goods = cactus #6
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 172
+					province_id = 206
+					province_id = 98
+					province_id = 369
+					province_id = 5183
+					province_id = 26
+					province_id = 20
+					province_id = 4989
+					province_id = 4560
+					province_id = 1933
+					province_id = 320
+					province_id = 2741
+					province_id = 4181
+					province_id = 1829
+					province_id = 2393
+					province_id = 4349
+						}
+					}
+					
+					change_trade_goods = seafood #16
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 688
+					province_id = 680
+					province_id = 683
+					province_id = 4489
+					province_id = 4512
+					province_id = 149
+					province_id = 327
+					province_id = 217
+					province_id = 93
+					province_id = 134
+					province_id = 4171
+						}
+					}
+					
+					change_trade_goods = gunpowder #11
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 1094
+					province_id = 4847
+					province_id = 2726
+					province_id = 4869
+					province_id = 2737
+						}
+					}
+					
+					change_trade_goods = coral #5
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2644
+					province_id = 2630
+					province_id = 4023
+					province_id = 1193
+					province_id = 653
+					province_id = 4810
+					province_id = 2651
+					province_id = 2289
+					province_id = 4800
+					province_id = 537
+						}
+					}
+					
+					change_trade_goods = vanilia #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 357
+					province_id = 2318
+					province_id = 4567
+					province_id = 350
+					province_id = 1233
+					province_id = 1215
+					province_id = 2344
+					province_id = 4272
+					province_id = 4273
+					province_id = 398
+					province_id = 2338
+					province_id = 2275
+					province_id = 5135
+					province_id = 4271
+						}
+					}
+					
+					change_trade_goods = camels #14
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2207
+					province_id = 4335
+					province_id = 4329
+					province_id = 326
+					province_id = 4779
+					province_id = 4344
+					province_id = 441
+					province_id = 2236
+					province_id = 343
+					province_id = 337
+					province_id = 4513
+					province_id = 2073
+					province_id = 336
+					province_id = 334
+					province_id = 361
+					province_id = 384
+					province_id = 2210
+					province_id = 411
+					province_id = 459
+					province_id = 4494
+						}
+					}
+					
+					change_trade_goods = carpets #20
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2653
+					province_id = 4081
+					province_id = 4022
+					province_id = 1116
+					province_id = 2295
+					province_id = 5176
+						}
+					}
+					
+					change_trade_goods = parrot #6
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 5081
+					province_id = 533
+					province_id = 2297
+					province_id = 2310
+					province_id = 4180
+					province_id = 2345
+					province_id = 2837
+					province_id = 2824
+					province_id = 2791
+					province_id = 1952
+						}
+					}
+					
+					change_trade_goods = sulphur #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4890
+					province_id = 990
+					province_id = 969
+					province_id = 966
+					province_id = 4873
+					province_id = 2589
+					province_id = 2579
+						}
+					}
+					
+					change_trade_goods = maplesyrup #7
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 1769
+					province_id = 811
+					province_id = 4343
+					province_id = 2173
+					province_id = 5010
+						}
+					}
+					
+					change_trade_goods = mercury #5 #rare
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 5121
+					province_id = 4959
+					province_id = 2970
+					province_id = 4
+					province_id = 21
+					province_id = 4755
+					province_id = 199
+					province_id = 4645
+					province_id = 4530
+					province_id = 4366
+						}
+					}
+					
+					change_trade_goods = lead #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 542
+					province_id = 640
+					province_id = 4083
+					province_id = 4425
+					province_id = 4467
+						}
+					}
+					
+					change_trade_goods = diamonds #5
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							province_id = 359 #crocodilopolis
+							province_id = 4319
+							province_id = 1234
+							province_id = 2238
+							province_id = 4846
+							province_id = 2934
+							province_id = 2797
+							province_id = 4832
+							province_id = 4061
+							province_id = 4103
+						}
+					}
+					change_trade_goods = crocodiles #10
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							province_id = 2246
+							province_id = 1150
+							province_id = 2282
+							province_id = 4478
+							province_id = 4427
+							province_id = 4430
+							province_id = 4414
+							province_id = 1199
+							province_id = 4049
+							province_id = 349
+							province_id = 2224
+							province_id = 4323
+							province_id = 4444
+							province_id = 4812
+							province_id = 4458
+						}
+					}
+					change_trade_goods = exoticfur #15
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 1901
+						}
+					}
+					
+					change_trade_goods = spices
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2132 #W
+						}
+					}
+					
+					change_trade_goods = salt
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 1862 #W
+						}
+					}
+					
+					change_trade_goods = livestock
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 5083 #W
+					province_id = 5191
+						}
+					}
+					
+					change_trade_goods = paper
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 270
+						}
+					}
+					
+					change_trade_goods = fish
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 4544 #Bóbr
+					province_id = 4968 #W
+						}
+					}
+					
+					change_trade_goods = fur
+				}
+			}
+			
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 2969
+						}
+					}
+					
+					change_trade_goods = wine
+				}
+			}
+			
+			hidden_effect = { #sicilian fishers arrived in 1920, before mostly shepherds
+				every_province = {
+					limit = {
+						OR = {
+					province_id = 127
+						}
+					}
+					
+					change_trade_goods = wool
+				}
+			}
+
+		set_country_flag = enabled_modtradegoods
+		}
+	}
+}
