@@ -1,0 +1,21 @@
+#732 - Hamgyeong
+owner = KOR
+controller = KOR
+culture = korean
+religion = confucianism
+trade_goods = fish
+base_tax = 1
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = KOR
+add_local_autonomy = 35
+discovered_by = chinese
+discovered_by = nomad_group
+1542.1.1 = { discovered_by = POR }
+1592.7.18 = { controller = ODA }
+1593.2.22 = { controller = KOR }
+1637.1.1 = { add_core = MNG }
+1644.1.1 = { add_core = MCH }
+1645.7.1 = { add_core = QNG }
+1653.1.1 = { discovered_by = NED }

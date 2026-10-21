@@ -1,0 +1,20 @@
+# 2143 - Fengyang
+owner = MNG
+controller = MNG
+culture = zhongyuan
+religion = confucianism
+capital = "Huaibei"
+trade_goods = grain
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+1601.1.1 = { discovered_by = SPA }
+1645.6.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = LNG
+add_core = MNG

@@ -1,0 +1,21 @@
+# 2140 - Yanzhou
+owner = MNG
+controller = MNG
+culture = zhongyuan
+religion = confucianism
+capital = "Caozhou"
+trade_goods = livestock
+base_tax = 2
+base_production = 1
+base_manpower = 2
+is_city = yes
+add_core = QIC
+discovered_by = chinese
+discovered_by = nomad_group
+1601.1.1 = { discovered_by = SPA }
+1644.4.1 = { controller = CSH }
+1644.11.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = MNG

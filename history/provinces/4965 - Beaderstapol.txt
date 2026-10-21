@@ -1,0 +1,17 @@
+# 94 Luxembourg - Principal cities: Luxembourg
+owner = ENG
+controller = ENG
+capital = "Beardestapol"
+is_city = yes
+culture = english
+religion = catholic
+base_tax = 2
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+add_core = ENG
+add_core = CRN
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

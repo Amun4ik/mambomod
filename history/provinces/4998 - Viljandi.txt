@@ -1,0 +1,16 @@
+#Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
+owner = LIV
+controller = LIV
+culture = estonian
+base_tax = 2
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Viljandi"
+is_city = yes
+center_of_trade = 1
+discovered_by = western
+discovered_by = eastern
+add_core = LIV
+religion = catholic
+fort_15th = yes

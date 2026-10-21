@@ -1,0 +1,17 @@
+#5077 - Waterford
+owner = ORD
+controller = ORD
+religion = catholic
+base_tax = 2
+base_production = 5
+trade_goods = livestock
+base_manpower = 2
+capital = "Waterford"
+is_city = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+center_of_trade = 1
+add_core = ORD
+culture = irish

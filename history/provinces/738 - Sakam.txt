@@ -1,0 +1,36 @@
+#738 - Taiwan
+culture = polynesian
+religion = animism
+capital = "Sakam"
+trade_goods = unknown
+base_tax = 4
+base_production = 4
+base_manpower = 2
+native_size = 60
+native_ferocity = 1
+native_hostileness = 5
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+1521.1.1 = { discovered_by = SPA }
+1544.1.1 = { discovered_by = POR }
+1624.1.1 = { 
+	controller = NED
+	add_core = NED
+	city = yes
+	trade_goods = Chinaware
+}
+1626.1.1 = { controller = SPA }
+1642.1.1 = { controller = NED }
+1662.1.1 = { 
+	controller = MNG
+	add_core = MNG
+	religion = Confucianism
+}
+1683.1.1 = { 
+	controller = QNG
+	add_core = QNG
+}
+is_city = no
