@@ -5,6 +5,7 @@ capital = "Arlon"
 is_city = yes
 culture = wallonian
 religion = catholic
+hre = yes
 base_tax = 2
 base_production = 2
 trade_goods = grain
