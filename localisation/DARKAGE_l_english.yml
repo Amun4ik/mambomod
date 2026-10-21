@@ -1,0 +1,9 @@
+﻿l_english:
+
+ flavor_darkage.EVTNAME1:0 "The Onset of a Dark Age..."
+ flavor_darkage.EVTDESC1:0 "The fabric of our nation is unraveling. Years of mismanagement, war, and internal strife have culminated in a period of unprecedented hardship. Our once-proud institutions falter under the weight of whether crushing debt, widespread corruption, or faltering legitimacy. Inflation spirals out of control, war exhaustion drains our people, and the very core of our nation suffers devastation. The era ahead promises not golden prosperity, but a bleak Dark Age - a time where survival will take precedence over ambition. It will take 25 years of resilience to endure the storm and rebuild from the ashes."
+ flavor_darkage.EVTOPTA1:0 "We must endure."
+ MOD_DARKAGE_modifier:0 "Dark Age"
+ darkage_decision_title:0 "Dark Age Detector"
+ darkage_decision_desc:1 "This decision is here to show how close to triggering a Dark Age a nation is. If at least 3 requirements are met at the same time, the nation will face a disastrous period and will struggle for next 25 years."
+ DARKAGE_ishere:0 "Our country gains 'Dark Age' modifier for 25 years."

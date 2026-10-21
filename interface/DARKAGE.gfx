@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "DARKAGE_eventPicture"
+		texturefile = "gfx/event_pictures/DARKAGE_eventPicture.dds"
+		alwaystransparent = yes
+	}
+}
