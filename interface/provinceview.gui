@@ -1,5 +1,5 @@
 guiTypes = {
-	
+
 	#Janissaries
 	windowType = {
 		name = "janissaries_state_view"
@@ -21,7 +21,7 @@ guiTypes = {
 			position = { x = 18 y = 0 }
 		}
 	}
-	
+
 	# Ottoman Pasha
 	windowType = {
 		name = "pasha_state_view"
@@ -56,19 +56,19 @@ guiTypes = {
 			position = { x = 222 y = 7 }
 		}
 	}
-	
+
 	# Orthodox Patriarch
 	windowType = {
 		name = "patriarch_state_view"
 		backGround=""
 		position = { x = 0 y = 0 }
-		size = { x = 390 y = 32 }
+		size = { x = 390 y = 50 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-	
+
 		iconType = {
 			name = "patriarch_bg"
 			spriteType = "GFX_patriarchy_slot"
@@ -91,7 +91,7 @@ guiTypes = {
 			position = { x = 222 y = 7 }
 		}
 	}
-	
+
 	# Manchu banners
 	windowType = {
 		name = "banners_state_view"
@@ -139,7 +139,7 @@ guiTypes = {
 			format = right
 		}
 	}
-	
+
 	# Cawa
 	windowType = {
 		name = "cawa_state_view"
@@ -151,7 +151,7 @@ guiTypes = {
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
+
 		iconType = {
 			name = "cawa_bg"
 			spriteType = "GFX_cawa_slot"
@@ -188,7 +188,7 @@ guiTypes = {
 		}
 
 	}
-	
+
 	#For adjusting the vertical position of the edicts list
 	positionType = {
 		name ="edicts_position"
@@ -205,7 +205,7 @@ guiTypes = {
 		position = { x=0 y=62 }
 	}
 
-	
+
 	windowType = {
 		name = "province_estate_entry"
 		position = { x=0 y=0 }
@@ -2549,6 +2549,22 @@ guiTypes = {
 				position = { x=478 y=144}
 				quadTextureSprite ="GFX_build_interface_building_tab"
 			}
+
+			##################################
+			## Subjects Expanded Custom GUI ##
+			##################################
+			windowType = {
+				name = "se_province_view_window"
+				position = { x = 193 y = 519 }
+				scripted = yes
+
+				guiButtonType = {
+					name = "se_province_view_release_trade_outpost_button"
+					position = { x = 0 y = 0 }
+					spriteType = "GFX_release_trade_outpost_button"
+					scripted = yes
+				}
+			}
 		}
 
 
@@ -2620,14 +2636,14 @@ guiTypes = {
 				quadTextureSprite = "GFX_concentrate_development"
 				position = { x = 318 y = 9 }
 			}
-			
+
 			guiButtonType =
 			{
 				name = "centralize_state"
 				quadTextureSprite = "GFX_centralize_state_button"
 				position = { x = 348 y = 9 }
 			}
-			
+
 			guiButtonType =
 			{
 				name = "make_state"
@@ -2814,7 +2830,7 @@ guiTypes = {
 				name = "provinces_listbox"
 				backGround = ""
 				position = { x= 20 y = 250 }
-				size = { x=455 y=183 }
+				size = { x=220 y=250 }
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2824,8 +2840,15 @@ guiTypes = {
 			smoothListboxType = {
 				name = "stateviews_listbox"
 				backGround = ""
-				position = { x = 12 y = 420 }
-				size = { x = 458 y = 300 }
+				position = { x = 12 y = 414 }
+				if_resolution = {
+					max_height = 899
+					size = { x = 458 y = 155 }
+				}
+				if_resolution = {
+					min_height = 900
+					size = { x = 458 y = 246 }
+				}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2873,11 +2896,11 @@ guiTypes = {
 					font = "vic_22"
 					borderSize = {x = 2 y = 2}
 					text = "LEDGER_GREAT_PROJECTS"
-					maxWidth = 256 
+					maxWidth = 256
 					maxHeight = 32
 					format = left
 				}
-				
+
 				smoothListboxType = {
 					name = "great_projects_list"
 					position = { x = 7 y = 55 }
@@ -2970,7 +2993,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					Orientation = "UPPER_LEFT"
 				}
-                
+
 				guiButtonType =
 				{
 					name ="reduce_infrastructure_button"
@@ -2983,7 +3006,7 @@ guiTypes = {
 					buttonFont = "vic_18"
 					Orientation = "UPPER_LEFT"
 				}
-                
+
 				iconType =
 				{
 					name ="naval_forcelimit_icon"
@@ -3023,7 +3046,7 @@ guiTypes = {
 					maxHeight = 20
 					format = right
 				}
-				
+
 				iconType =
 				{
 					name = "province_governing_cost_icon"
@@ -3031,7 +3054,7 @@ guiTypes = {
 					position = { x= 224 y = 82  }
 					Orientation = "UPPER_LEFT"
 				}
-				
+
 				instantTextBoxType = {
 					name = "capacity_value"
 					position = { x = 253 y = 87 }
@@ -3132,7 +3155,7 @@ guiTypes = {
 					maxHeight = 32
 					format = left
 				}
-	
+
 				iconType =
 				{
 					name ="build_allowed_icon"
@@ -3447,12 +3470,12 @@ guiTypes = {
 						maxHeight = 20
 						format = center
 					}
-					
-					
-				
-	
-				
-					
+
+
+
+
+
+
 					iconType =
 					{
 						name ="governing_capacity_icon"
@@ -3461,7 +3484,7 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 						scale = 0.75
 					}
-					
+
 					instantTextBoxType = {
 						name = "capacity_value"
 						position = { x = 237 y = 0 }
@@ -3672,9 +3695,9 @@ guiTypes = {
 						format = center
 					}
 
-	
-				
-				
+
+
+
 					iconType =
 					{
 						name ="governing_capacity_icon"
@@ -3682,7 +3705,7 @@ guiTypes = {
 						position = { x= 212 y = 599 }
 						Orientation = "UPPER_LEFT"
 					}
-					
+
 					instantTextBoxType = {
 						name = "capacity_value"
 						position = { x = 245 y = 600 }
@@ -3694,7 +3717,7 @@ guiTypes = {
 						maxHeight = 20
 						format = right
 					}
-	
+
 					iconType =
 					{
 						name ="build_allowed_icon"
@@ -4638,7 +4661,7 @@ guiTypes = {
 
 
 	#### GREAT PROJECT ENTRY
-	windowType = 
+	windowType =
 	{
 		name = "great_project_entry"
 		backGround=""
@@ -4649,14 +4672,14 @@ guiTypes = {
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
-		
-		iconType = 
+
+		iconType =
 		{
 			name ="great_project_pic"
 			spriteType = "GFX_great_project_place_holder"
 			position = { x = 0 y = 0 }
 		}
-		
+
 
 		instantTextBoxType = {
 			name = "name_label"
@@ -4842,7 +4865,7 @@ guiTypes = {
 			}
 		}
 	}
-	
+
 	### UNIQUE BUILDING ENTRY
 
 	positionType = {
@@ -6416,7 +6439,7 @@ guiTypes = {
 		}
 
 
-		
+
 		iconType = {
 			name = "naval_defense_banner"
 			position = { x = 240 y = 291 }
@@ -6477,8 +6500,8 @@ guiTypes = {
 			position = { x = 312 y = 332 }
 			spriteType = "GFX_building_upgrade_icon"
 		}
-		
-		
+
+
 
 
 		iconType = {
@@ -6597,9 +6620,8 @@ guiTypes = {
 			borderSize = {x = 0 y = 0}
 			maxWidth = 128
 			maxHeight = 18
-			text = "2000�"
+			text = "2000¤"
 		}
-
 	}
 
 	windowType =
@@ -6713,6 +6735,11 @@ guiTypes = {
 			maxWidth = 114
 			maxHeight = 20
 			format = left
+		}
+		guiButtonType = {
+			name = "name_overlay"
+			position = { x = 31 y = 6 }
+			quadTextureSprite = "GFX_state_view_invisible_button_114x20"
 		}
 
 		guiButtonType =
@@ -6866,7 +6893,7 @@ guiTypes = {
 				spriteType = "GFX_edicts_bg_overlay"
 				position = { x = 484 y = -20 }
 			}
-			
+
 			instantTextBoxType = {
 				name = "edicts_list_title"
 				position = { x = 520 y = 14 }

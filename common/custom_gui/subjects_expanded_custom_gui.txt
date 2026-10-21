@@ -1,0 +1,163 @@
+custom_window = {
+	name = se_province_view_window
+	potential = {
+		FROM = {
+			ai = no
+			can_be_overlord = trade_outpost
+		}
+		OR = {
+			region = south_china_region
+			region = north_china_region
+			region = korea_region
+			region = japan_region
+			area = liaoning_area
+		}
+		owned_by = FROM
+		has_port = yes
+		OR = {
+			REB = {
+				NOT = { check_variable = { which = num_of_autonomy_civil_wars value = 100 } }
+			}
+			any_core_country = {
+				exists = no
+			}
+		}
+	}
+}
+
+custom_button = {
+	name = se_province_view_release_trade_outpost_button
+	trigger = {
+		hidden_trigger = {
+			development = 30
+			FROM = {
+				is_at_war = no
+				treasury = 3000
+				NOT = { has_any_trade_outpost_region_or_area_selected = yes }
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				development = 30
+				FROM = {
+					is_at_war = no
+					treasury = 3000
+					NOT = { has_any_trade_outpost_region_or_area_selected = yes }
+				}
+			}
+			FROM = {
+				add_treasury = -3000
+			}
+			if = {
+				limit = {
+					any_core_country = {
+						exists = no
+					}
+				}
+				custom_tooltip = se_province_view_release_trade_outpost_button_tt_release_core_country
+			}
+			else = {
+				custom_tooltip = se_province_view_release_trade_outpost_button_tt_release_dynamic_country
+			}
+			custom_tooltip = se_province_view_release_trade_outpost_button_tt_effect
+			tooltip = {
+				FROM = {
+					add_government_reform = merchants_reform
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						region = south_china_region
+					}
+					FROM = {
+						set_selected_trade_outpost_region_or_area = { region = yes name = south_china_region }
+					}
+				}
+				else_if = {
+					limit = {
+						region = north_china_region
+					}
+					FROM = {
+						set_selected_trade_outpost_region_or_area = { region = yes name = north_china_region }
+					}
+				}
+				else_if = {
+					limit = {
+						region = korea_region
+					}
+					FROM = {
+						set_selected_trade_outpost_region_or_area = { region = yes name = korea_region }
+					}
+				}
+				else_if = {
+					limit = {
+						region = japan_region
+					}
+					FROM = {
+						set_selected_trade_outpost_region_or_area = { region = yes name = japan_region }
+					}
+				}
+				else_if = {
+					limit = {
+						region = liaoning_area
+					}
+					FROM = {
+						set_selected_trade_outpost_region_or_area = { area = yes name = liaoning_area }
+					}
+				}
+				save_event_target_as = se_release_trade_outpost_province
+				if = {
+					limit = {
+						any_core_country = {
+							exists = no
+						}
+					}
+					FROM = {
+						country_event = { id = subjects_expanded_trade_outpost_events.0 }
+					}
+				}
+				else = {
+					FROM = {
+						country_event = { id = subjects_expanded_trade_outpost_events.0 days = 5 }
+					}
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					NOT = { development = 30 }
+				}
+				custom_tooltip = se_province_view_release_trade_outpost_button_tt_too_few_dev
+			}
+			if = {
+				limit = {
+					FROM = {
+						is_at_war = yes
+					}
+				}
+				custom_tooltip = se_province_view_release_trade_outpost_button_tt_at_war
+			}
+			if = {
+				limit = {
+					FROM = {
+						NOT = { treasury = 3000 }
+					}
+				}
+				custom_tooltip = se_province_view_release_trade_outpost_button_tt_not_enough_money
+			}
+			if = {
+				limit = {
+					FROM = {
+						has_any_trade_outpost_region_or_area_selected = yes
+					}
+				}
+				custom_tooltip = se_province_view_release_trade_outpost_button_tt_releasing_process_in_progress
+			}
+		}
+	}
+	tooltip = se_province_view_release_trade_outpost_button_tt
+}
