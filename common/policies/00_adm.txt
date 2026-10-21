@@ -1,3 +1,6 @@
+########################################
+### Moved files together for better overview
+########################################
 the_combination_act = {
 	monarch_power = ADM
 
@@ -96,7 +99,6 @@ the_court_of_wards_and_liveries = {
 formalized_measures = {
 	monarch_power = ADM
 
-
 	potential = {
 		has_idea_group = plutocracy_ideas
 		has_idea_group = economic_ideas
@@ -170,12 +172,10 @@ agricultural_cultivations = {
 			army_size_percentage = 2.5
 		}		
 	}
-
 }
 
 the_espionage_act = {
 	monarch_power = ADM
-
 
 	potential = {
 		has_idea_group = innovativeness_ideas
@@ -226,7 +226,6 @@ manueline_architecture = {
 the_royal_commission_act = {
 	monarch_power = ADM
 
-
 	potential = {
 		has_idea_group = spy_ideas
 		has_idea_group = administrative_ideas
@@ -260,7 +259,6 @@ edict_of_resistance = {
 		full_idea_group = religious_ideas
 	}
 
-
 	global_unrest = -1
 	hostile_attrition = 1
 
@@ -268,7 +266,6 @@ edict_of_resistance = {
 	removed_effect = {}
 	ai_will_do = {
 		factor = 1
-
 		modifier = {
 			factor = 1.5
 			average_effective_unrest = 2
@@ -286,12 +283,10 @@ edict_of_resistance = {
 			average_effective_unrest = 8
 		}
 	}
-
 }
 
 public_welfare_act = {
 	monarch_power = ADM
-
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -335,7 +330,6 @@ public_welfare_act = {
 
 the_spy_discovery_act = {
 	monarch_power = ADM
-
 
 	potential = {
 		has_idea_group = defensive_ideas
@@ -508,7 +502,6 @@ the_pioneer_policy = {
 	}	
 }
 
-
 land_inheritance_act = {
 	monarch_power = ADM
 
@@ -547,9 +540,6 @@ land_inheritance_act = {
 		}
 	}
 }
-
-
-
 
 the_witchcraft_act = {
 	monarch_power = ADM
@@ -611,7 +601,6 @@ the_witchcraft_act = {
 	}
 }
 
-
 the_education_act = {
 	monarch_power = ADM
 
@@ -634,7 +623,6 @@ the_education_act = {
 		factor = 0.8
 	}
 }
-
 
 policy_of_calculate_delay = {
 	monarch_power = ADM
@@ -678,7 +666,6 @@ policy_of_calculate_delay = {
 		}			
 	}
 }
-
 
 the_loyalty_act = {
 	monarch_power = ADM
@@ -852,7 +839,6 @@ vassal_integration_act = {
 			vassal = 5
 		}			
 	}
-	
 }
 
 overseas_dominions = {
@@ -1283,7 +1269,6 @@ the_statute_of_monopolies = {
 	production_efficiency = 0.1
 	trade_efficiency = 0.1
 
-
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {
@@ -1444,7 +1429,6 @@ the_citrus_statute = {
 diplomatic_cooperation_act = {
 	monarch_power = DIP
 
-
 	potential = {
 		has_idea_group = innovativeness_ideas
 		has_idea_group = diplomatic_ideas
@@ -1455,10 +1439,8 @@ diplomatic_cooperation_act = {
 		full_idea_group = diplomatic_ideas
 	}
 
-
 	advisor_cost = -0.15
 	diplomatic_reputation = 1
-
 
 	effect = {}
 	removed_effect = {}
@@ -1469,7 +1451,6 @@ diplomatic_cooperation_act = {
 
 the_banking_system = {
 	monarch_power = ADM
-
 
 	potential = {
 		has_idea_group = innovativeness_ideas
@@ -1483,7 +1464,6 @@ the_banking_system = {
 
 	interest = -0.25
 	trade_efficiency = 0.1
-
 
 	effect = {}
 	removed_effect = {}
@@ -1622,7 +1602,6 @@ steppe_supplies_policy = {
 	}
 }
 
-
 to_the_ground_policy = { 
 	monarch_power = ADM
 	
@@ -1666,7 +1645,6 @@ calming_the_tides_policy = {
 	removed_effect = {}
 	ai_will_do = {
 		factor = 1
-
 		modifier = {
 			factor = 1.5
 			average_effective_unrest = 2
@@ -1706,7 +1684,6 @@ esprit_de_corps_policy = {
 	removed_effect = {}
 	ai_will_do = {
 		factor = 1
-
 		modifier = {
 			factor = 1.5
 			average_effective_unrest = 2
@@ -1746,7 +1723,6 @@ otto_per_mille = {
 	removed_effect = {}
 	ai_will_do = {
 		factor = 1
-
 		modifier = {
 			factor = 1.5
 			average_effective_unrest = 2
@@ -2080,7 +2056,6 @@ theocratic_rule_act = {
 	}
 }
 
-
 head_of_state_act = { 
 	monarch_power = ADM
 	
@@ -2218,8 +2193,6 @@ humanitarian_administration_act = {
 	}
 }
 
-
-
 blessed_construction_act = { 
 	monarch_power = ADM
 	
@@ -2234,7 +2207,6 @@ blessed_construction_act = {
 	}
 	
 	build_cost = -0.1 
-	
 
 	effect = {}
 	removed_effect = {}

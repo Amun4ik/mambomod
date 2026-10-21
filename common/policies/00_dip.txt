@@ -1,3 +1,6 @@
+########################################
+### Moved files together for better overview
+########################################
 innovative_payment_techniques_act = { 
 	monarch_power = DIP
 	
