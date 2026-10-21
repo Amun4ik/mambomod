@@ -1,0 +1,13 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_sawmill"
+        texturefile = "gfx//interface//buildings//sawmill.dds"
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_vineyard_estate"
+        texturefile = "gfx//interface//buildings//vineyard_estate.dds"
+        loadType = "INGAME"
+    }
+}
