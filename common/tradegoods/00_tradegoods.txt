@@ -4,12 +4,13 @@
 
 #Base resources
 grain = {
-	color = { 251 221 126 } #wheat unpkg # 0.96 0.93 0.58 
+	is_valuable = yes
+	color = { 251 221 126 }
 	modifier = {
-		land_forcelimit_modifier = 0.1 #0.2
+		land_forcelimit_modifier = 0.20
 	}
 	province = {
-		land_forcelimit = 0.25 #0.5
+		land_forcelimit = 0.5
 	}
 	chance = {
 		factor = 35
@@ -92,7 +93,8 @@ grain = {
 }
 
 wine = {
-	color = { 128 1 63 } #wine unpkg #90 47 67  #grape wine unpkg #0.36 0.13 0.28
+	is_valuable = yes
+	color = { 128 1 63 }
 	modifier = {
 		global_unrest = -1
 	}
@@ -179,7 +181,8 @@ wine = {
 }
 
 wool = {
-	color = { 131 171 210 } #cotton wool blue unpkg # 0.83 0.83 0.83
+	is_valuable = yes
+	color = { 131 171 210  }
 	modifier = {
 		global_ship_cost = -0.05
 	}
@@ -273,7 +276,8 @@ wool = {
 }
 
 cloth = {
-	color = { 237 28 36 } #red pigment unpkg #0.86 0.19 0.19 
+	is_valuable = yes
+	color = { 237 28 36 }
 	modifier = {
 		merc_maintenance_modifier = -0.15
 	}
@@ -307,7 +311,8 @@ cloth = {
 }
 
 fish = {
-	color = { 95 182 191 } #spearfish unpkg # 0.55 0.82 0.97
+	is_valuable = yes
+	color = { 95 182 191 }
 	modifier = {
 		global_sailors_modifier = 0.25
 	}
@@ -357,14 +362,15 @@ fish = {
 }
 
 fur = {
-	color = { 114 84 64 } #moose fur unpkg #0.54 0.40 0.31
+	is_valuable = yes
+	color = { 114 84 64 }
 	modifier = {
 		prestige = 0.5
 	}
 	province = {
 		province_trade_power_modifier = 0.10
 	}
-	
+
 	chance = {
 		factor = 15
 		modifier = {
@@ -443,7 +449,8 @@ fur = {
 }
 
 salt = {
-	color = { 241 230 222 } #grain of salt unpkg #0.999 0.999 0.999 
+	is_valuable = yes
+	color = { 241 230 222 }
 	modifier = {
 		land_maintenance_modifier = -0.05
 	}
@@ -497,6 +504,7 @@ salt = {
 }
 
 naval_supplies = {
+	is_valuable = yes
 	color = { 0.11 0.17 0.4 }
 	modifier = {
 		naval_forcelimit_modifier = 0.20
@@ -584,7 +592,8 @@ naval_supplies = {
 
 # metals
 copper = {
-	color = { 184 115 51 } #copper unpkg # 0.85 0.46 0.15
+	is_valuable = yes
+	color = { 184 115 51 }
 	modifier = {
 		global_regiment_recruit_speed = -0.2
 	}
@@ -682,9 +691,10 @@ copper = {
 }
 
 gold = {
-	color = { 255 215 0 } #gold unpkg # 1.0 0.84 0.19 
+	is_valuable = yes
+	color = { 255 215 0 }
 	#no modifiers
-	
+
 	chance = {
 		factor = 5
 		modifier = {
@@ -811,7 +821,8 @@ gold = {
 }
 
 iron = {
-	color = { 94 94 94 } #iron unpkg # 0.2 0.2 0.2 
+	is_valuable = yes
+	color = { 94 94 94 }
 	modifier = {
 		global_regiment_cost = -0.05
 	}
@@ -879,6 +890,7 @@ iron = {
 
 #African Resources
 slaves = {
+	is_valuable = yes
 	color = { 0.0 0.0 0.0 }
 	modifier = {
 		global_tariffs = 0.25
@@ -907,7 +919,7 @@ slaves = {
 		modifier = {
 			factor = 0
 			island = yes
-		}		
+		}
 		modifier = {
 			factor = 2.0
 			OR = {
@@ -947,6 +959,7 @@ slaves = {
 }
 
 ivory = {
+	is_valuable = yes
 	color = { 0.75 0.7 0.63 }
 	modifier = {
 		diplomatic_reputation = 2
@@ -1026,6 +1039,7 @@ ivory = {
 
 #Eastern Resources
 tea = {
+	is_valuable = yes
 	color = { 0.07 0.33 0.09 }
 	modifier = {
 		advisor_cost = -0.10
@@ -1136,6 +1150,7 @@ tea = {
 }
 
 chinaware = {
+	is_valuable = yes
 	color = { 0.18 0.57 0.8 }
 	modifier = {
 		legitimacy = 0.25
@@ -1186,6 +1201,7 @@ chinaware = {
 }
 
 spices = {
+	is_valuable = yes
 	color = { 0.4 0.65 0.38 }
 	modifier = {
 		spy_offence = 0.25
@@ -1263,6 +1279,7 @@ spices = {
 
 #New World Resources
 coffee = {
+	is_valuable = yes
 	color = { 0.22 0.15 0.09 }
 	modifier = {
 		global_institution_spread = 0.05
@@ -1335,6 +1352,7 @@ coffee = {
 }
 
 cotton = {
+	is_valuable = yes
 	color = { 0.52 0.68 0.6 }
 	modifier = {
 		global_colonial_growth = 20
@@ -1421,6 +1439,7 @@ cotton = {
 }
 
 sugar = {
+	is_valuable = yes
 	color = { 0.74 0.95 0.68 }
 	modifier = {
 		war_exhaustion_cost = -0.2
@@ -1494,6 +1513,7 @@ sugar = {
 }
 
 tobacco = {
+	is_valuable = yes
 	color = { 0.33 0.56 0.38 }
 	modifier = {
 		global_spy_defence = 0.25
@@ -1570,6 +1590,7 @@ tobacco = {
 }
 
 cocoa = {
+	is_valuable = yes
 	color = { 0.45 0.21 0.09 }
 	modifier = {
 		manpower_recovery_speed = 0.05
@@ -1625,7 +1646,8 @@ cocoa = {
 }
 
 silk = {
-	color = { 75 0 110 } #royal purple #silk jewel 2 81 122 unpkg #0.72 0.10 0.10
+	is_valuable = yes
+	color = { 75 0 110 }
 	modifier = {
 		num_accepted_cultures = 1
 	}
@@ -1701,14 +1723,15 @@ silk = {
 }
 
 dyes = {
-	color = { 202 31 123 } #magenta dye unpkg #0 65 108  #indigo dye unpkg #0.63 0.17 0.50 
+	is_valuable = yes
+	color = { 202 31 123 }
 	modifier = {
 		heir_chance = 0.33
 	}
 	province = {
 		province_trade_power_modifier = 0.10
 	}
-	
+
 	chance = {
 		factor = 15
 		modifier = {
@@ -1758,6 +1781,7 @@ dyes = {
 }
 
 tropical_wood = {
+	is_valuable = yes
 	color = { 0.45 0.47 0.09 }
 	modifier = {
 		development_cost = -0.05
@@ -1808,7 +1832,7 @@ tropical_wood = {
 }
 
 livestock = {
-	color = { 240 128 128 } #meat unpkg # 0.72 0.49 0.44 
+	color = { 240 128 128 }
 	modifier = {
 		cavalry_cost = -0.1
 	}
@@ -1860,7 +1884,7 @@ livestock = {
 			}
 			NOT = { has_terrain = mountain }
 		}
-		modifier = { 
+		modifier = {
 			factor = 0.05
 			province_id = 2002
 		}
@@ -1911,7 +1935,8 @@ livestock = {
 }
 
 incense = {
-	color = { 184 111 115 } #exotic incense #0.89 0.79 0.47
+	is_valuable = yes
+	color = { 184 111 115 }
 	modifier = {
 		tolerance_own = 0.5
 	}
@@ -1972,7 +1997,8 @@ incense = {
 }
 
 glass = {
-	color = { 32 178 170 } #glass jar blue unpkg # 0.0 0.60 0.45
+	is_valuable = yes
+	color = { 32 178 170 }
 	modifier = {
 		dip_tech_cost_modifier = -0.05
 	}
@@ -2006,7 +2032,8 @@ glass = {
 }
 
 paper = {
-	color = { 240 231 216 } #parchment paper unpkg #254 252 175  #parchment unpkg #0.9 0.86 0.71 
+	is_valuable = yes
+	color = { 240 231 216 }
 	modifier = {
 		adm_tech_cost_modifier = -0.05
 	}
@@ -2040,7 +2067,8 @@ paper = {
 }
 
 gems = {
-	color = { 245 184 149 } #peach quartz unpkg #15 82 186 sapphire unpkg # 0.96 0.78 0.78 
+	is_valuable = yes
+	color = { 245 184 149 }
 	modifier = {
 		inflation_reduction = 0.05
 	}
@@ -2256,11 +2284,11 @@ coal = {
 			}
 		}
 	}
-	
+
 	modifier = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	
+
 	province = {
 		local_state_maintenance_modifier = -0.2
 	}
@@ -2271,6 +2299,7 @@ coal = {
 }
 
 cloves = {
+	is_valuable = yes
 	color = { 1.0 0.5 0.85 }
 	modifier = {
 		trade_efficiency = 0.05

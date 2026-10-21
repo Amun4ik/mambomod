@@ -5,7 +5,6 @@ ahead_of_time = {
 	production_efficiency = 0.2
 	yearly_corruption = -0.05
 	monthly_russian_modernization = 0.05
-	ahead_of_time_benefit_adm = 1
 }
 
 # Pre-era techs
@@ -27,7 +26,9 @@ technology = { #Tribal Government
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
 
-	#effect = { } # When a country researches the technology
+	################################### Other Mod Compatability
+	early_road = yes # Standard
+	dirt_road = yes # Post Finem
 }
 
 technology = { #Advanced Tribes
@@ -62,7 +63,7 @@ technology = { #Medieval Administration
 	expects_institution = {
 		feudalism = 0.5
 	}
-
+	allowed_idea_groups = 1
 	production_efficiency	=	0.02
 	may_support_rebels = yes
 }
@@ -87,7 +88,7 @@ technology = { #National Ideas
 		renaissance = 0.15
 	}
 
-	allowed_idea_groups = 1
+	allowed_idea_groups = 2
 	production_efficiency	 =	0.02
 }
 
@@ -114,7 +115,7 @@ technology = { #Renaissance Thought
 	}
 	
 	#Noble Republic
-	allowed_idea_groups = 2	
+	allowed_idea_groups = 3
 }
 
 technology = { #Courthouse
@@ -138,10 +139,11 @@ technology = { #The Scythe
 		renaissance = 0.5
 		new_world_i = 0.15
 	}
-	
 	#The Scythe
 	production_efficiency 	=	0.02
-	vineyard_estate = yes #MOD
+	allowed_idea_groups = 4
+  vineyard_estate = yes #MOD
+	
 
 }
 
@@ -154,8 +156,19 @@ technology = { #Modern Theocracy
 		new_world_i = 0.3
 	}
 	
-	allowed_idea_groups = 3
 	theocratic_government = yes
+
+	################################### Other Mod Compatability
+	gravel_road = yes # Standard + Post Finem
+	# Ante Bellum
+	externalministry = yes
+	intelministry = yes
+	colonialministry = yes
+	navalministry = yes
+	celestialministry = yes
+	imperialministry = yes
+	commerceministry = yes
+	
 }
 
 technology = { #Textile Manufactory
@@ -169,6 +182,7 @@ technology = { #Textile Manufactory
 	
 	#Textile Manufactory
 	textile = yes  
+	allowed_idea_groups = 5
 
 }
 
@@ -199,6 +213,7 @@ technology = { #Improved Drainage
 	
 	#Improved Drainage
 	production_efficiency 	=	0.02
+	allowed_idea_groups = 6
 }
 
 technology = { #Scientific Experimentation
@@ -212,7 +227,6 @@ technology = { #Scientific Experimentation
 	}
 	
 	plantations = yes
-	allowed_idea_groups	= 4
 }
 
 technology = { #Military Administration
@@ -227,6 +241,7 @@ technology = { #Military Administration
 	
 	may_force_march = yes
 	soldier_households = yes
+	allowed_idea_groups = 7
 }
 
 technology = { #Metallurgy
@@ -261,6 +276,7 @@ technology = { #University
 	
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
+	allowed_idea_groups = 8
 }
 
 technology = { #National Sovereignty
@@ -273,8 +289,9 @@ technology = { #National Sovereignty
 		printing_press = 0.5
 		global_trade = 0.3
 	}
-	
-	allowed_idea_groups	= 5
+	################################### Other Mod Compatability
+	royal_road = yes # Standard
+	cobblestone_road = yes # Post Finem
 }
 
 technology = { #Cathedral
@@ -290,6 +307,7 @@ technology = { #Cathedral
 	
 	#Cathedral
 	cathedral = yes
+	allowed_idea_groups = 9
 }
 
 technology = { #Absolute Rulership
@@ -322,6 +340,7 @@ technology = { #Land Clearance
 	#Land Clearance
 	production_efficiency 	=	0.02
 	furnace = yes
+	allowed_idea_groups = 10
 }
 
 technology = { #The Constitution
@@ -335,8 +354,7 @@ technology = { #The Constitution
 		global_trade = 0.5
 		manufactories = 0.3
 	}
-	
-	allowed_idea_groups = 6
+
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
@@ -354,9 +372,12 @@ technology = { #Measuring the World
 		global_trade = 0.5
 		manufactories = 0.5
 	}
-	
+
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
+	allowed_idea_groups = 11
+	################################### Other Mod Compatability
+	macadam_road = yes # Stanard + Post Finem
 }
 
 technology = { #Bonds and Tontines
@@ -391,6 +412,7 @@ technology = { #Improved Production
 	
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
+	allowed_idea_groups = 12
 }
 
 technology = { #Separation of Powers
@@ -406,7 +428,7 @@ technology = { #Separation of Powers
 		enlightenment = 0.5
 	}
 	
-	allowed_idea_groups 	= 	7
+
 }
 
 technology = { #Modern Bureaucracy
@@ -425,6 +447,7 @@ technology = { #Modern Bureaucracy
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1	
 	governing_capacity = 250
+	allowed_idea_groups = 13
 }
 
 technology = { #Rotherham Plough
@@ -459,9 +482,9 @@ technology = { #Rights of Man
 		industrialization = 0.5
 	}
 
-	allowed_idea_groups = 8
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
+	allowed_idea_groups = 14
 }
 
 technology = { #Advanced Production
@@ -480,6 +503,10 @@ technology = { #Advanced Production
 	
 	#Improved Draft Animals
 	production_efficiency 	=	0.02
+
+	################################### Other Mod Compatability
+	rail_road = yes # Standard
+	turnpike_road = yes # Post Finem
 }
 
 technology = { #Revolutionary Ideals
@@ -499,6 +526,7 @@ technology = { #Revolutionary Ideals
 	revolutionary_republic = yes
 	revolutionary_empire = yes
 	governing_capacity = 500
+	allowed_idea_groups = 15
 }
 
 technology = { #Four Field Rotation
@@ -517,4 +545,5 @@ technology = { #Four Field Rotation
 	
 	#Four field rotation
 	production_efficiency 	=	0.02
+	allowed_idea_groups = 16
 }
