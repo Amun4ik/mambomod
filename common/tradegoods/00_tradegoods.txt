@@ -3879,7 +3879,10 @@ cheese = {
 
 silver = {
 	color = { 129 137 136 } #pirate silver
-	#no modifiers
+	province = {
+		trade_goods_size_modifier = -0.3
+		local_gold_depletion_chance_modifier = -0.2
+	}
 	
 	chance = {
 		factor = 5
