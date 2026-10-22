@@ -8,7 +8,7 @@ hre = yes
 base_tax = 5 
 base_production = 5
 base_manpower = 1
-trade_goods = salt
+trade_goods = stone
 add_core = PSS
 
 discovered_by = eastern
