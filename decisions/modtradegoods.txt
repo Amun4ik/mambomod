@@ -96,7 +96,7 @@ country_decisions = {
 							province_id = 373
 							province_id = 252
 							province_id = 293
-							province_id = 5217
+							province_id = 5217 #there is no province
 						}
 					}
 					
@@ -187,7 +187,7 @@ country_decisions = {
 					province_id = 274
 					province_id = 278
 					province_id = 289
-					province_id = 5172
+					province_id = 5172 #there is no province
 					province_id = 290
 					province_id = 4946
 					province_id = 4963
@@ -199,7 +199,7 @@ country_decisions = {
 					province_id = 180
 					province_id = 81
 					province_id = 2965
-					province_id = 5117
+					province_id = 5117 #there is no province
 					province_id = 229
 					province_id = 4554
 					province_id = 324
@@ -223,12 +223,12 @@ country_decisions = {
 					province_id = 4331
 					province_id = 2712
 					province_id = 4868
-					province_id = 5196
-					province_id = 5040 #W
-					province_id = 5016
+					province_id = 5196 #there is no province
+					province_id = 5040 #unknown
+					province_id = 5016 #unknown
 					province_id = 5171
-					province_id = 5214
-					province_id = 4956
+					province_id = 5214 #there is no province
+					province_id = 4956 #there is no province
 					province_id = 5167
 					province_id = 4973
 					province_id = 4945
@@ -600,11 +600,11 @@ country_decisions = {
 					province_id = 2449
 					province_id = 356
 					province_id = 2326
-					province_id = 5135
+					province_id = 5135 #there is no province
 					province_id = 1231
-					province_id = 1229
-					province_id = 2271
-					province_id = 2765
+					province_id = 1229 #unknown
+					province_id = 2271 
+					province_id = 2765 
 					province_id = 2343
 					province_id = 2336
 					province_id = 4275
@@ -634,7 +634,7 @@ country_decisions = {
 					province_id = 2123
 					province_id = 711
 					province_id = 881
-					province_id = 2490
+					province_id = 2490 #unknown
 						}
 					}
 					
@@ -950,8 +950,8 @@ country_decisions = {
 					province_id = 541
 					province_id = 2031
 					province_id = 1792
-					province_id = 4068
-					province_id = 4066
+					province_id = 4068 
+					province_id = 4066 
 						}
 					}
 					
