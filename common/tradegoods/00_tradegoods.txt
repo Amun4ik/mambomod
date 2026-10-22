@@ -2415,10 +2415,10 @@ vodka = {
 		free_land_leader_pool = 1
 	}
 	province = {
-		attrition = 1
+		local_years_of_nationalism = -2
 	}
 	chance = {
-		factor = 25
+		factor = 15
 		modifier = {
 			factor = 0
 			NOT = {
@@ -2451,12 +2451,6 @@ vodka = {
 				has_terrain = marsh
 			}
 		}
-		#modifier = {
-		#	factor = 0.2
-		#	OR = {
-		#		has_terrain = taiga
-		#	}
-		#}
 		modifier = {
 			factor = 1.75
 			OR = {
@@ -2483,11 +2477,10 @@ amber = {
 	#is_valuable = yes
 	color = { 255 191 0 } #amber unpkg
 	modifier = {
-		development_cost = -0.05
+		ae_impact = -0.10
 	}
 	province = {
-		local_center_of_trade_upgrade_cost = -0.25
-		#local_development_cost = -0.05
+		local_governing_cost_increase = -5
 	}
 	chance = {
 		factor = 0
@@ -2497,10 +2490,10 @@ amber = {
 beer = {
     color = { 137 172 39 } #german hop unpkg #255 127 39  #paint orange #191 146 59 #Wheat Beer # 242 142 28 #unpkg beer
     modifier = {
-        global_unrest = -0.5
+        land_morale = 0.05
     }
     province = {
-        local_unrest = -0.5
+        local_unrest = -1
     }
     chance = {
         factor = 0
@@ -2525,7 +2518,7 @@ pearls = {
 		sailors_recovery_speed = 0.1
 	}
 	province = {
-		hostile_disembark_speed = 0.5 #pearl collecting distracts
+		local_tax_modifier = 0.2
 	}
 	chance = {
 		factor = 5
@@ -2668,215 +2661,6 @@ pearls = {
 	}
 }
 
-bananas = {
-	color = { 33 196 14 } #crude banana unpkg
-	modifier = {
-		native_uprising_chance = -0.25
-	}
-	province = {
-		local_governing_cost = -0.1 #belgium inspired
-	}
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			NOT = { province_id = 1240 }
-		}
-		modifier = {
-			factor = 2
-			has_terrain = jungle
-		}
-		modifier = {
-			factor = 1
-			has_climate = tropical
-		}
-		modifier = {
-			factor = 1.5
-			area = amazon_area
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				region = malaya_region
-				region = moluccas_region
-				region = indonesia_region
-			}
-		}
-	}
-}
-
-citruses = {
-	color = { 255 165 0 } #orange unpkg # 253 233 16  genoa lemon unpkg #186 223 48  #acid lemon unpkg #253 89 86  #grapefruit unpkg #159 183 10  #citruses unpkg
-	modifier = {
-		range = 0.25
-	}
-	province = {
-		local_fort_maintenance_modifier = -0.1
-	}
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			NOT = { province_id = 1240 }
-		}
-		modifier = {
-			factor = 0
-			has_winter = severe_winter
-		}
-		modifier = {
-			factor = 2
-			has_terrain = jungle
-		}
-		modifier = {
-			factor = 1
-			has_climate = tropical
-		}
-		modifier = {
-			factor = 1.5
-			area = amazon_area
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				region = malaya_region
-				region = moluccas_region
-				region = indonesia_region
-			}
-		}
-	}
-}
-
-pepper = {
-	color = { 151 188 98 } #green pepper unpkg
-	modifier = {
-		colonist_placement_chance = 0.05
-	}
-	province = {
-		local_tolerance_of_heathens = 1
-	}
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			NOT = {	region = malaya_region }
-			NOT = {	region = moluccas_region }
-			NOT = {	region = indonesia_region }
-			NOT = { region = deccan_region }
-			NOT = { region = bengal_region }
-			NOT = { region = coromandel_region }
-			NOT = { region = central_america_region }
-			NOT = { region = mexico_region }
-			NOT = { area = indian_ocean_islands_area }
-			NOT = { province_id = 1244 } # Tahiti
-		}
-		modifier = {
-			factor = 0
-			has_terrain = mountain
-		}
-		modifier = {
-			factor = 0.75
-			area = indian_ocean_islands_area
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				continent = north_america
-				continent = south_america
-			}
-		}
-		modifier = {
-			factor = 1.25
-			OR = {
-				region = malaya_region
-				region = indonesia_region
-				region = moluccas_region
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				area = molluca_area
-				area = spice_islands_area
-			}
-		}
-		modifier = {
-			factor = 2.0
-			FROM = {
-				has_country_flag = encourage_cash_crops_flag
-			}
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				province_id = 1119 #MOD #Pepper Coast
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				OR = {
-					has_increased_trade_goods_discovery = { trade_goods = spices }
-					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = spices } }
-				}
-			}
-		}
-	}
-}
-
-pineapple = {
-	color = { 255 255 68 } #peppy pineapple unpkg
-	modifier = {
-		native_assimilation = 0.25
-	}
-	province = {
-		statewide_governing_cost = -0.1
-	}
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 1
-			has_climate = tropical
-		}
-		modifier = {
-			factor = 0
-			NOT = { province_id = 1240 }
-		}
-		modifier = {
-			factor = 0
-			has_terrain = desert
-		}
-		modifier = {
-			factor = 0
-			has_climate = tropical
-		}
-	}
-}
-
-bricks = {
-    color = { 160 54 35 } #brick unpkg # 143 75 65 red clay unpkg
-    modifier = {
-        build_time = -0.25
-   }
-    province = {
-        allowed_num_of_buildings = 1
-    }
-    chance = {
-        factor = 0
-    }
-}
-
 olives = {
 	color = { 156 187 4 } #bright olive unpkg #199 182 60  #warm olives unpkg
 	modifier = {
@@ -2970,7 +2754,7 @@ marble = {
 		monthly_splendor = 1
 	}
 	province = {
-		local_great_project_upgrade_cost = -0.1
+		local_great_project_upgrade_cost = -0.25
 	}
 	chance = {
 		factor = 0
@@ -3030,85 +2814,26 @@ whales = {
 nutmeg = {
 	color = { 126 74 59 } #nutmeg unpkg
 	modifier = {
-		stability_cost_modifier = -0.1
+		caravan_power = 0.15 
 	}
 	province = {
-		colony_development_boost = 1
+		province_trade_power_modifier = 0.2
 	}
 	chance = {
-		factor = 25
+		factor = 1000
 		modifier = {
 			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			NOT = {	region = malaya_region }
-			NOT = {	region = moluccas_region }
-			NOT = {	region = indonesia_region }
-			NOT = { region = deccan_region }
-			NOT = { region = bengal_region }
-			NOT = { region = coromandel_region }
-			NOT = { region = central_america_region }
-			NOT = { region = mexico_region }
-			NOT = { area = indian_ocean_islands_area }
-			NOT = { province_id = 1244 } # Tahiti
-		}
-		modifier = {
-			factor = 0
-			has_terrain = mountain
-		}
-		modifier = {
-			factor = 0.75
-			area = indian_ocean_islands_area
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				continent = north_america
-				continent = south_america
-			}
-		}
-		modifier = {
-			factor = 1.25
-			OR = {
-				region = malaya_region
-				region = indonesia_region
-				region = moluccas_region
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				area = molluca_area
-				area = spice_islands_area
-			}
-		}
-		modifier = {
-			factor = 2.0
-			FROM = {
-				has_country_flag = encourage_cash_crops_flag
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				OR = {
-					has_increased_trade_goods_discovery = { trade_goods = spices }
-					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = spices } }
-				}
-			}
-		}
+			NOT = { province_id = 646 }
 	}
 }
 
 lavender = {
 	color = { 181 110 220 } #lavender unpkg
 	modifier = {
-		monarch_admin_power = 1
+		manpower_recovery_speed = 0.1
 	}
 	province = {
-		local_years_of_nationalism = -5
+		local_build_cost = -0.2
 	}
 	chance = {
 		factor = 0
@@ -3118,10 +2843,10 @@ lavender = {
 lumber = {
 	color = { 11 85 9 } #forest unpkg #82 107 45  #green leaf #1 68 33  #broadleaf forest unpkg #99 139 39  #moss green unpkg #moss unpkg 0 144 81
 	modifier = {
-		province_warscore_cost = -0.1
+		global_allowed_num_of_buildings = 1
 	}
 	province = {
-		local_warscore_cost_modifier = -0.05
+		local_build_cost = -0.1
 	}
 
 	chance = {
@@ -3139,16 +2864,11 @@ lumber = {
 				has_terrain = highlands
 				has_terrain = farmlands
 				has_terrain = grasslands
-				has_terrain = jungle
 			}
 		}
 		modifier = {
-			factor = 0
+			factor = 0.5
 			has_port = yes
-		}
-		modifier = {
-			factor = 0
-			area = newfoundland_area
 		}
 		modifier = {
 			factor = 0.65
@@ -3159,12 +2879,6 @@ lumber = {
 			OR = {
 				has_terrain = mountain
 				region = central_africa_region
-			}
-		}
-		modifier = {
-			factor = 0.5
-			FROM = {
-				NOT = { num_of_ports = 1 }
 			}
 		}
 		modifier = {
@@ -3180,23 +2894,14 @@ lumber = {
 				has_terrain = forest
 				has_terrain = woods
 				has_terrain = hills
-				#has_terrain = taiga
 			}
 		}
 		modifier = {
 			factor = 2.5
 			OR = {
-				#has_terrain = taiga
 				continent = north_america
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				OR = {
-					has_increased_trade_goods_discovery = { trade_goods = naval_supplies }
-					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = naval_supplies } }
-				}
+				region = east_siberia_region 
+				region = west_siberia_region
 			}
 		}
 	}
@@ -3208,7 +2913,7 @@ dates = {
 		land_attrition = -0.10
 	}
 	province = {
-		local_regiment_cost = -0.1
+		province_trade_power_modifier = 0.05
 	}
 	chance = {
 		factor = 20
@@ -3283,7 +2988,6 @@ corn = {
 			OR = {
 				has_terrain = mountain
 				has_terrain = coastal_desert
-				has_terrain = forest
 				has_terrain = woods
 				has_terrain = hills
 				has_terrain = jungle
@@ -3294,103 +2998,7 @@ corn = {
 			OR = {
 				has_terrain = highlands
 				has_terrain = marsh
-			}
-		}
-		modifier = {
-			factor = 0.25
-			OR = {
-				has_climate = arid
-				has_climate = tropical
-				
-			}
-		}
-		modifier = {
-			factor = 0.6
-			OR = {
-				has_terrain = drylands
-				has_terrain = savannah
-				has_terrain = steppe
-			}
-		}
-		modifier = {
-			factor = 0 #0.35
-			has_winter = severe_winter
-		}
-		modifier = {
-			factor = 0.5
-			has_winter = normal_winter
-		}
-		modifier = {
-			factor = 1.5
-			has_terrain = farmlands
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				region = poland_region
-				region = ruthenia_region
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				OR = {
-					has_increased_trade_goods_discovery = { trade_goods = grain }
-					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = grain } }
-				}
-			}
-		}
-	}
-}
-
-potatoes = {
-	color = { 155 118 83 } #dirt unpkg
-	modifier = {
-		manpower_in_accepted_culture_provinces = 0.1
-	}
-	province = {
-		local_garrison_size = 0.1 #potatoes
-	}
-	chance = {
-		factor = 35
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			OR = {
-			continent = europe
-			continent = asia
-			continent = oceania
-			continent = africa
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				has_terrain = desert
-				has_terrain = glacier
-				has_terrain = coastline
-				has_climate = arctic
-			}
-		}
-		modifier = {
-			factor = 0.15
-			OR = {
-				has_terrain = mountain
-				has_terrain = coastal_desert
 				has_terrain = forest
-				has_terrain = woods
-				has_terrain = hills
-				has_terrain = jungle
-			}
-		}
-		modifier = {
-			factor = 0.25
-			OR = {
-				has_terrain = highlands
-				has_terrain = marsh
 			}
 		}
 		modifier = {
@@ -3399,14 +3007,6 @@ potatoes = {
 				has_climate = arid
 				has_climate = tropical
 				
-			}
-		}
-		modifier = {
-			factor = 0.6
-			OR = {
-				has_terrain = drylands
-				has_terrain = savannah
-				has_terrain = steppe
 			}
 		}
 		modifier = {
@@ -3420,121 +3020,6 @@ potatoes = {
 		modifier = {
 			factor = 1.5
 			has_terrain = farmlands
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				region = poland_region
-				region = ruthenia_region
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				OR = {
-					has_increased_trade_goods_discovery = { trade_goods = grain }
-					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = grain } }
-				}
-			}
-		}
-	}
-}
-
-tomatoes = {
-	color = { 239 64 38 } #tomato unpkg
-	modifier = {
-		prestige_from_land = 0.1
-	}
-	province = {
-		local_core_creation = -0.1
-	}
-	chance = {
-		factor = 35
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			OR = {
-			continent = africa
-			continent = asia
-			continent = oceania
-			}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				has_terrain = desert
-				has_terrain = glacier
-				has_terrain = coastline
-				#has_terrain = taiga
-				has_climate = arctic
-				has_winter = severe_winter
-			}
-		}
-		modifier = {
-			factor = 0.15
-			OR = {
-				has_terrain = mountain
-				has_terrain = coastal_desert
-				has_terrain = forest
-				has_terrain = woods
-				has_terrain = hills
-				has_terrain = jungle
-			}
-		}
-		modifier = {
-			factor = 0.25
-			OR = {
-				has_terrain = highlands
-				has_terrain = marsh
-			}
-		}
-		modifier = {
-			factor = 0.25
-			OR = {
-				has_climate = arid
-				has_climate = tropical
-				
-			}
-		}
-		modifier = {
-			factor = 0.6
-			OR = {
-				has_terrain = drylands
-				has_terrain = savannah
-				has_terrain = steppe
-			}
-		}
-		modifier = {
-			factor = 0 #0.35
-			has_winter = severe_winter
-		}
-		modifier = {
-			factor = 0.5
-			has_winter = normal_winter
-		}
-		modifier = {
-			factor = 1.5
-			has_terrain = farmlands
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				region = poland_region
-				region = ruthenia_region
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				OR = {
-					has_increased_trade_goods_discovery = { trade_goods = grain }
-					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = grain } }
-				}
-			}
-		}
 	}
 }
 
@@ -3544,7 +3029,7 @@ jade = {
 		yearly_corruption = -0.1
 	}
 	province = {
-		local_assault_fort_ability = -0.5
+		local_state_maintenance_modifier = -0.25
 	}
 	chance = {
 		factor = 5
@@ -3723,7 +3208,7 @@ cinnamon = {
 		trade_range_modifier = 0.2
 	}
 	province = {
-		local_garrison_damage = 0.5
+		trade_value_modifier = 0.10
 	}
 	chance = {
 		factor = 25
@@ -3794,11 +3279,11 @@ cinnamon = {
 
 poppy = {
 	color = { 216 111 60 } #field poppy unpkg #220 52 59  #poppy red unpkg
-	modifier = {
-		land_morale = 0.05
-	}
+	modifier = { 
+		global_tax_income = 100
+	} 
 	province = {
-		local_regiment_cost = -0.1
+		local_unrest = 1
 	}
 	chance = {
 		factor = 0
@@ -3807,57 +3292,11 @@ poppy = {
 
 saffron = {
 	color = { 244 196 48 } #saffron unpkg
-	modifier = {
-		monthly_favor_modifier = 0.1
-	}
-	province = {
-		local_assault_fort_cost_modifier = 0.1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-turtles = {
-	color = { 148 177 169 } #ninja turtle unpkg 
-	modifier = {
-		shock_damage_received = -0.05
-	}
-	province = {
-		local_sailors = 250
-	}
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 0
-			has_port = no
-		}
-	}
-	chance = {
-		factor = 25
-	#	modifier = {
-	#		factor = 1
-	#		#AND = {
-	#			continent = oceania
-	#			#has_port = yes
-	#	#}
-	#}
-		modifier = {
-			factor = 0
-			NOT = {
-				continent = oceania
-				}
-		}
-	}
-}
-
-champagnegood = {
-	color = { 57 78 101 } #blue bottle unpkg 
-	modifier = {
-		local_prosperity_growth = 0.1
-	}
-	province = {
-		allowed_num_of_manufactories = 1
+	modifier = { 
+		merc_maintenance_modifier = -0.1
+	} 
+	province = { 
+		local_prosperity_growth = +0.1
 	}
 	chance = {
 		factor = 0
@@ -3866,11 +3305,11 @@ champagnegood = {
 
 cheese = {
 	color = { 255 166 0 } #cheese unpkg
-	modifier = {
-		envoy_travel_time = -0.1 #cheese
+	modifier = { 
+		garrison_size = 0.15 
 	}
-	province = {
-		local_governing_cost_increase = -5
+	province = { 
+		local_culture_conversion_cost = -0.20
 	}
 	chance = {
 		factor = 0
@@ -4008,40 +3447,13 @@ silver = {
 	}
 }
 
-coconut = {
-	color = { 150 90 62 } #coconut unpkg
-	modifier = {
-		migration_cost = -0.25
-	}
-	province = {
-		local_ship_repair = 0.1
-	}
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 1
-			has_climate = tropical
-		}
-		modifier = {
-			factor = 0
-			NOT = { province_id = 1240 }
-		}
-		modifier = {
-			factor = 2.0
-			OR = {
-				province_id = 5176 #MOD #Palma
-			}
-		}
-	}
-}
-
 rice = {
 	color = { 122 129 255 } #orchid unpkg
-	modifier = {
-		land_forcelimit_modifier = 0.1 #boosted grain
-	}
+	modifier = { 
+		global_manpower_modifier = 0.10 
+	} 
 	province = {
-		land_forcelimit = 0.25 #boosted grain
+		local_manpower_modifier = 0.25
 	}
 	chance = {
 		factor = 35
@@ -4139,10 +3551,10 @@ fruits = {
 exoticfruits = {
 	color = { 255 162 76 } #exotic fruit unpkg
 	modifier = {
-		inflation_action_cost = -0.1
+		technology_cost = -0.025
 	}
 	province = {
-		max_attrition = 1
+		local_development_cost = -0.1
 	}
 	chance = {
 		factor = 25
@@ -4180,7 +3592,7 @@ exoticfruits = {
 stone = {
 	color = { 174 162 149 } #natural stone unpkg
 	modifier = {
-		gold_depletion_chance_modifier = -0.1 #quarries
+		build_cost = -0.25
 	}
 	province = {
 		fort_level = 1 #unpleasant terrain
@@ -4243,75 +3655,13 @@ stone = {
 	}
 }
 
-cactus = {
-	color = { 168 62 108 } #cactus flower unpkg
-	modifier = {
-		rival_border_fort_maintenance = -0.1 #the wall
-	}
-	province = {
-		local_culture_conversion_cost = -0.1 #less ppl
-	}
-	chance = {
-		factor = 20
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			NOT = { region = west_siberia_region }
-			NOT = { region = east_siberia_region }
-			NOT = { region = central_africa_region }
-			NOT = { province_id = 990 }
-			NOT = { area = great_valley_area }
-			NOT = { area = susquehanna_area }
-			NOT = { area = hudson_valley_area }
-			NOT = { area = lake_superior_area }
-			NOT = { area = south_iroquoisia_area }
-			NOT = { area = upper_ontario_area }
-			NOT = { area = laurentian_area }
-			NOT = { area = inner_ontario_area }
-			NOT = { area = maryland_area }
-			NOT = { area = ofaie_area }
-			NOT = { province_id = 18 }
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				has_terrain = jungle
-				has_terrain = steppe
-				has_terrain = grasslands
-				has_terrain = woods
-				has_terrain = mountain
-				#has_terrain = taiga
-				}
-		}
-		modifier = {
-			factor = 0
-			OR = {
-				has_winter = severe_winter
-				has_winter = normal_winter
-				has_winter = mild_winter
-			}
-		}
-		modifier = {
-			factor = 1
-			continent = north_america
-			OR = {
-			has_terrain = desert
-			has_terrain = drylands
-			}
-		}
-	}
-}
-
 seafood = {
 	color = { 226 154 134 } #shrimp unpkg
 	modifier = {
-		light_ship_power = 0.1
+		improve_relation_modifier = 0.25
 	}
 	province = {
-		local_ship_cost = -0.1
+		local_sailors_modifier = 0.25
 	}
 	chance = {
 		factor = 20
@@ -4357,100 +3707,24 @@ seafood = {
 
 gunpowder = {
 	color = { 125 109 57 } #musket unpkg
-	modifier = {
-		discipline = 0.05
+	modifier = { 
+		fire_damage = 0.1 
 	}
-	province = {
-		local_attacker_dice_roll_bonus = -1
+	province = { 
+		local_production_efficiency = 0.1 
 	}
 	chance = {
 		factor = 0
-	}
-}
-
-coral = {
-	color = { 27 83 102 } #blue coral unpkg
-	modifier = {
-		own_coast_naval_combat_bonus = 1 #reef
-	}
-	province = {
-		hostile_fleet_attrition = 2
-	}
-	chance = {
-		factor = 25
-		modifier = {
-			factor = 1
-				continent = oceania
-	}
-		modifier = {
-			factor = 0
-			OR = {
-				continent = asia
-				continent = north_america
-				continent = south_america
-				continent = europe
-				continent = africa
-		}
-	}
-		modifier = {
-			factor = 0
-			NOT = {
-				continent = oceania
-		}
-	}
-		modifier = {
-			factor = 0
-				has_port = no
-		}
 	}
 }
 
 vanilia = {
 	color = { 243 229 171 } #vanilla unpkg
-	modifier = {
-		country_diplomatic_power = 1
-	}
+	modifier = { 
+		vassal_forcelimit_bonus = 0.2 
+	} 
 	province = {
 		min_local_autonomy = -10
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-camels = {
-	color = { 198 159 89 } #camel unpkg
-	modifier = {
-		cavalry_shock = 1
-	}
-	province = {
-		local_manpower = 1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-carpets = {
-	color = { 144 94 38 } #afghan carpet
-	modifier = {
-		same_culture_advisor_cost = -0.1
-	}
-	province = {
-		tax_income = 1
-	}
-	chance = {
-		factor = 0
-	}
-}
-
-parrot = {
-	color = { 217 152 160 } #parrot pink unpkg
-	modifier = {
-		advisor_pool = 1
-	}
-	province = {
-		local_culture_conversion_time = -0.1
 	}
 	chance = {
 		factor = 0
@@ -4508,23 +3782,10 @@ maplesyrup = {
 	}
 }
 
-mercury = {
-	color = { 103 166 172 } #blue mercury unpkg
-	modifier = {
-		regiment_manpower_usage = -0.1
-	}
-	province = {
-		local_missionary_maintenance_cost = -0.1 #magic metal xd
-	}
-	chance = {
-		factor = 0
-	}
-}
-
 sulphur = {
 	color = { 221 182 20 } #sulphur unpkg
-	modifier = {
-		war_exhaustion = -0.1
+	modifier = { 
+		infantry_power = 0.1
 	}
 	province = {
 		local_hostile_movement_speed = 0.1
@@ -4536,11 +3797,11 @@ sulphur = {
 
 lead = {
 	color = { 153 170 187 } #lead ore unpkg
-	modifier = {
-		leader_land_shock = 1
-	}
-	province = {
-		local_defensiveness = 0.2
+	modifier = { 
+		infantry_cost = -0.15
+	} 
+	province = { 
+		local_regiment_cost = -0.15
 	}
 	chance = {
 		factor = 0
@@ -4550,10 +3811,10 @@ lead = {
 diamonds = {
 	color = { 12 23 147 } #royal unpkg #153 102 204  #amethyst unpkg #250 232 188  #sand diamond unpkg #254 208 252  #Pink Diamond unpkg  #207 228 238  #diamond blue 
 	modifier = {
-		monarch_diplomatic_power = 1
+		idea_cost = -0.1 
 	}
 	province = {
-		local_tax_modifier = 0.25
+		trade_value_modifier = 0.15
 	}
 	chance = {
 		factor = 5
@@ -4712,105 +3973,13 @@ diamonds = {
 	}
 }
 
-timber = {
-	color = { 24 74 69 } #forest biome unpkg #43 93 52  #pine unpkg
-	modifier = {
-		infantry_cost = -0.1
-	}
-	province = {
-		local_defender_dice_roll_bonus = 1
-	}
-
-	chance = {
-		factor = 15
-		modifier = {
-			factor = 0
-			OR = {
-				has_terrain = glacier
-				has_terrain = desert
-				has_terrain = coastal_desert
-				has_terrain = drylands
-				has_terrain = savannah
-				has_terrain = marsh
-				has_terrain = steppe
-				has_terrain = highlands
-				has_terrain = farmlands
-				has_terrain = grasslands
-				has_terrain = jungle
-			}
-		}
-		modifier = {
-			factor = 0
-			has_port = yes
-		}
-		modifier = {
-			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0.65
-			region = carribeans_region
-		}
-		modifier = {
-			factor = 0.5
-			OR = {
-				has_terrain = mountain
-				region = central_africa_region
-			}
-		}
-		modifier = {
-			factor = 0.5
-			FROM = {
-				NOT = { num_of_ports = 1 }
-			}
-		}
-		modifier = {
-			factor = 0.75
-			OR = {
-				has_terrain = coastline
-				has_climate = tropical
-			}
-		}
-		modifier = {
-			factor = 1.5
-			OR = {
-				has_terrain = forest
-				has_terrain = woods
-				has_terrain = hills
-			}
-		}
-		#modifier = {
-		#	factor = 2
-		#	OR = {
-		#		#has_terrain = taiga
-		#	}
-		#}
-		modifier = {
-			factor = 2.5
-			OR = {
-				#has_terrain = taiga
-				continent = north_america
-			}
-		}
-		modifier = {
-			factor = 2
-			FROM = {
-				OR = {
-					has_increased_trade_goods_discovery = { trade_goods = naval_supplies }
-					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = naval_supplies } }
-				}
-			}
-		}
-	}
-}
-
 exoticfur = {
 	color = { 208 152 0 } #leopard unpkg
 	modifier = {
-		prestige = 0.75 #0.5
+		all_estate_loyalty_equilibrium = 0.05
 	}
 	province = {
-		province_trade_power_modifier = 0.15 #0.1
+		province_trade_power_modifier = 0.15
 	}
 	
 	chance = {
@@ -4891,128 +4060,6 @@ exoticfur = {
 					colonial_parent = { has_increased_trade_goods_discovery = { trade_goods = fur } }
 				}
 			}
-		}
-	}
-}
-
-crocodiles = {
-	#is_valuable = yes #not until 1850
-	color = { 124 139 73 } #alligator alley encycolorpedia #112 121 108 #alligator encycolorpedia 
-	modifier = {
-		native_uprising_chance = 0.25
-	}
-	province = {	
-		local_defender_dice_roll_bonus = 1
-	}
-	chance = {
-		factor = 10
-		
-		modifier = {
-			factor = 0
-				OR = {
-					superregion = tartary_superregion 
-					region = arabia_region 
-					has_terrain = mountain
-					has_terrain = hills
-					has_terrain = highlands
-					has_terrain = drylands
-					has_terrain = desert
-					has_terrain = steppe
-					has_terrain = coastal_desert
-					has_terrain = forest
-					has_terrain = woods
-					#has_terrain = taiga
-					has_climate = arctic
-					has_climate = arid
-					province_id = 2561
-					province_id = 2021
-					province_id = 950
-					area = delaware_valley_area
-					area = carolinas_area
-			}
-
-		}
-
-		modifier = {
-			factor = 0.75
-			OR = {
-			has_terrain = coastline
-			has_terrain = marsh
-			}
-		}
-		modifier = {
-			factor = 0.75
-			superregion = south_america_superregion
-		}
-		modifier = {
-			factor = 0.75
-			continent = africa
-		}
-				
-		modifier = {
-			factor = 0.5
-			area = west_florida_area
-		}
-		modifier = {
-			factor = 0.5
-			area = north_florida_area
-		}
-		modifier = {
-			factor = 0.5
-			area = florida_area	
-		}
-		modifier = {
-			factor = 0.5
-			area = alabama_area	
-		}
-		modifier = {
-			factor = 0.25
-			superregion = east_indies_superregion	
-		}
-		modifier = {
-			factor = 0.25
-			area = northern_australia_area	
-		}
-		modifier = {
-			factor = 0.25
-			region = mexico_region
-		}
-		modifier = {
-			factor = 0.25
-			region = central_america_region
-		}
-		modifier = {
-			factor = 0.25
-			region = carribeans_region
-		}
-		modifier = {
-			factor = 0.25
-			area = rio_grande_area
-		}
-		modifier = {
-			factor = 0.25
-			area = coastal_prarie_area
-		}
-		modifier = {
-			factor = 0.25
-			area = lower_louisiana_area
-		}
-		modifier = {
-			factor = 0.25
-			area = upper_american_georgia_area
-		}
-		modifier = {
-			factor = 0.25
-			area = american_georgia_area
-		}
-		modifier = {
-			factor = 0.25
-			area = mississippi_area
-		}
-
-		modifier = {
-			factor = 1.5
-			island = yes
 		}
 	}
 }

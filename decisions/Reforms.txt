@@ -554,22 +554,22 @@ country_decisions = {
 		}
 	}
 
-	check_empowered_requirements_again = {
-		potential = {
-			always = yes
-		}
-		allow = {
-		}
-		effect = {
-			country_event = { id = GE_Help_Events.1 }
-		}
-		major = yes
-		color = { 3 130 100 }
-		ai_importance = 50
-		ai_will_do = {
-			factor = 0
-		}
-	}
+#	check_empowered_requirements_again = {
+#		potential = {
+#			always = yes
+#		}
+#		allow = {
+#		}
+#		effect = {
+#			country_event = { id = GE_Help_Events.1 }
+#		}
+#		major = yes
+#		color = { 3 130 100 }
+#		ai_importance = 50
+#		ai_will_do = {
+#			factor = 0
+#		}
+#	}
 	GE_time_to_pray = {
 		potential = {
 			government = monarchy

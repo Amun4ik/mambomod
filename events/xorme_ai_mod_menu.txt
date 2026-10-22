@@ -7,56 +7,11 @@ country_event = {
 	picture = "INVENTION_eventPicture"
 	desc = "xorme_ai_mod_menu.1_desc"
 	is_triggered_only = yes
+	hidden = yes
 
 	immediate = {
-		#RUN PLAYER SETUP INFO
-	}
-
-	#SET DIFFICULTY
-	option = {
-		name = xorme_ai_mod_menu_option.1
-		trigger = {
-			NOT = { has_global_flag = menu_closed_once }
-		}
-		hidden_effect = {
-			country_event = {
-				id = xorme_ai_mod_menu.2
-			}
-		}
-	}
-	option = {
-		name = xorme_ai_mod_menu_option.2
-		hidden_effect = {
-			country_event = {
-				id = xorme_ai_mod_menu.3
-			}
-		}
-	}
-	option = {
-		name = xorme_ai_mod_menu_option.3
-		hidden_effect = {
-			country_event = {
-				id = xorme_ai_mod_menu.4
-			}
-		}
-	}
-
-	#EXIT
-	option = {
-		name = xorme_ai_mod_menu_option.0
-		hidden_effect = {
-			if = {
-				limit = {
-					OR = {
-						NOT = { has_global_flag = xorme_ai_cheats_disabled }
-						NOT = { has_global_flag = xorme_ai_dynamic_cheats_active }
-						NOT = { has_global_flag = xorme_ai_make_me_cry_active }
-					}
-				}
-				set_global_flag = xorme_ai_dynamic_cheats_active
-			}
-			set_global_flag = menu_closed_once
-		}
+		set_global_flag = xorme_ai_cheats_disabled
+		set_global_flag = menu_closed_once
 	}
 }
 

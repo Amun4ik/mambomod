@@ -515,6 +515,7 @@ country_event = {
 	desc = FEE_Meme_Events.1000.D
 	picture = DIPLOMACY_eventPicture
 
+	hidden = yes
 	fire_only_once = yes
 	is_triggered_only = yes
 
@@ -525,15 +526,8 @@ country_event = {
 
 	immediate = {
 		set_global_flag = FEE_Meme_Happened
-	}
-
-	option = {
-		name = FEE_Meme_Events.1000.OPT1
 		set_global_flag = fee_meme_active
-	}
-
-	option = {
-		name = FEE_Meme_Events.1000.OPT2
+		set_global_flag = fee_trading_fairs_enabled
 	}
 }
 

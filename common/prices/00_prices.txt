@@ -24,7 +24,7 @@ fish = {
 }
 
 fur = {
-	base_price = 2
+	base_price = 2.5
 }
 
 salt = {
@@ -145,7 +145,7 @@ unknown = {
 
 # MOD Trade Goods
 horses = {
-    base_price = 3.5
+    base_price = 2.5
 }
 
 vodka = {
@@ -161,31 +161,11 @@ beer = {
 }
 
 honey = {
-    base_price = 2 #3
+    base_price = 2
 }
 
 pearls = {
     base_price = 4.5
-}
-
-bananas = {
-    base_price = 2.5
-}
-
-citruses = {
-    base_price = 3
-}
-
-pepper = {
-    base_price = 3.5
-}
-
-pineapple = {
-    base_price = 3
-}
-
-bricks = {
-   base_price = 2.5 #3
 }
 
 olives = {
@@ -201,67 +181,47 @@ whales = {
 }
 
 nutmeg = {
-   base_price = 5
+   base_price = 10
 }
 
 lavender = {
-   base_price = 2 #3
+   base_price = 2.5
 }
 
 lumber = {
    base_price = 2
 }
 
-timber = {
-   base_price = 1.5
-}
-
 dates = {
-   base_price = 2 #2.5
+   base_price = 2.5
 }
 
 corn = {
    base_price = 2.5
 }
 
-potatoes = {
-   base_price = 2.5
-}
-
-tomatoes = {
-   base_price = 2.5
-}
-
 jade = {
-   base_price = 5 #4.5 #4
+   base_price = 5
 }
 
 cinnamon = {
-   base_price = 4.5
+   base_price = 5
 }
 
 poppy = {
-   base_price = 4
+   base_price = 8
 }
 
 saffron = {
-   base_price = 6
+   base_price = 5
 }
 
 diamonds = {
-	base_price = 5.5
-}
-
-turtles = {
-   base_price = 3
-}
-
-champagnegood = {
-   base_price = 3.5
+	base_price = 6
 }
 
 cheese = {
-   base_price = 3
+   base_price = 2.5
 }
 
 silver = {
@@ -269,9 +229,6 @@ silver = {
 	goldtype = yes
 }
 
-coconut = {
-	base_price = 2.5
-}
 
 rice = {
 	base_price = 2
@@ -289,10 +246,6 @@ stone = {
 	base_price = 2
 }
 
-cactus = {
-	base_price = 2.5
-}
-
 seafood = {
 	base_price = 3
 }
@@ -301,32 +254,11 @@ gunpowder = {
 	base_price = 5
 }
 
-coral = {
-	base_price = 3.5
-}
-
 vanilia = {
 	base_price = 4.5
 }
-
-camels = {
-	base_price = 3
-}
-
-carpets = {
-	base_price = 3.5 #4
-}
-
-parrot = {
-	base_price = 3 #3.5 #4
-}
-
 maplesyrup = {
 	base_price = 4
-}
-
-mercury = {
-	base_price = 4.5
 }
 
 sulphur = {
@@ -339,8 +271,4 @@ lead = {
 
 exoticfur = {
 	base_price = 3.5
-}
-
-crocodiles = {
-	base_price = 2
 }
