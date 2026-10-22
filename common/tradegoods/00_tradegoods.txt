@@ -2411,7 +2411,7 @@ horses = {
 
 vodka = {
 	color = { 191 192 238 } #vodka encycolorpedia
-	modifier = {
+	modifier = {	
 		free_land_leader_pool = 1
 	}
 	province = {
@@ -2824,6 +2824,7 @@ nutmeg = {
 		modifier = {
 			factor = 0
 			NOT = { province_id = 646 }
+		}
 	}
 }
 
@@ -3020,6 +3021,7 @@ corn = {
 		modifier = {
 			factor = 1.5
 			has_terrain = farmlands
+		}
 	}
 }
 
