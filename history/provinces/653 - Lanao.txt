@@ -3,7 +3,7 @@
 culture = filipino
 religion = animism
 capital = "Marawi"
-trade_goods = spices
+trade_goods = vanilia
 is_city = yes
 hre = no
 base_tax = 3 
