@@ -12,7 +12,7 @@ core = {
 	local_tax_modifier = 0.75
 	local_manpower_modifier = 0.75
 	local_sailors_modifier = 0.75
-	local_governing_cost = 0.5				# RB: We're hardasses. Added from 0.
+	local_governing_cost = 0.25				# RB: We're hardasses. Added from 0.
 }
 
 colonial_core = {

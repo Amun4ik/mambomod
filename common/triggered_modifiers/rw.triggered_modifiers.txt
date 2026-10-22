@@ -46,14 +46,3 @@ merc_change = {
 		}
 	}
 }
-
-rw_eastern_fl_boost = {
-
-	trigger = {
-		technology_group = eastern
-	}
-	
-	manpower_recovery_speed = 0.05
-	land_forcelimit_modifier = 0.2
-	global_manpower_modifier = 0.2
-}

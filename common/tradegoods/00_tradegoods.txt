@@ -2341,7 +2341,7 @@ unknown = {
 }
 
 horses = {
-	#is_valuable = yes
+	is_valuable = yes
 	color = { 107 142 35 } #drab green
 	modifier = { 
 		cavalry_power = 0.1
@@ -2410,6 +2410,7 @@ horses = {
 }
 
 vodka = {
+    is_valuable = yes
 	color = { 191 192 238 } #vodka encycolorpedia
 	modifier = {	
 		free_land_leader_pool = 1
@@ -2474,7 +2475,7 @@ vodka = {
 }
 
 amber = {
-	#is_valuable = yes
+	is_valuable = yes
 	color = { 255 191 0 } #amber unpkg
 	modifier = {
 		ae_impact = -0.10
@@ -2488,6 +2489,7 @@ amber = {
 }
 
 beer = {
+    is_valuable = yes
     color = { 137 172 39 } #german hop unpkg #255 127 39  #paint orange #191 146 59 #Wheat Beer # 242 142 28 #unpkg beer
     modifier = {
         land_morale = 0.05
@@ -2501,6 +2503,7 @@ beer = {
 }
 
 honey = {
+    is_valuable = yes
     color = { 238 204 0 } #wild honey unpkg
     modifier = {
         prestige_decay = -0.05
@@ -2513,6 +2516,7 @@ honey = {
 }
 
 pearls = {
+    is_valuable = yes
 	color = { 231 172 207 } #pearl pink unpkg #255 178 165  #peach pearl unpkg
 	modifier = {
 		sailors_recovery_speed = 0.1
@@ -2662,6 +2666,7 @@ pearls = {
 }
 
 olives = {
+    is_valuable = yes
 	color = { 156 187 4 } #bright olive unpkg #199 182 60  #warm olives unpkg
 	modifier = {
 		monarch_lifespan = 0.1 #healthy olives
@@ -2749,6 +2754,7 @@ olives = {
 }
 
 marble = {
+    is_valuable = yes
 	color = { 189 51 164 } #byzantine unpkg #75 0 110  #royal purple unpkg #101 148 188  #blue marble unpkg 
 	modifier = {
 		monthly_splendor = 1
@@ -2762,6 +2768,7 @@ marble = {
 }
 
 whales = {
+    is_valuable = yes
 	color = { 80 90 146 } #whale skin unpkg
 	modifier = {
 		sea_repair = yes
@@ -2812,6 +2819,7 @@ whales = {
 }
 
 nutmeg = {
+    is_valuable = yes
 	color = { 126 74 59 } #nutmeg unpkg
 	modifier = {
 		caravan_power = 0.15 
@@ -2829,6 +2837,7 @@ nutmeg = {
 }
 
 lavender = {
+    is_valuable = yes
 	color = { 181 110 220 } #lavender unpkg
 	modifier = {
 		manpower_recovery_speed = 0.1
@@ -2842,6 +2851,7 @@ lavender = {
 }
 
 lumber = {
+    is_valuable = yes
 	color = { 11 85 9 } #forest unpkg #82 107 45  #green leaf #1 68 33  #broadleaf forest unpkg #99 139 39  #moss green unpkg #moss unpkg 0 144 81
 	modifier = {
 		global_allowed_num_of_buildings = 1
@@ -2909,6 +2919,7 @@ lumber = {
 }
 
 dates = {
+    is_valuable = yes
 	color = { 90 70 50 } #desert palm unpkg
 	modifier = {
 		land_attrition = -0.10
@@ -2962,6 +2973,7 @@ dates = {
 }
 
 corn = {
+    is_valuable = yes
 	color = { 251 236 93 } #corn unpkg
 	modifier = {
 		siege_ability = 0.1 #well fed
@@ -3026,6 +3038,7 @@ corn = {
 }
 
 jade = {
+    is_valuable = yes
 	color = { 0 168 107 } #jade unpkg
 	modifier = {
 		yearly_corruption = -0.1
@@ -3205,6 +3218,7 @@ jade = {
 }
 
 cinnamon = {
+    is_valuable = yes
 	color = { 210 105 17 } #cinnamon unpkg 
 	modifier = {
 		trade_range_modifier = 0.2
@@ -3280,6 +3294,7 @@ cinnamon = {
 }
 
 poppy = {
+    is_valuable = yes
 	color = { 216 111 60 } #field poppy unpkg #220 52 59  #poppy red unpkg
 	modifier = { 
 		global_tax_income = 100
@@ -3293,6 +3308,7 @@ poppy = {
 }
 
 saffron = {
+    is_valuable = yes
 	color = { 244 196 48 } #saffron unpkg
 	modifier = { 
 		merc_maintenance_modifier = -0.1
@@ -3306,6 +3322,7 @@ saffron = {
 }
 
 cheese = {
+    is_valuable = yes
 	color = { 255 166 0 } #cheese unpkg
 	modifier = { 
 		garrison_size = 0.15 
@@ -3319,7 +3336,8 @@ cheese = {
 }
 
 silver = {
-	color = { 129 137 136 } #pirate silver
+    is_valuable = yes
+	color = { 0.33 0.38 0.44 } #pirate silver
 	province = {
 		trade_goods_size_modifier = -0.3
 		local_gold_depletion_chance_modifier = -0.2
@@ -3450,6 +3468,7 @@ silver = {
 }
 
 rice = {
+    is_valuable = yes
 	color = { 122 129 255 } #orchid unpkg
 	modifier = { 
 		global_manpower_modifier = 0.10 
@@ -3538,6 +3557,7 @@ rice = {
 }
 
 fruits = {
+    is_valuable = yes
 	color = { 94 220 31 } #green apple unpkg
 	modifier = {
 		loot_amount = 0.10
@@ -3551,6 +3571,7 @@ fruits = {
 }
 
 exoticfruits = {
+    is_valuable = yes
 	color = { 255 162 76 } #exotic fruit unpkg
 	modifier = {
 		technology_cost = -0.025
@@ -3592,6 +3613,7 @@ exoticfruits = {
 }
 
 stone = {
+    is_valuable = yes
 	color = { 174 162 149 } #natural stone unpkg
 	modifier = {
 		build_cost = -0.25
@@ -3658,6 +3680,7 @@ stone = {
 }
 
 seafood = {
+    is_valuable = yes
 	color = { 226 154 134 } #shrimp unpkg
 	modifier = {
 		improve_relation_modifier = 0.25
@@ -3708,6 +3731,7 @@ seafood = {
 }
 
 gunpowder = {
+    is_valuable = yes
 	color = { 125 109 57 } #musket unpkg
 	modifier = { 
 		fire_damage = 0.1 
@@ -3721,6 +3745,7 @@ gunpowder = {
 }
 
 vanilia = {
+    is_valuable = yes
 	color = { 243 229 171 } #vanilla unpkg
 	modifier = { 
 		vassal_forcelimit_bonus = 0.2 
@@ -3734,6 +3759,7 @@ vanilia = {
 }
 
 maplesyrup = {
+    is_valuable = yes
 	color = { 187 147 81 } #maple syrup unpkg # 202 178 102  #canadian maple unpkg
 	modifier = {
 		yearly_innovativeness = 0.1
@@ -3785,6 +3811,7 @@ maplesyrup = {
 }
 
 sulphur = {
+    is_valuable = yes
 	color = { 221 182 20 } #sulphur unpkg
 	modifier = { 
 		infantry_power = 0.1
@@ -3798,6 +3825,7 @@ sulphur = {
 }
 
 lead = {
+    is_valuable = yes
 	color = { 153 170 187 } #lead ore unpkg
 	modifier = { 
 		infantry_cost = -0.15
@@ -3811,6 +3839,7 @@ lead = {
 }
 
 diamonds = {
+    is_valuable = yes
 	color = { 12 23 147 } #royal unpkg #153 102 204  #amethyst unpkg #250 232 188  #sand diamond unpkg #254 208 252  #Pink Diamond unpkg  #207 228 238  #diamond blue 
 	modifier = {
 		idea_cost = -0.1 
@@ -3976,7 +4005,8 @@ diamonds = {
 }
 
 exoticfur = {
-	color = { 208 152 0 } #leopard unpkg
+    is_valuable = yes
+	color = { 200 150 80 } #leopard unpkg
 	modifier = {
 		all_estate_loyalty_equilibrium = 0.05
 	}
@@ -4063,5 +4093,33 @@ exoticfur = {
 				}
 			}
 		}
+	}
+}
+
+mercury = {
+	is_valuable = yes
+	color = { 0.55 0.55 0.65 } 
+	modifier = { 
+		gold_depletion_chance_modifier = -0.25
+	} 
+	province = {  
+		local_institution_spread = 0.2
+	}
+	chance = {
+		factor = 0
+	}
+}
+
+cola = {
+	is_valuable = yes
+	color = { 0.74 0.2 0.64 }
+	modifier = { 
+		gold_depletion_chance_modifier = -0.25
+	} 
+	province = {  
+		local_institution_spread = 0.2
+	}
+	chance = {
+		factor = 0
 	}
 }
