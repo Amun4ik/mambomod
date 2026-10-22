@@ -276,3 +276,6 @@ exoticfur = {
 mercury = { 
 	base_price = 3.5
 }
+cola = { 
+	base_price = 4
+}

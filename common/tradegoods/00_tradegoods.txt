@@ -81,6 +81,13 @@ grain = {
 			}
 		}
 		modifier = {
+			factor = 0 
+			OR = {
+				continent = north_america
+				continent = south_america
+			}
+		}
+		modifier = {
 			factor = 2
 			FROM = {
 				OR = {
@@ -2354,39 +2361,17 @@ horses = {
 		modifier = { 
 			factor = 0
 			OR = {
-				has_climate = arid
 				has_climate = arctic
-				has_terrain = desert
 				has_terrain = jungle
-				continent = africa
 				has_winter = severe_winter	
 			}
 		}
 		modifier = {
 			factor = 0 
 			OR = {
-				AND = {
-					is_random_new_world = no
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-				}
+				continent = north_america
+				continent = south_america
 				continent = oceania
-			}
-			FROM = { 
-				OR = {
-					capital_scope = { continent = north_america }
-					capital_scope = { continent = south_america }
-					capital_scope = { continent = oceania }
-					capital_scope = { continent = new_world }
-				}
-				NOT = {
-					OR = {
-						is_colonial_nation = yes
-						technology_group = western
-					}
-				}
 			}
 		}
 		modifier = {
@@ -3034,6 +3019,11 @@ corn = {
 			factor = 1.5
 			has_terrain = farmlands
 		}
+		modifier = {
+			factor = 0 
+			NOT = { continent = north_america }
+			NOT = { continent = south_america }
+		}
 	}
 }
 
@@ -3560,7 +3550,7 @@ fruits = {
     is_valuable = yes
 	color = { 94 220 31 } #green apple unpkg
 	modifier = {
-		loot_amount = 0.10
+		naval_attrition = -0.1
 	}
 	province = {
 		local_centralize_state_cost = -0.1
@@ -3619,7 +3609,7 @@ stone = {
 		build_cost = -0.25
 	}
 	province = {
-		fort_level = 1 #unpleasant terrain
+		local_fort_maintenance_modifier = -0.5
 	}
 	chance = {
 		factor = 5
@@ -3715,10 +3705,6 @@ seafood = {
 			}
 		}
 		modifier = {
-			factor = 1.2
-			has_terrain = glacier
-		}
-		modifier = {
 			factor = 2
 			FROM = {
 				OR = {
@@ -3754,7 +3740,12 @@ vanilia = {
 		min_local_autonomy = -10
 	}
 	chance = {
-		factor = 0
+		factor = 15
+		modifier = {
+			factor = 0
+			NOT = { region = central_america_region }
+			NOT = { region = mexico_region }
+		}
 	}
 }
 
@@ -3772,39 +3763,7 @@ maplesyrup = {
 		modifier = {
 			factor = 0
 			OR = {
-				continent = asia
-				continent = oceania
-				continent = south_america
-				continent = europe
-				continent = africa
-				has_winter = mild_winter
-				has_winter = normal_winter
-				#has_port = yes
-				has_terrain = desert
-				has_terrain = glacier
-				has_terrain = coastline
-				#has_climate = arctic
-				has_terrain = mountain
-				has_terrain = coastal_desert
-				has_terrain = forest
-				has_terrain = woods
-				has_terrain = hills
-				has_terrain = jungle
-				has_terrain = highlands
-				has_terrain = marsh
-				has_climate = arid
-				has_climate = tropical
-				has_terrain = drylands
-				has_terrain = savannah
-				has_terrain = steppe
-				has_terrain = grasslands
-			}
-		}
-		modifier = {
-			factor = 2.5
-			OR = {
-				#has_terrain = taiga
-				continent = north_america
+				NOT = { region = canada_region }
 			}
 		}
 	}
@@ -3848,149 +3807,16 @@ diamonds = {
 		trade_value_modifier = 0.15
 	}
 	chance = {
-		factor = 5
+		factor = 10
+
 		modifier = {
 			factor = 0
-			area = newfoundland_area
-		}
-		modifier = {
-			factor = 0
-			is_random_new_world = no
-			NOT = { region = west_siberia_region }
 			NOT = { region = east_siberia_region }
-			NOT = { region = australia_region }
 			NOT = { region = south_africa_region }
 			NOT = { region = central_africa_region }
-			NOT = { region = central_america_region }
-			NOT = { region = peru_region }
-			NOT = { region = upper_peru_region }
-			NOT = { region = colombia_region }
-			NOT = { region = indonesia_region }
-			NOT = { region = moluccas_region }
-			NOT = { region = hindusthan_region }
-			NOT = { region = west_india_region }
-			NOT = { region = bengal_region }
-			NOT = { region = deccan_region }
-			NOT = { region = coromandel_region }
-			NOT = { region = indo_china_region }
-			NOT = { continent = oceania }
-			NOT = { area = minas_gerais_area }
-			NOT = { area = diamantina_area }
-			NOT = { area = amazon_area }
-			NOT = { area = bogota_area }
-			NOT = { area = popayan_area }
-			NOT = { area = venezuela_area }
-			NOT = { area = guyana_area }
-			NOT = { area = upper_guyana_area }
-			NOT = { area = guapore_area }
-			NOT = { area = amapa_area }
-			NOT = { area = grao_para_area }
-			NOT = { area = goias_area }
-			NOT = { area = mato_grosso_area }
-			NOT = { area = pontal_area }
-			NOT = { area = guapore_area }
-			has_terrain = coastline #Pearls
-		}
-		modifier = {
-			factor = 0
-			is_random_new_world = yes
-			NOT = { continent = new_world }
-			NOT = { region = west_siberia_region }
-			NOT = { region = east_siberia_region }
-			NOT = { region = australia_region }
-			NOT = { region = south_africa_region }
-			NOT = { region = indonesia_region }
-			NOT = { region = moluccas_region }
-			NOT = { region = hindusthan_region }
-			NOT = { region = west_india_region }
-			NOT = { region = bengal_region }
-			NOT = { region = deccan_region }
-			NOT = { region = coromandel_region }
-			NOT = { region = indo_china_region }
-			NOT = { continent = oceania }
-		}
-		modifier = {
-			factor = 0
-			is_random_new_world = yes
-			continent = new_world
-			OR = {
-				has_terrain = forest
-				has_terrain = woods
-				has_terrain = drylands
-				has_terrain = grasslands
-				has_terrain = savannah
-				has_terrain = steppe
-				has_terrain = coastline
-				has_terrain = coastal_desert
-				has_terrain = marsh
-				#has_terrain = taiga
-			}
-		}
-		modifier = { #MOD
-			factor = 4.0
-			OR = {
-				area = diamantina_area
-				area = minas_gerais_area
-				area = guinea_coast_area
-				area = angola_namibia_area
-				area = zambia_area
-			}
-		}
-		modifier = {
-			factor = 0.6 #1.2
-			region = moluccas_region
-		}
-		modifier = {
-			factor = 0.5 #0.75
-			region = indonesia_region
-		}
-		modifier = {
-			factor = 0.25 #0.5
-			continent = oceania
-		}
-		modifier = {
-			factor = 0.25
-				continent = north_america
-		}
-		modifier = {
-			factor = 0.5 #1 #1.5
-				continent = south_america
-		}
-		modifier = {
-			factor = 2.5 #2.0
-			OR = {
-				area = bogota_area
-				#area = murray_river_area #Opal
-			}
-		}
-		modifier = {
-			factor = 1.0 #1.5 #2.0
-			region = brazil_region
-		}
-		modifier = {
-			factor = 1.0
-			OR = {
-				has_terrain = mountain
-				has_terrain = jungle
-				has_terrain = hills
-				has_terrain = highlands
-			}
-		}
-		modifier = {
-			factor = 1.0
-			is_random_new_world = yes
-			has_terrain = mountain
-			continent = new_world #Always in RNW
-		}
-		modifier = {
-			factor = 1.0
-			normal_or_historical_nations = no
-		}
-		modifier = {
-			factor = 1.5
-			FROM = {
-				has_country_flag = encourage_cash_crops_flag
-			}
+			NOT = { region = congo_region }
+			NOT = { region = hudson_bay_region }
+			NOT = { region = brazil_region }
 		}
 		modifier = {
 			factor = 1.5
@@ -4114,12 +3940,17 @@ cola = {
 	is_valuable = yes
 	color = { 0.74 0.2 0.64 }
 	modifier = { 
-		gold_depletion_chance_modifier = -0.25
+		monthly_gold_inflation_modifier = -0.1
 	} 
 	province = {  
-		local_institution_spread = 0.2
+		province_trade_power_modifier = 0.10
 	}
 	chance = {
-		factor = 0
+		factor = 15
+		modifier = {
+			factor = 0
+			NOT = { region = niger_region }
+			NOT = { region = guinea_region }
+		}
 	}
 }
