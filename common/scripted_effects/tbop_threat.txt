@@ -81,6 +81,7 @@ tbop_AE_distribution = {
 
 	every_country = {
 		limit = {
+		    is_subject = no
 			# not its subject
 			NOT = { is_subject_of = ROOT }
 			knows_country = ROOT

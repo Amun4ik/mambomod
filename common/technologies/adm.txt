@@ -88,7 +88,7 @@ technology = { #National Ideas
 	}
 
 	allowed_idea_groups = 2
-	production_efficiency	 =	0.02
+	production_efficiency =	0.02
 }
 
 technology = { #Workshop

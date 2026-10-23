@@ -1,9 +1,9 @@
 RB_BrimmingState = {
 	potential = {
-		governing_capacity_percentage = 0.85
+		governing_capacity_percentage = 0.95
 	}
 	trigger = {
-		governing_capacity_percentage = 1.0
+		governing_capacity_percentage = 1.01
 	}
 
 	ae_impact = 0.1
@@ -38,14 +38,13 @@ RB_CorruptState = {
 	ae_impact = 0.25
 	diplomatic_reputation = -1.0
 	administrative_efficiency = -0.2
-	yearly_corruption = 0.5
 
 	global_tax_modifier = -0.25
 	production_efficiency = -0.25 
 	trade_efficiency = -0.25
 	development_cost = 0.5
 	build_cost = 0.5
-
+	
 	technology_cost = 0.5
 	global_institution_spread = -0.25 
 
