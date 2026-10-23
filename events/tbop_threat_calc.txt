@@ -239,10 +239,10 @@ country_event = {
 			divide_variable = { which = tbop_opinion value = 800 }
 			export_to_variable = { #distance is up to -50% at 300
 				which = tbop_distance
-				value = border_distance
+				value = capital_distance
 				who = FROM
 			}
-			divide_variable = { which = tbop_distance value = 300 }
+			divide_variable = { which = tbop_distance value = 600 }
 			subtract_variable = { which = tbop_dist_op_modifier which = tbop_opinion } # 1 - opinion
 			subtract_variable = { which = tbop_dist_op_modifier which = tbop_distance } # - distance
 			
