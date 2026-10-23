@@ -1,5 +1,3 @@
-## Credit to Yard1 & Hutama for their mod "Cantons for Colonial Flags"
-
 ## Includes
 
 Includes = {
