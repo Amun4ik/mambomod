@@ -214,12 +214,13 @@ country_event = {
 		#get threat value
 		set_variable = { which = tbop_actual_threat value = 0 }
 		change_variable = { which = tbop_actual_threat which = FROM }
+		multiply_variable = { which = tbop_actual_threat value = 0.5 }
 		
 		if = {
 			limit = { NOT = { is_rival = FROM } }
 			
 			#divide_variable = { which = tbop_actual_threat value = 2 }
-			multiply_variable = { which = tbop_actual_threat value = 0.5 }
+			multiply_variable = { which = tbop_actual_threat value = 0.75 }
 			
 			set_variable = { which = tbop_dist_op_modifier value = 1 } #total modifier
 			FROM = {
@@ -240,7 +241,7 @@ country_event = {
 				value = border_distance
 				who = FROM
 			}
-			divide_variable = { which = tbop_distance value = 600 }
+			divide_variable = { which = tbop_distance value = 300 }
 			subtract_variable = { which = tbop_dist_op_modifier which = tbop_opinion } # 1 - opinion
 			subtract_variable = { which = tbop_dist_op_modifier which = tbop_distance } # - distance
 			

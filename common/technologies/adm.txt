@@ -63,7 +63,6 @@ technology = { #Medieval Administration
 	expects_institution = {
 		feudalism = 0.5
 	}
-	allowed_idea_groups = 1
 	production_efficiency	=	0.02
 	may_support_rebels = yes
 }
