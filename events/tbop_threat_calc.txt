@@ -215,7 +215,7 @@ country_event = {
 		#get threat value
 		set_variable = { which = tbop_actual_threat value = 0 }
 		change_variable = { which = tbop_actual_threat which = FROM }
-		multiply_variable = { which = tbop_actual_threat value = 0.4 }
+		multiply_variable = { which = tbop_actual_threat value = 0.25 }
 		
 		if = {
 			limit = { NOT = { is_rival = FROM } }
