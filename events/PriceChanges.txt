@@ -511,6 +511,12 @@ country_event = {
 			value = 0.25
 			duration = -1
 		}
+		change_price = {
+			trade_goods = honey
+			key = TEA_AND_SUGAR
+			value = -0.1
+			duration = -1
+		}
 		add_years_of_income  = 0.25
 		add_prestige = 20
 	}
@@ -1204,6 +1210,12 @@ country_event = {
 			value = 0.10
 			duration = -1
 		}
+		change_price = {
+			trade_goods = lumber
+			key = PERMANENT_NAVIES
+			value = 0.25
+			duration = -1
+		}
 	}
 }
 
@@ -1376,6 +1388,12 @@ country_event = {
 			trade_goods = sugar
 			key = POPULARIZATION_OF_SUGAR
 			value = 0.5
+			duration = -1
+		}
+		change_price = {
+			trade_goods = honey
+			key = TEA_AND_SUGAR
+			value = -0.25
 			duration = -1
 		}
 	}
@@ -1585,6 +1603,12 @@ country_event = {
 			trade_goods = tropical_wood
 			key = VENEERING
 			value = 0.5
+			duration = -1
+		}
+		change_price = {
+			trade_goods = lumber
+			key = PERMANENT_NAVIES
+			value = -0.25
 			duration = -1
 		}
 	}

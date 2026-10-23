@@ -1,0 +1,87 @@
+####################################################
+# Price Change Events
+#
+# written by Johan Andersson & Henrik Lohmander
+####################################################
+
+namespace = mamboprices
+country_event = {
+	id = mamboprices.1
+	title = mamboprices.1.t
+	desc = mamboprices.1.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	trigger = {
+		is_year = 1516
+		capital_scope = { region = south_germany_region }
+		religion_group = christian
+		beer = 1
+		NOT = { has_global_flag = reinheitsgebot_happened }
+	}
+	
+	immediate = { 
+		hidden_effect = { set_global_flag = reinheitsgebot_happened }
+	}
+	
+	option = {
+		name = mamboprices.1.a
+		change_price = {
+			trade_goods = beer
+			key = REINHEITSGEBOT
+			value = 0.25
+			duration = -1
+		}
+		add_mercantilism = 2
+	}
+}
+country_event = {
+	id = mamboprices.2
+	title = mamboprices.2.t
+	desc = mamboprices.2.d
+	picture = TRADEGOODS_eventPicture
+
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		mil_tech = 14
+		capital_scope = { continent = europe }
+		sulphur = 1
+		NOT = { has_global_flag = saltpeter_happened }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = { 
+		hidden_effect = { set_global_flag = saltpeter_happened }
+	}
+	
+	option = {
+		name = mamboprices.2.a
+		change_price = {
+			trade_goods = gunpowder
+			key = SALTPETER
+			value = -0.25
+			duration = -1
+		}
+		change_price = {
+			trade_goods = sulphur
+			key = SALTPETER
+			value = 0.25
+			duration = -1
+		}
+		add_years_of_income  = 0.25
+		add_prestige = 20
+	}
+}

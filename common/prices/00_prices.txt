@@ -161,7 +161,7 @@ beer = {
 }
 
 honey = {
-    base_price = 2
+    base_price = 3
 }
 
 pearls = {
@@ -251,7 +251,7 @@ seafood = {
 }
 
 gunpowder = {
-	base_price = 4
+	base_price = 5
 }
 
 vanilia = {
@@ -262,7 +262,7 @@ maplesyrup = {
 }
 
 sulphur = {
-	base_price = 3.5
+	base_price = 3
 }
 
 lead = {

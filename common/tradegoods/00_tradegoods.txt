@@ -2961,10 +2961,10 @@ corn = {
     is_valuable = yes
 	color = { 251 236 93 } #corn unpkg
 	modifier = {
-		siege_ability = 0.1 #well fed
+		land_forcelimit_modifier = 0.20
 	}
 	province = {
-		supply_limit = 1
+		land_forcelimit = 0.5
 	}
 	chance = {
 		factor = 35
@@ -3723,7 +3723,7 @@ gunpowder = {
 		fire_damage = 0.1 
 	}
 	province = { 
-		local_production_efficiency = 0.1 
+		local_regiment_cost = -0.2
 	}
 	chance = {
 		factor = 0
