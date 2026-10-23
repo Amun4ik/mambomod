@@ -154,6 +154,7 @@ country_event = {
 		set_variable = { which = tbop_fdev_ratio value = 0 }
 		change_variable = { which = tbop_fdev_ratio which = tbop_foreign_dev }
 		divide_variable = { which = tbop_fdev_ratio which = tbop_development }
+		multiply_variable = { which = tbop_fdev_ratio value = 0.2 }
 		
 		#calculate foreign development %
 		set_variable = { which = tbop_fdev_ratio_percent value = 0 }
@@ -214,7 +215,7 @@ country_event = {
 		#get threat value
 		set_variable = { which = tbop_actual_threat value = 0 }
 		change_variable = { which = tbop_actual_threat which = FROM }
-		multiply_variable = { which = tbop_actual_threat value = 0.5 }
+		multiply_variable = { which = tbop_actual_threat value = 0.4 }
 		
 		if = {
 			limit = { NOT = { is_rival = FROM } }
@@ -302,7 +303,7 @@ country_event = {
 			multiply_variable = { which = tbop_actual_threat which = tbop_dist_op_modifier }
 		}
 		else = {
-			multiply_variable = { which = tbop_actual_threat value = 1.25 }
+			multiply_variable = { which = tbop_actual_threat value = 1 }
 		}
 		
 		set_variable = 
