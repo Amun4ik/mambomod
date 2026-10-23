@@ -3764,6 +3764,15 @@ maplesyrup = {
 			factor = 0
 			OR = {
 				NOT = { region = canada_region }
+				NOT = { region = north_east_region }
+				NOT = { region = hudson_bay_region }
+			}
+		}
+		modifier = {
+			factor = 0.75
+			OR = {
+				region = north_east_region
+				region = hudson_bay_region 
 			}
 		}
 	}
