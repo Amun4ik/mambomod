@@ -6,11 +6,7 @@ add_core = MNG
 culture = bai
 religion = buddhism
 capital = "Kunming"
-<<<<<<< Updated upstream
-trade_goods = 4472
-=======
 trade_goods = jade
->>>>>>> Stashed changes
 hre = no
 base_tax = 6 
 base_production = 5
