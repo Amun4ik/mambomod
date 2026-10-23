@@ -3214,7 +3214,6 @@ silver = {
 			factor = 3.5
 			region = peru_region
 		}
-		}
 		modifier = {
 			factor = 2
 			region = east_siberia_region
@@ -3624,11 +3623,11 @@ lead = {
 	}
 	chance = {
 		factor = 20
-	}
-		modifier = {
+	modifier = {
 			factor = 0
 			NOT = { region = mississippi_region }
 		}
+	}
 }
 
 diamonds = {

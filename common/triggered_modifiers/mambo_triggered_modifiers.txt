@@ -1,0 +1,27 @@
+Reformation_Army_Increase = {
+	potential = {
+		current_age = age_of_reformation
+	}
+	trigger = {
+		current_age = age_of_reformation
+	}
+	land_forcelimit_modifier = 0.1
+}
+Reformation_Army_Increase = {
+	potential = {
+		current_age = age_of_absolutism
+	}
+	trigger = {
+		current_age = age_of_absolutism
+	}
+	land_forcelimit_modifier = 0.1
+}
+Reformation_Army_Increase = {
+	potential = {
+		current_age = age_of_revolutions
+	}
+	trigger = {
+		current_age = age_of_revolutions
+	}
+	land_forcelimit_modifier = 0.1
+}

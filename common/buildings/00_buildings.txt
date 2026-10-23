@@ -3429,9 +3429,7 @@ wharf = {
 		naval_supplies
 		fish
 		salt
-		coral #MOD
 		seafood #MOD
-		turtles #MOD
 		whales #MOD
 		pearls #MOD
 		amber #MOD
@@ -3566,7 +3564,6 @@ textile = {
 		cloth
 		silk
 		dyes
-		carpets #MOD
 	}
 	onmap = yes
 	on_built = {
@@ -3670,12 +3667,8 @@ plantations = {
 		tobacco
 		tea
 		cocoa
-		bananas #MOD
-		citruses #MOD
-		coconut #MOD
 		dates #MOD
 		exoticfruits #MOD
-		pineapple #MOD
 	}
 	onmap = yes
 	on_built = {
@@ -3780,14 +3773,13 @@ tradecompany = {
 		fur
 		incense
 		cinnamon #MOD
-		parrot #MOD
 		maplesyrup #MOD
 		nutmeg #MOD
-		pepper #MOD
 		poppy #MOD
 		saffron #MOD
-		vanilla #MOD
+		vanilia #MOD
 		exoticfur #MOD
+		cola #MOD
 	}
 	onmap = yes
 	on_built = {
@@ -3826,14 +3818,11 @@ farm_estate = {
 	manufactory = {
 		grain
 		livestock
-		camels #MOD
 		cheese #MOD
 		corn #MOD
 		honey #MOD
 		horses #MOD
-		potatoes #MOD
 		rice #MOD
-		tomatoes #MOD
 	}
 	onmap = yes
 	on_built = {
@@ -3873,8 +3862,6 @@ vineyard_estate = {
 		wine
 		lavender #MOD
 		olives #MOD
-		cactus #MOD
-		champagnegood #MOD
 		fruits #MOD
 		beer #MOD
 		vodka #MOD #spirits
@@ -3981,7 +3968,6 @@ mills = {
 		gems
 		glass
 		chinaware
-		bricks #MOD
 		jade #MOD
 		marble #MOD
 		stone #MOD
