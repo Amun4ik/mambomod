@@ -1,0 +1,22 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_custom_hre_logo" # For Chewy mod
+        texturefile = "gfx/interface/custom_hre/chewy_hre_logo.dds"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_custom_hre_bg" # The normal one
+        texturefile = "gfx/interface/custom_hre/custom_hre_bg.dds"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_custom_hre_bg_extended" # Used during League Wars
+        texturefile = "gfx/interface/custom_hre/custom_hre_bg_extended.dds"
+        transparencecheck = yes
+    }
+    spriteType = {
+        name = "GFX_custom_hre_bg_empty" # This is for testing purposes to get a clean empty slate if need be
+        texturefile = "gfx/interface/custom_hre/custom_hre_bg_empty.dds"
+        transparencecheck = yes
+    }
+}

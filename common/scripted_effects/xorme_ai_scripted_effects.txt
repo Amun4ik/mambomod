@@ -93,36 +93,6 @@ xorme_ai_set_crown_land = {
 }
 
 xorme_ai_essentials = {
-	if = {
-		limit = {
-			OR = {
-				is_great_power = yes
-				luck = yes
-				total_development = 300
-			}
-		}
-		add_prestige = 10
-		add_years_of_income = 1.2
-		add_yearly_manpower = 2.5
-		add_stability = 1
-		add_mil_power = 75
-		add_adm_power = 100
-		create_general = {
-			tradition = 45
-		}
-	}
-	if = {
-		limit = { num_of_ports = 1 }
-		create_admiral = {
-			tradition = 21
-		}
-	}
-	add_stability = 1
-	add_years_of_income = 0.6
-	add_yearly_manpower = 1.3
-	create_general = {
-		tradition = 15
-	}
 }
 
 xorme_ai_alliance_initialization_effect = {
