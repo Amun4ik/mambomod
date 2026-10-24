@@ -9,3 +9,8 @@
  mamboprices.2.d: "As gunpowder warfare expands, our realm — rich in sulphur — establishes a network of royal saltpeter works. Our new refineries produce gunpowder ingredients on an unprecedented scale, lowering the price of gunpowder across the world. Yet the demand for sulphur rises sharply, turning our deposits into a strategic resource coveted by every warring nation."
  mamboprices.2.a: "Found the Saltpeter Works"
  SALTPETER: "Saltpeter Works"
+ 
+ Discovery_Army_Increase: "Recruiting in the Age of Discovery"
+ Reformation_Army_Increase: "Recruiting in the Age of Reformation"
+ Absolutism_Army_Increase: "Recruiting in the Age of Absolutism"
+ Revolutions_Army_Increase: "Recruiting in the Age of Revolutions"

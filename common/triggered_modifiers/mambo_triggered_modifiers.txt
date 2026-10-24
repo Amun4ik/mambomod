@@ -1,11 +1,10 @@
-Reformation_Army_Increase = {
+Discovery_Army_Increase = {
 	potential = {
 		current_age = age_of_discovery
 	}
 	trigger = {
 		current_age = age_of_discovery
 	}
-	land_forcelimit_modifier = 0.1
 	manpower_recovery_speed = -0.15
 }
 Reformation_Army_Increase = {
@@ -37,4 +36,17 @@ Reformation_Army_Increase = {
 	}
 	land_forcelimit_modifier = 0.1
 	manpower_recovery_speed = 0.5
+}
+mambo_nomoscowdebt = {
+	potential = {
+		tag = MOS
+		ai = yes
+	}
+
+	trigger = {
+		tag = MOS
+		ai = yes
+		is_subject = no
+    }
+	interest = -1
 }

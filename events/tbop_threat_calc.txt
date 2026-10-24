@@ -178,11 +178,6 @@ country_event = {
 			multiply_variable = { which = tbop_threat which = tbop_threat_modifier }
 		}
 		
-		if = {
-			limit = { ai = yes }
-			multiply_variable = { which = tbop_threat value = 0.8 }
-		}
-		
 		#set 2x FL for AE calculation
 		set_variable = { which = tbop_twice_fl value = 0 }
 		change_variable = { which = tbop_twice_fl which = tbop_fl }
@@ -221,7 +216,7 @@ country_event = {
 		#get threat value
 		set_variable = { which = tbop_actual_threat value = 0 }
 		change_variable = { which = tbop_actual_threat which = FROM }
-		multiply_variable = { which = tbop_actual_threat value = 0.2 }
+		multiply_variable = { which = tbop_actual_threat value = 0.25 }
 		
 		if = {
 			limit = { NOT = { is_rival = FROM } }
