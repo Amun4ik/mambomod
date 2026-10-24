@@ -27,10 +27,10 @@ luck = {
 }
 
 all_nations = {
-	global_tax_income = 2
+	global_tax_income = 3
 	development_cost = 0.1
-	land_forcelimit	= 2
-	naval_forcelimit = 4
+	land_forcelimit	= 3
+	naval_forcelimit = 6
 }
 
 ai_nation = {
@@ -49,9 +49,9 @@ capital_city = {
 }
 
 subject_nation = {
-	global_tax_income = -1
-	land_forcelimit	= -1
-	naval_forcelimit = -2
+	global_tax_income = -1.5
+	land_forcelimit	= -1.5
+	naval_forcelimit = -3
 }
 
 base_values = {
@@ -67,7 +67,7 @@ base_values = {
 	tolerance_heathen = -3
 	tolerance_heretic = -2
 	global_missionary_strength = 0.02
-	global_manpower = 1
+	global_manpower = 5
 	advisor_pool = 3
 	colonist_placement_chance = 0.1
 	free_leader_pool = 1
