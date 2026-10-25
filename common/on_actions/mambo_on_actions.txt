@@ -3,6 +3,7 @@ on_startup = {
         limit = {
             continent = africa
 			has_port = no
+			NOT = { terrain = mountains }
 			NOT = { region = maghreb_region }
 			NOT = { region = egypt_region }
 			NOT = { area = south_african_plateau_area }
