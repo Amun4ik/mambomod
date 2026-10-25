@@ -1,0 +1,14 @@
+on_startup = {
+    every_province = {
+        limit = {
+            continent = africa
+			has_port = no
+			NOT = { region = maghreb_region }
+			NOT = { region = egypt_region }
+			NOT = { area = south_african_plateau_area }
+			NOT = { area = transvaal_area }
+			NOT = { area = chokwe_area }
+        }
+        add_province_triggered_modifier = mambo_malaria
+    }
+}
