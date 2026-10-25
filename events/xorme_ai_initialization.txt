@@ -10,7 +10,7 @@ country_event = {
 	fire_only_once = yes
 
 	immediate = {
-		set_global_flag = xorme_ai_dynamic_cheats_active
+		set_global_flag = xorme_ai_dynamic_cheats_disabled
 		set_global_flag = xorme_ai_building_scripts_on
 		set_global_flag = xorme_ai_allow_special_units_on
 		set_global_flag = xorme_ai_expand_infrastructure_on
@@ -131,6 +131,7 @@ country_event = {
 	picture = "INVENTION_eventPicture"
 	desc = "xorme_ai_initialization.3_desc"
 	is_triggered_only = yes
+	hidden = yes
 
 	immediate = {
 		#RUN PLAYER SETUP INFO
