@@ -2,5 +2,5 @@ version="1"
 tags={
 	"Expansion"
 }
-name="mambomod"
+name="Mambomod Universalis"
 supported_version="v1.37.5.0"
