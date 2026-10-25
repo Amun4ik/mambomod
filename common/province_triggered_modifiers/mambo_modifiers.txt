@@ -1,0 +1,28 @@
+mambo_malaria = {
+    potential = {
+        continent = africa
+		has_port = no
+    }
+
+    trigger = {
+        has_owner = yes
+        owner = {
+            NOT = {
+                OR = {
+                    technology_group = east_african
+                    technology_group = west_african
+                    technology_group = central_african
+                    technology_group = sub_saharan
+                }
+            }
+        }
+        OR = {
+            is_colony = yes
+            is_city = yes
+        }
+    }
+
+    local_development_cost = 1.0
+    local_colonial_growth = -20
+	local_colonist_placement_chance = -0.5
+}
