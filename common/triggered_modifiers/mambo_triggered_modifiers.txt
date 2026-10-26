@@ -1,12 +1,4 @@
-Discovery_Army_Increase = {
-	potential = {
-		current_age = age_of_discovery
-	}
-	trigger = {
-		current_age = age_of_discovery
-	}
-	manpower_recovery_speed = -0.15
-}
+
 Reformation_Army_Increase = {
 	potential = {
 		current_age = age_of_reformation
@@ -14,7 +6,7 @@ Reformation_Army_Increase = {
 	trigger = {
 		current_age = age_of_reformation
 	}
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.05
 	manpower_recovery_speed = 0.05
 }
 Absolutism_Army_Increase = {
@@ -24,7 +16,7 @@ Absolutism_Army_Increase = {
 	trigger = {
 		current_age = age_of_absolutism
 	}
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.05
 	manpower_recovery_speed = 0.05
 }
 Revolutions_Army_Increase = {
@@ -34,7 +26,7 @@ Revolutions_Army_Increase = {
 	trigger = {
 		current_age = age_of_revolutions
 	}
-	land_forcelimit_modifier = 0.1
+	land_forcelimit_modifier = 0.05
 	manpower_recovery_speed = 0.05
 }
 mambo_nomoscowdebt = {

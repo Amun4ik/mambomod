@@ -12,6 +12,7 @@ owner = ANU
 controller = ANU
 add_core = ANU
 is_city = yes
+latent_trade_goods =  { coal }
 
 
 

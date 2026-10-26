@@ -19,6 +19,7 @@ discovered_by = muslim
 discovered_by = ottoman
 extra_cost = 16
 center_of_trade = 2
+latent_trade_goods =  { coal }
 
 1583.12.17 = { fort_15th = no }
 1638.1.1 = { base_tax = 10 

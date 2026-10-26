@@ -8,8 +8,8 @@ eastern_tech_mod = {
 		technology_group = eastern
 	}
 	
-	global_institution_spread = -0.20
-	embracement_cost = 0.15
+	global_institution_spread = -0.1
+	embracement_cost = 0.05
 }
 
 ottoman_tech_mod = {
@@ -18,8 +18,8 @@ ottoman_tech_mod = {
 		technology_group = ottoman
 	}
 	
-	global_institution_spread = -0.25
-	embracement_cost = 0.35
+	global_institution_spread = -0.15
+	embracement_cost = 0.2
 }
 
 muslim_tech_mod = {
@@ -28,8 +28,8 @@ muslim_tech_mod = {
 		technology_group = muslim
 	}
 	
-	global_institution_spread = -0.375
-	embracement_cost = 0.45
+	global_institution_spread = -0.2
+	embracement_cost = 0.25
 }
 
 indian_tech_mod = {
@@ -38,8 +38,8 @@ indian_tech_mod = {
 		technology_group = indian
 	}
 	
-	global_institution_spread = -0.40
-	embracement_cost = 0.60
+	global_institution_spread = -0.2
+	embracement_cost = 0.3
 }
 
 east_african_tech_mod = {
@@ -48,8 +48,8 @@ east_african_tech_mod = {
 		technology_group = east_african
 	}
 	
-	global_institution_spread = -0.45
-	embracement_cost = 2.75
+	global_institution_spread = -0.25
+	embracement_cost = 1.5
 }
 
 central_african_tech_mod = {
@@ -58,8 +58,8 @@ central_african_tech_mod = {
 		technology_group = central_african
 	}
 	
-	global_institution_spread = -0.725
-	embracement_cost = 5.0
+	global_institution_spread = -0.35
+	embracement_cost = 2.5
 }
 
 chinese_tech_mod = {
@@ -68,8 +68,8 @@ chinese_tech_mod = {
 		technology_group = chinese
 	}
 	
-	global_institution_spread = -0.50
-	embracement_cost = 0.75
+	global_institution_spread = -0.25
+	embracement_cost = 0.35
 }
 
 nomad_group_tech_mod = {
@@ -78,8 +78,8 @@ nomad_group_tech_mod = {
 		technology_group = nomad_group
 	}
 	
-	global_institution_spread = -0.725
-	embracement_cost = 3.5
+	global_institution_spread = -0.35
+	embracement_cost = 2
 }
 
 sub_saharan_tech_mod = {
@@ -88,8 +88,8 @@ sub_saharan_tech_mod = {
 		technology_group = sub_saharan
 	}
 	
-	global_institution_spread = -0.875
-	embracement_cost = 3.5
+	global_institution_spread = -0.45
+	embracement_cost = 2
 }
 
 north_american_tech_mod = {
@@ -98,8 +98,8 @@ north_american_tech_mod = {
 		technology_group = north_american
 	}
 	
-	global_institution_spread = -0.975
-	embracement_cost = 9.0
+	global_institution_spread = -0.5
+	embracement_cost = 4.5
 }
 
 mesoamerican_tech_mod = {
@@ -108,8 +108,8 @@ mesoamerican_tech_mod = {
 		technology_group = mesoamerican
 	}
 	
-	global_institution_spread = -0.975
-	embracement_cost = 9.0
+	global_institution_spread = -0.5
+	embracement_cost = 4.5
 }
 
 south_american_tech_mod = {
@@ -118,8 +118,8 @@ south_american_tech_mod = {
 		technology_group = south_american
 	}
 	
-	global_institution_spread = -0.975
-	embracement_cost = 9.0
+	global_institution_spread = -0.5
+	embracement_cost = 4.5
 }
 
 andean_tech_mod = {
@@ -128,8 +128,8 @@ andean_tech_mod = {
 		technology_group = andean
 	}
 	
-	global_institution_spread = -0.975
-	embracement_cost = 9.0
+	global_institution_spread = -0.5
+	embracement_cost = 4.5
 }
 
 aboriginal_tech_tech_mod = {
@@ -138,8 +138,8 @@ aboriginal_tech_tech_mod = {
 		technology_group = aboriginal_tech
 	}
 	
-	global_institution_spread = -0.999
-	embracement_cost = 15.0
+	global_institution_spread = -0.5
+	embracement_cost = 7.5
 }
 
 polynesian_tech_tech_mod = {
@@ -148,8 +148,8 @@ polynesian_tech_tech_mod = {
 		technology_group = polynesian_tech
 	}
 	
-	global_institution_spread = -0.999
-	embracement_cost = 15.0
+	global_institution_spread = -0.5
+	embracement_cost = 7.5
 }
 
 high_american_tech_mod = {
@@ -158,6 +158,5 @@ high_american_tech_mod = {
 		technology_group = high_american
 	}
 	
-	global_institution_spread = 0.25
-	embracement_cost = -0.9
+	global_institution_spread = 0.1
 }

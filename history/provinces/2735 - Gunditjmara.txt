@@ -12,5 +12,6 @@ native_size = 10
 native_ferocity = 1
 native_hostileness = 9
 discovered_by = aboriginal_tech
+latent_trade_goods =  { coal }
 
 1802.1.1 = { discovered_by = GBR } # Matthew Flinders

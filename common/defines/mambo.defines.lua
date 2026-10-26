@@ -1,2 +1,10 @@
 NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0.005						-- 100 men/month is minimum
 TRADE_ADDED_VALUE_MODIFER = 0.00
+CANNOT_RETREAT_DAYS = 8 						-- How many days combat has to last before one side can retreat
+DAYS_PER_PHASE = 2								-- How many days each fire and shock phase lasts
+DAYS_PER_SIEGE_PHASE = 20						-- How many days each siege phase lasts
+BACK_LINE_MORALE_DAMAGE_TAKEN_MODIFIER = 0.1	-- Multiplier for morale damage taken by backrow
+WARSCORE_MAX_FROM_BATTLES = 80		-- maximum amount to get from a battles .
+RESERVE_DAILY_MORALE_DAMAGE = 0.01			-- Reserve troops take this fraction of their maximum morale as damage (modified by reserves_organisation)
+DEFAULT_WARGOAL_BATTLESCORE_BONUS = 5	-- Battle score bonus from winning battles
+WAR_LENGTH_DAMAGE_MODIFIER = 0.02				-- How much (by percentage) the damage dealt will be increased each day of the combat

@@ -2873,7 +2873,7 @@ lumber = {
 		global_allowed_num_of_buildings = 1
 	}
 	province = {
-		local_build_cost = -0.1
+		local_ship_cost = -0.2
 	}
 
 	chance = {
@@ -2905,7 +2905,6 @@ lumber = {
 			factor = 0.5
 			OR = {
 				has_terrain = mountain
-				region = central_africa_region
 			}
 		}
 		modifier = {
@@ -2929,6 +2928,12 @@ lumber = {
 				continent = north_america
 				region = east_siberia_region 
 				region = west_siberia_region
+			}
+		}
+		modifier = {
+			factor = 2.5
+			OR = {
+				continent = africa
 			}
 		}
 	}
