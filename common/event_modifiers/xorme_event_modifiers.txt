@@ -35,14 +35,14 @@ xorme_ai_merchant_reset_modifier = {
 }
 
 xorme_ai_prepare_to_war = {
-	province_warscore_cost = -0.1
+	province_warscore_cost = -0.01
 }
 
 xorme_ai_policy_reset_modifier = {
 	free_policy = -4
 }
 xorme_ai_agenda_building_spot = {
-	local_build_cost = -0.1
+	local_build_cost = -0.01
 }
 
 xorme_ai_war_is_near_low = {

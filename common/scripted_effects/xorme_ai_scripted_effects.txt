@@ -28,54 +28,7 @@ xorme_ai_add_main_3_land_rights = {
 		set_estate_privilege = estate_burghers_land_rights
 	}
 }
-#BUILD ARMY INITIALIZATION
-xorme_ai_build_to_force_limit = {
-	if = {
-		limit = { is_emperor = no }
-		random_owned_province = {
-			limit = { highest_supply_limit_in_area = yes }
-			build_to_forcelimit = {
-				infantry = 0.6
-				cavalry = 0.1
-				artillery = 0.2
-			}
-		}
-		if = {
-			limit = { num_of_ports = 1 }
-			random_owned_province = {
-				limit = { has_port = yes }
-				build_to_forcelimit = {
-					heavy_ship = 0.2
-					light_ship = 0.1
-					galley = 0.4
-					transport = 0.3
-				}
-			}
-		}
-	}
-	else = {
-		random_owned_province = {
-			limit = { highest_supply_limit_in_area = yes }
-			build_to_forcelimit = {
-				infantry = 0.5
-				cavalry = 0.1
-				artillery = 0.2
-			}
-		}
-		if = {
-			limit = { num_of_ports = 1 }
-			random_owned_province = {
-				limit = { has_port = yes }
-				build_to_forcelimit = {
-					heavy_ship = 0.2
-					light_ship = 0.1
-					galley = 0.4
-					transport = 0.3
-				}
-			}
-		}
-	}
-}
+
 #SET CROWNLAND INITIALIZATION
 xorme_ai_set_crown_land = {
 	if = {

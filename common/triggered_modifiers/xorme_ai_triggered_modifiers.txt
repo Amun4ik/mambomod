@@ -9,7 +9,6 @@ xorme_ai_conquerors_1 = {
 		has_ruler_flag = xorme_ai_the_ai_is_conqueror
 		is_subject = no
     }
-	core_creation = -0.1
 }
 xorme_ai_conquerors_2 = {
 	potential = {
@@ -21,7 +20,6 @@ xorme_ai_conquerors_2 = {
 		has_ruler_flag = xorme_ai_the_ai_is_conqueror
 		is_subject = no
     }
-	core_creation = -0.1
 }
 xorme_ai_conquerors_3 = {
 	potential = {
@@ -33,7 +31,6 @@ xorme_ai_conquerors_3 = {
 		has_ruler_flag = xorme_ai_the_ai_is_conqueror
 		is_subject = no
     }
-	core_creation = -0.1
 }
 #DYNAMIC AI CHEATS
 #SETUP
@@ -100,7 +97,6 @@ xorme_ai_cheat_make_me_cry_ai = {
 	trigger ={
 		always = yes
 	}
-	global_tax_income = 12 #1.0 ducats for early game stomp
 }
 
 xorme_ai_cheat_make_me_cry_player = {
@@ -146,7 +142,7 @@ xorme_ai_great_power = {
 	trigger = {
 		always = yes
 	}
-	national_focus_years = -10	
+	national_focus_years = -10
 }
 
 xorme_ai_valid_for_fort_script = {
