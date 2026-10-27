@@ -44,25 +44,18 @@ mambo_nomoscowdebt = {
 }
 mambo_savenovgorod = {
 	potential = {
-		tag = NOV
+		tag = DAN
 		ai = yes
 	}
 
 	trigger = {
 		ai = yes
-		DAN = { ai = yes }
+		NOV = { ai = yes }
 		SWE = { ai = yes }
 		MOS = { ai = yes }
 		NOR = { ai = yes }
 		NOT = { is_year = 1455 }
-		NOT = { war_with = MOS }
-		war_with = DAN
-		is_subject = no
     }
-	interest = -3
-	land_forcelimit_modifier = 1
-	global_tax_income = 72
-	manpower_recovery_speed = 1
-	discipline = 0.1
-	land_morale = 0.2
+	can_not_declare_war = yes
 }
+

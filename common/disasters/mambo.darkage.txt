@@ -1,0 +1,117 @@
+darkage_disaster = {
+	potential = {
+		NOT = { in_golden_age = yes }
+		NOT = { has_country_flag = DARKAGE_washere }
+		is_great_power = yes
+		calc_true_if = {
+			NOT = {	prestige = 0 }
+			NOT = {	stability = 0 }
+			NOT = {	army_size_percentage = 0.2 }
+			NOT = {	manpower_percentage = 0.2 }
+			inflation = 10
+			num_of_loans = 10
+			NOT = { current_income_balance = -10 }
+			war_exhaustion = 19
+			corruption = 10
+			has_any_disaster = yes
+			is_bankrupt = yes
+			num_of_rebel_controlled_provinces = 10
+			amount = 1
+		}
+	}
+
+	can_start={
+		NOT = { in_golden_age = yes }
+		is_great_power = yes
+		calc_true_if = {
+			NOT = {	prestige = 0 }
+			NOT = {	stability = 0 }
+			NOT = {	army_size_percentage = 0.2 }
+			NOT = {	manpower_percentage = 0.2 }
+			inflation = 10
+			num_of_loans = 10
+			NOT = { current_income_balance = -10 }
+			war_exhaustion = 19
+			corruption = 10
+			has_any_disaster = yes
+			is_bankrupt = yes
+			num_of_rebel_controlled_provinces = 10
+			amount = 4
+		}
+	}
+
+	can_stop = {
+	    NOT = {
+			calc_true_if = {
+				NOT = {	prestige = 0 }
+				NOT = {	stability = 0 }
+				NOT = {	army_size_percentage = 0.2 }
+				NOT = {	manpower_percentage = 0.2 }
+				inflation = 10
+				num_of_loans = 10
+				NOT = { current_income_balance = -10 }
+				war_exhaustion = 19
+				corruption = 10
+				has_any_disaster = yes
+				is_bankrupt = yes
+				num_of_rebel_controlled_provinces = 10
+				amount = 4
+			}
+		}
+	}
+
+	progress = {
+		modifier = {
+			factor = 25
+			NOT = { in_golden_age = yes }
+			is_great_power = yes
+			calc_true_if = {
+				NOT = {	prestige = 0 }
+				NOT = {	stability = 0 }
+				NOT = {	army_size_percentage = 0.2 }
+				NOT = {	manpower_percentage = 0.2 }
+				inflation = 10
+				num_of_loans = 10
+				NOT = { current_income_balance = -10 }
+				war_exhaustion = 19
+				corruption = 10
+				has_any_disaster = yes
+				is_bankrupt = yes
+				num_of_rebel_controlled_provinces = 10
+				amount = 4
+			}
+		}
+	}
+
+	can_end={
+		had_country_flag = {
+			flag = DARKAGE_washere
+			days = 9125 # 25 years
+		}
+	}
+	
+	on_start = flavor_darkage.1
+
+	modifier = {
+		all_power_cost = 0.1
+		land_morale = -0.1
+		naval_morale = -0.1
+		global_trade_goods_size_modifier = -0.1
+		max_absolutism = -5
+		max_revolutionary_zeal = -10 #5
+		technology_cost = 0.1
+		diplomatic_reputation = -1.0
+		global_tax_modifier = -0.25
+		production_efficiency = -0.25 
+		global_institution_spread = -0.25 
+		global_unrest = 8.0
+		yearly_corruption = 0.1
+		reform_progress_growth = -0.2
+		years_of_nationalism = 10
+		min_autonomy_in_territories = 0.1
+		harsh_treatment_cost = 1
+	}
+	
+	on_monthly = {
+	}
+}

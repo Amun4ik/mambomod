@@ -6,44 +6,18 @@ country_event = {
 	desc = "flavor_darkage.EVTDESC1"
 	picture = DARKAGE_eventPicture
 	
-	trigger = {
-	NOT = { in_golden_age = yes }
-	NOT = { has_country_flag = DARKAGE_washere }
-	#is_hegemon = no
-	is_great_power = yes
-	is_year = 1450
-		calc_true_if = {
-		OR = {
-				NOT = {	prestige = 0 }
-				NOT = {	stability = 0 }
-				NOT = {	army_size_percentage = 0.2 }
-				NOT = {	manpower_percentage = 0.2 }
-				inflation = 10
-				num_of_loans = 10
-				NOT = { current_income_balance = -10 }
-				war_exhaustion = 19
-			#	NOT = {	legitimacy = 20 }
-				corruption = 10
-has_any_disaster = yes
-			#NOT = {	absolutism = 20 } bugged
-			}
-			amount = 4
-		}
-	}
+	is_triggered_only = yes
 	
 	mean_time_to_happen = {
 		days = 1
 	}
+	
+	immediate = {
+		set_country_flag = DARKAGE_washere
+	}
 
 	option = {
 		name = "flavor_darkage.EVTOPTA1"
-		add_country_modifier = {
-			name = MOD_DARKAGE_modifier
-			duration = 9125 #25 yrs
-		}
 		custom_tooltip = DARKAGE_ishere
-			#hidden_effect = {
-				set_country_flag = DARKAGE_washere
-			#}
 	}
 }

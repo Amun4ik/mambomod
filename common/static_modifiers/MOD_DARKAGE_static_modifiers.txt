@@ -7,4 +7,11 @@ MOD_DARKAGE_modifier = {
 	max_absolutism = -5
 	max_revolutionary_zeal = -10 #5
 	technology_cost = 0.1
+	diplomatic_reputation = -1.0
+	global_tax_modifier = -0.25
+	production_efficiency = -0.25 
+	global_institution_spread = -0.25 
+	global_unrest = 8.0
+	yearly_corruption = 0.1
+	reform_progress_growth = -0.2
 }
