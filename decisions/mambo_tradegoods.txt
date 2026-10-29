@@ -1,0 +1,103 @@
+country_decisions = {
+	potato_in_ireland = {
+		potential = {
+			any_subject_country = {
+			    is_colonial_nation = yes
+			    any_owned_province = {
+			        trade_goods = corn
+			    }
+			}
+			4120 = {
+				owned_by = ROOT
+			}
+			5159 = {
+				owned_by = ROOT
+			}
+			373 = {
+				owned_by = ROOT
+			}
+			NOT = {
+				4120 = {
+					trade_goods = corn
+				}
+				5159 = {
+					trade_goods = corn
+				}
+				373 = {
+					trade_goods = corn
+				}
+			}
+		}
+		allow = {
+			adm_tech = 14
+			any_subject_country = {
+			    is_colonial_nation = yes
+			    any_owned_province = {
+			        trade_goods = corn
+			    }
+			}
+			4120 = {
+				owned_by = ROOT
+			}
+			5159 = {
+				owned_by = ROOT
+			}
+			373 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {	
+			4120 = {
+				change_trade_goods = corn
+			}
+			5159 = {
+				change_trade_goods = corn
+			}
+			373 = {
+				change_trade_goods = corn
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+	potato_in_holland = {
+		potential = {
+			tag = NED
+			any_subject_country = {
+			    is_colonial_nation = yes
+			    any_owned_province = {
+			        trade_goods = exoticfruits
+			    }
+			}
+			96 = {
+				owned_by = ROOT
+			}
+			NOT = {
+				96 = {
+					trade_goods = exoticfruits
+				}
+			}
+		}
+		allow = {
+			adm_tech = 18
+			any_subject_country = {
+			    is_colonial_nation = yes
+			    any_owned_province = {
+			        trade_goods = exoticfruits
+			    }
+			}
+			96 = {
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			96 = {
+				change_trade_goods = exoticfruits
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}	
+	}
+}

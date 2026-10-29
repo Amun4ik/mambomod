@@ -3376,7 +3376,13 @@ fruits = {
 		local_centralize_state_cost = -0.1
 	}
 	chance = {
-		factor = 0 #old world
+		factor = 10 #old world
+		modifier = {
+			factor = 0
+			NOT = {
+				continent = north_america
+			}
+		}
 	}
 }
 
@@ -3390,22 +3396,14 @@ exoticfruits = {
 		local_development_cost = -0.1
 	}
 	chance = {
-		factor = 25
+		factor = 10
 		modifier = {
 			factor = 0
 			area = newfoundland_area
 		}
 		modifier = {
-			factor = 0
-			NOT = { province_id = 1240 }
-		}
-		modifier = {
-			factor = 2
+			factor = 1.5
 			has_terrain = jungle
-		}
-		modifier = {
-			factor = 1
-			has_climate = tropical
 		}
 		modifier = {
 			factor = 1.5
@@ -3417,6 +3415,18 @@ exoticfruits = {
 				region = malaya_region
 				region = moluccas_region
 				region = indonesia_region
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_terrain = jungle
+			}
+		}
+		modifier = {
+			factor = 0
+			NOT = {
+				has_terrain = tropical
 			}
 		}
 	}
