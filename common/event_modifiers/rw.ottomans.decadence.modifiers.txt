@@ -8,17 +8,14 @@ rise_of_the_ottomans = {
 zenith_of_the_ottomans = {
 	monthly_ottoman_decadence = -0.5
 	ottoman_decadence_gain_modifier = -0.25
-	land_forcelimit_modifier = 0.1 # RW modifier
 }
 
 twilight_of_the_ottomans = {
 	monthly_ottoman_decadence = 0.1
 	ottoman_decadence_gain_modifier = 0.5
-	land_forcelimit_modifier = -0.1 # RW modifier
 }
 
 decline_of_the_ottomans = {
 	monthly_ottoman_decadence = 0.25
 	ottoman_decadence_gain_modifier = 1
-	land_forcelimit_modifier = -0.25 # RW modifier
 }

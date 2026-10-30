@@ -13,3 +13,18 @@ on_startup = {
         add_province_triggered_modifier = mambo_malaria
     }
 }
+on_war_won = {
+	ROOT = {
+ 		add_war_exhaustion = -4
+	}
+	FROM = {
+	add_war_exhaustion = 6
+	}
+}
+on_country_released - {
+	THIS = {
+		every_owned_province = {
+			add_nationalism = -30
+		}	
+	}
+}

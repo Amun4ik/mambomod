@@ -669,7 +669,7 @@ shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 2
+		naval_forcelimit = 1
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
@@ -1255,7 +1255,7 @@ regimental_camp = {
 	}
 
 	modifier = {
-		land_forcelimit = 1
+		land_forcelimit = 0.5
 	}
 
 	on_built = {
@@ -2090,7 +2090,7 @@ grand_shipyard = {
 		has_port = yes
 	}
 	modifier = {
-		naval_forcelimit = 4
+		naval_forcelimit = 2
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
 		local_has_man_of_war = yes
@@ -2225,7 +2225,7 @@ training_fields = {
 	}
 
 	modifier = {
-		local_manpower_modifier = 1
+		local_manpower_modifier = 0.5
 	}
 
 	on_built = {
@@ -3059,7 +3059,7 @@ conscription_center = {
 	}
 
 	modifier = {
-		land_forcelimit = 2
+		land_forcelimit = 1
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
@@ -4199,10 +4199,12 @@ soldier_households = {
 	}
 
 	modifier = {
-		local_manpower = 0.75
+		local_manpower = 0.5
+		land_forcelimit = 0.5
 	}
 	bonus_modifier = {
-		local_manpower = 0.75
+		local_manpower = 0.5
+		land_forcelimit = 0.5
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
