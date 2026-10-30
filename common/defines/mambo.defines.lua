@@ -12,3 +12,4 @@ NDefines.NEconomy.BANKRUPTCY_DURATION = 5						-- _EDEF_BANKRUPTCY_DURATION_
 NDefines.NEconomy.BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 0	-- Bankruptcy will destroy building that have been build in the latest X amount of years. Set to zero to disable the destruction mechanic.
 NDefines.NEconomy.BANKRUPTCY_PROVINCE_DEVASTATION_GAIN = 0		-- Devastation gained in country provinces after declaring bankrutcy.
 NDefines.NEconomy.MINIMUM_INTERESTS = 0.5						-- _EDEF_MINIMUM_INTERESTS_
+NDefines.NEconomy.TRADED_FRACTION_FOR_BONUS = 0.40
