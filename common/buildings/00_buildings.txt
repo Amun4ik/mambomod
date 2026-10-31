@@ -3968,6 +3968,9 @@ mills = {
 		gems
 		glass
 		chinaware
+		tropical_wood
+		paper
+		lumber
 		jade #MOD
 		marble #MOD
 		stone #MOD

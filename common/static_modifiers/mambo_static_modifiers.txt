@@ -33,7 +33,6 @@ all_nations = {
 	naval_forcelimit = 6
 	global_unrest = 3
 	years_of_nationalism = 10
-	may_not_convert_territories = yes
 }
 
 ai_nation = {
