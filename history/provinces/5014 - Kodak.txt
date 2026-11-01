@@ -2,7 +2,7 @@
 owner = CRI
 controller = CRI
 culture = crimean
-religion = orthodox
+religion = sunni
 base_tax = 2
 base_production = 2
 trade_goods = livestock

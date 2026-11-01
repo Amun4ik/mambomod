@@ -2,6 +2,7 @@
 owner = LIV
 controller = LIV
 culture = estonian
+religion = catholic
 base_tax = 1
 base_production = 1
 trade_goods = fish
