@@ -5,7 +5,24 @@ graphical_culture = westerngfx
 color = { 156  96  100 }
 revolutionary_colors = { 6 0 15 }
 
-historical_idea_groups = {}
+historical_idea_groups = {
+	trademanagement0
+	influence_ideas
+	defensive_ideas
+	maritime_ideas
+	protestant0
+	mercenary0
+	exploration_ideas
+	economic_ideas
+	generalstab0
+	trade_ideas
+	dezentra0
+	festung0
+	stateaffairs0
+	propaganda0
+	stehendesheer0
+	humanist_ideas
+}
 
 historical_units = {
 	western_medieval_infantry

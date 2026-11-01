@@ -10,7 +10,23 @@ revolutionary_colors = { 15  0  16 }
 
 historical_score = 6700
 
-historical_idea_groups = {}
+historical_idea_groups = {
+	justiz0
+	stehendesheer0
+	influence_ideas
+	administrative_ideas
+	exploration_ideas
+	offensive_ideas
+	assimilation0
+	quality_ideas
+	economic_ideas
+	militarismus0
+	trade_ideas
+	generalstab0
+	propaganda0
+	stateaffairs0
+	nationalismus0
+}
 
 historical_units = {
 	western_medieval_infantry
