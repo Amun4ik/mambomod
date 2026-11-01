@@ -8,7 +8,24 @@ color = { 193  171  8 }
 
 revolutionary_colors = { 5  8  5 }
 
-historical_idea_groups = {}
+historical_idea_groups = {
+	exploration_ideas
+	offensive_ideas
+	justiz0
+	expansion_ideas
+	quality_ideas
+	influence_ideas
+	katholisch0
+	maritime_ideas
+	defensive_ideas
+	trade_ideas
+	economic_ideas
+	generalstab0
+	zentra0
+	kriegsproduktion0
+	propaganda0
+	stateaffairs0
+}
 
 historical_units = {
 	western_medieval_infantry

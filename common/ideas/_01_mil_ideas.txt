@@ -536,8 +536,6 @@ stehendesheer0 = {
 
 	bonus = {
 		drill_decay_modifier = -0.25
-		reinforce_cost_modifier = 0.3
-		reinforce_speed = -0.3
 	}
 
 	trigger = {
@@ -573,7 +571,7 @@ stehendesheer0 = {
 	}
 
 	stehendesheer4 = {
-		discipline = 0.05
+		discipline = 0.025
 	}
 
 	ai_will_do = {
@@ -591,7 +589,6 @@ wehrpflicht0 = {
 
 	bonus = {
 		manpower_recovery_speed = 0.2
-		discipline = -0.05
 	}
 
 	trigger = {
@@ -621,7 +618,7 @@ wehrpflicht0 = {
 		# You dont lose troops when disbanding
 	}
 	wehrpflicht6 = {
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 
 	ai_will_do = {
