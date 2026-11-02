@@ -1,7 +1,7 @@
 #1043 - Okhotsk
 
 culture = yakut
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Okhotsk"
 trade_goods = unknown
 hre = no

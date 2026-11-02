@@ -1,7 +1,7 @@
 #1037 - Nizhe-Kolymsk
 
 culture = yukagyr
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Omolon"
 trade_goods = unknown
 hre = no

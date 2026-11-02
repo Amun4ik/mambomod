@@ -1,7 +1,7 @@
 #2439 - Zasjiversk
 
 culture = yukagyr
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Zasjiversk"
 trade_goods = unknown
 hre = no

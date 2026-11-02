@@ -1,7 +1,7 @@
 #1046 - Butalsk
 
 culture = yakut
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Ust-Maya"
 trade_goods = unknown
 hre = no

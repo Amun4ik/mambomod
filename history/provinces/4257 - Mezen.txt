@@ -3,7 +3,7 @@
 owner = NOV 
 controller = NOV 
 culture = samoyed
-religion = orthodox
+religion = animism
 hre = no
 base_tax = 1
 base_production = 1

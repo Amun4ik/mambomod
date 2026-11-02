@@ -1,7 +1,7 @@
 #2435 - Nukhtui
 
 culture = yakut
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Olyokminsk"
 trade_goods = unknown
 hre = no

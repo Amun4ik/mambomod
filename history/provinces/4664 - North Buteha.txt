@@ -1,7 +1,8 @@
 owner = SOL
 controller = SOL
 add_core = SOL
-culture = evenk
+add_core = KRC
+culture = chahar
 religion = tengri_pagan_reformed
 capital = "Oroqen"
 trade_goods = livestock

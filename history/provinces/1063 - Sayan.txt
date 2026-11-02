@@ -1,7 +1,7 @@
 #1063 - Sayan
 
 culture = buryat
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Sayan"
 trade_goods = unknown
 hre = no

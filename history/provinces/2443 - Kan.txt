@@ -1,7 +1,7 @@
 #2443 - Kansk
 
 culture = buryat
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Kansk"
 trade_goods = unknown
 hre = no

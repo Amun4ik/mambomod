@@ -1,7 +1,7 @@
 #2442 - Ust-Kut
 
 culture = buryat
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Ust-Kut"
 trade_goods = unknown
 hre = no

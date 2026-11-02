@@ -1,7 +1,7 @@
 #1051 - Uchurskoye
 
 culture = yakut
-religion = tengri_pagan_reformed
+religion = animism
 capital = "Aldan"
 trade_goods = unknown
 hre = no
