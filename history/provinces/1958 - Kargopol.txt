@@ -2,7 +2,7 @@
 
 owner = NOV
 controller = NOV 
-culture = novgorodian
+culture = karelian
 religion = orthodox
 hre = no
 base_tax = 3
@@ -12,7 +12,7 @@ base_manpower = 1
 capital = "Kargopol"
 is_city = yes
 add_core = NOV
-
+add_core = KRL
 
 
 discovered_by = eastern

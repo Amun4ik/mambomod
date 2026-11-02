@@ -1,6 +1,6 @@
 owner = GNV
 controller = GNV
-culture = swiss
+culture = burgundian
 religion = catholic
 capital = "Geneva"
 trade_goods = beer

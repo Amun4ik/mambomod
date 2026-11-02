@@ -1,7 +1,7 @@
 #1772 - Pozsony
 owner = HUN
 controller = HUN
-culture = slovak
+culture = austrian
 religion = catholic
 capital = "Pressburg"
 trade_goods = grain

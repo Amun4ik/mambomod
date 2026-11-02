@@ -3,7 +3,7 @@
 owner = TEU
 controller = TEU
 capital = "Osterode"
-culture = prussian
+culture = lower_saxon
 religion = catholic
 trade_goods = grain
 hre = no

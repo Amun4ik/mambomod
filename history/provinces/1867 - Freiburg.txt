@@ -2,7 +2,7 @@
 
 owner = SAV
 controller = SAV
-culture = swiss
+culture = burgundian
 religion = catholic
 capital = "Lausanne"
 trade_goods = cheese

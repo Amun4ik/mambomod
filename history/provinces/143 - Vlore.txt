@@ -2,7 +2,7 @@
 
 owner = TUR
 controller = TUR
-culture = albanian
+culture = greek
 religion = orthodox
 capital = "Vlorë"
 trade_goods = wool #or salt
@@ -13,6 +13,7 @@ base_manpower = 1
 is_city = yes
 add_core = TUR
 add_core = ALB
+add_core = BYZ
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

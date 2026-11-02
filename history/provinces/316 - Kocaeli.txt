@@ -2,8 +2,8 @@
 
 owner = TUR
 controller = TUR
-culture = turkish
-religion = sunni
+culture = greek
+religion = orthodox
 capital = "Izmit"
 trade_goods = grain
 hre = no
@@ -13,6 +13,7 @@ base_manpower = 3
 is_city = yes
 fort_15th = yes
 add_core = TUR
+add_core = BYZ
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

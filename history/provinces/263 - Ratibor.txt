@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 owner = OPL
 controller = OPL
-culture = schlesian
+culture = slunzoki
 religion = catholic
 hre = yes
 base_tax = 3 

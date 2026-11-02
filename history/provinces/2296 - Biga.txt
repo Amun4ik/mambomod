@@ -2,8 +2,8 @@
 
 owner = TUR
 controller = TUR
-culture = turkish
-religion = sunni
+culture = greek
+religion = orthodox
 capital = "Biga"
 trade_goods = marble
 hre = no
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 3
 is_city = yes
 add_core = TUR
-
+add_core = BYZ
 
 
 discovered_by = western

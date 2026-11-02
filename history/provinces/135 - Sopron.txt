@@ -1,7 +1,7 @@
 #135 - Sopron (Sopron + Vas + Moson + Zala)
 owner = HUN
 controller = HUN
-culture = hungarian
+culture = austrian
 religion = catholic
 capital = "Sopron"
 trade_goods = wine
