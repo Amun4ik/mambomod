@@ -523,7 +523,6 @@ technology = { #Revolutionary Ideals
 	revolutionary_republic = yes
 	revolutionary_empire = yes
 	governing_capacity = 500
-	allowed_idea_groups = 15
 }
 
 technology = { #Four Field Rotation

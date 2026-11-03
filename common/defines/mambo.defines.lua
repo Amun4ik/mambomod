@@ -13,3 +13,4 @@ NDefines.NEconomy.BANKRUPTCY_BUILDING_DESTRUCTION_THRESHOLD = 0	-- Bankruptcy wi
 NDefines.NEconomy.BANKRUPTCY_PROVINCE_DEVASTATION_GAIN = 0		-- Devastation gained in country provinces after declaring bankrutcy.
 NDefines.NEconomy.MINIMUM_INTERESTS = 0.5						-- _EDEF_MINIMUM_INTERESTS_
 NDefines.NEconomy.TRADED_FRACTION_FOR_BONUS = 0.40
+NDefines.NAI.AI_USES_HISTORICAL_IDEA_GROUPS = 1

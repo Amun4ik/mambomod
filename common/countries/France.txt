@@ -18,6 +18,7 @@ historical_idea_groups = {
 	exploration_ideas
 	offensive_ideas
 	assimilation0
+	zentra0
 	quality_ideas
 	economic_ideas
 	militarismus0

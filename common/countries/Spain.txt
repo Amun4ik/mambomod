@@ -13,19 +13,19 @@ historical_score = 7400
 historical_idea_groups = {
 	exploration_ideas
 	offensive_ideas
-	justiz0
-	expansion_ideas
-	quality_ideas
-	influence_ideas
 	katholisch0
-	maritime_ideas
-	defensive_ideas
+	quality_ideas
+	expansion_ideas
 	trade_ideas
+	maritime_ideas
+	administrative_ideas
+	defensive_ideas
 	economic_ideas
-	generalstab0
-	zentra0
+	gross0
+	quantity_ideas
 	kriegsproduktion0
-	propaganda0
+	entwicklung0
+	kolonialimperium0
 	stateaffairs0
 }
 

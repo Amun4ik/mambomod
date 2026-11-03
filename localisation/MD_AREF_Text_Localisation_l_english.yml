@@ -275,7 +275,7 @@
 
  obj_md_audit_government_desc: "Have no loans, reduce Corruption to 0, and raise Stability to at least 2."
  obj_md_humanism_religious_desc: "Fully embrace either the Humanism or Religious idea group."
- obj_md_unify_culture_desc: "Own all provinces of your culture group."
+ obj_md_unify_culture_desc: "Own all provinces of your culture."
 
 
 
