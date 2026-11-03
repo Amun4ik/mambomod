@@ -1665,7 +1665,7 @@ french	= {
 		
 		primary = QUE
 	}
-	gallo = {
+	gallo = { #Gallo
 	
 	    primary = BRI
 		dynasty_names = { 
@@ -1822,32 +1822,6 @@ french	= {
 }
 finno_ugric = { #Ugric
 	graphical_culture = westerngfx
-	
-	uralic = {
-		primary = PRM
-		male_names = {
-			Mikhail Yermolay Matvey Vasiley Pitirim Gerasim Isaak Iona Volod Gavril Yegor Ivan Mikulay Petyr 
-			Kos'ta Öndrey Stepan Ölyöksey Boris Danil Dmitry Pedot Illya Segö Semö Pedör 
-		}
-		female_names = {
-			Nasta Katyö Ölga
-		}
-	}
-	samoyed = {
-		male_names = {
-			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
-			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
-			Yar Yavlad Yurak Pudak Yapti
-		}
-		female_names = {
-			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
-		}
-		dynasty_names = {
-			# CKII
-			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
-		}
-	}
-	
 	
 	ostyaki = {
 		male_names = {
@@ -10100,7 +10074,7 @@ lost_cultures_group = {
 	}
 }
 
-Oghuz_group = {
+oghuz_group = {
    graphical_culture = muslimgfx
    turkish = {
 		province = { local_has_qizilbash = yes }
@@ -10346,7 +10320,7 @@ euskara_group = {
 	}
 }
 
-baltofinnic_group = {
+finnopermic_group = {
     graphical_culture = westerngfx
 	finnish = {
 		primary = FIN
@@ -10467,6 +10441,16 @@ baltofinnic_group = {
 			Sandra Sigrid Siiri Silja Silvi Silvia Siret Sirje Sirli Susanna Taimi Talvi Tea Teele Terje Tiia Tiina Tiiu 
 			Triin Triinu Tuule Tuuli Ursula Urve Vaike Valli Veronika Viia Viiu Viive Viivi Vilja Virge Virve Õie Õnne 
 			Õnnela Ülle
+		}
+	}
+		uralic = {
+		primary = PRM
+		male_names = {
+			Mikhail Yermolay Matvey Vasiley Pitirim Gerasim Isaak Iona Volod Gavril Yegor Ivan Mikulay Petyr 
+			Kos'ta Öndrey Stepan Ölyöksey Boris Danil Dmitry Pedot Illya Segö Semö Pedör 
+		}
+		female_names = {
+			Nasta Katyö Ölga
 		}
 	}
 }
@@ -10613,3 +10597,19 @@ armenian_group = {
 	    }
 	}
 }
+samoyedic_group = {
+        graphical_culture = westerngfx
+        samoyed = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
