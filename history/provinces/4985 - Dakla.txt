@@ -1,6 +1,6 @@
 # - Tajhari (Idehan Murzuq)
 
-culture = al_misr_arabic
+culture = berber
 religion = sunni
 capital = "Dakla"
 trade_goods = unknown

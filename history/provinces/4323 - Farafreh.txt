@@ -3,7 +3,7 @@
 owner = MAM
 controller = MAM #Local Badawin in control
 add_core = MAM
-culture = al_misr_arabic
+culture = bedouin_arabic
 religion = sunni
 capital = "Farafreh"
 is_city = yes

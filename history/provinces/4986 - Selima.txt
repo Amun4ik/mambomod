@@ -1,6 +1,6 @@
 # - Tajhari (Idehan Murzuq)
 
-culture = nubian
+culture = berber
 religion = sunni
 capital = "Selima"
 trade_goods = unknown

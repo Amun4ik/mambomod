@@ -3,7 +3,7 @@
 owner = MAM
 controller = MAM
 culture = al_misr_arabic
-religion = sunni
+religion = coptic
 capital = "Girga"
 trade_goods = grain
 hre = no
