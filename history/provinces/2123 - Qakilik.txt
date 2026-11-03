@@ -1,8 +1,8 @@
 # 2123 - Qakilik
 
-owner = CHG
-controller = CHG
-add_core = CHG
+owner = KAS
+controller = KAS
+add_core = KAS
 culture = oirats
 religion = vajrayana
 capital = "Qakilik"

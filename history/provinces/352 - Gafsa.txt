@@ -2,7 +2,7 @@
 
 owner = GHD
 controller = GHD 
-culture = tunisian
+culture = berber
 religion = sunni
 capital = "Gafsa"
 trade_goods = salt

@@ -2,7 +2,7 @@
 
 owner = TIM
 controller = TIM
-culture = afghani
+culture = tajiks
 religion = sunni
 capital = "Munjan"
 trade_goods = gems #Rubies, Saphires

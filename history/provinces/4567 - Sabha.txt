@@ -2,7 +2,7 @@
 
 owner = FZA
 controller = FZA 
-culture = tunisian
+culture = berber
 religion = sunni
 capital = "Sabha"
 trade_goods = horses

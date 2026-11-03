@@ -3,7 +3,7 @@
 owner = MOR
 controller = MOR 
 add_core = MOR 
-culture = moroccan
+culture = berber
 religion = sunni
 capital = "Demnate"
 trade_goods = wool
