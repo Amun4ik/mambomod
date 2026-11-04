@@ -9,22 +9,22 @@ revolutionary_colors = { 4  8  4 }
 historical_score = 400
 
 historical_idea_groups = {
-	justiz0
-	trade_ideas
+	mercenary0	
+	maritime_ideas
+	katholisch0
 	offensive_ideas
 	exploration_ideas
-	expansion_ideas
-	generalstab0
-	maritime_ideas
-	galle0
-	stateaffairs0
-	assimilation0
-	defensive_ideas
+	administrative_ideas
+	trade_ideas
 	economic_ideas
 	quality_ideas
+	stateaffairs0
+	galle0
+	quantity_ideas
+	entwicklung0
+	kolonialimperium0
+	defensive_ideas
 	dezentra0
-	flottenbasis0
-	humanist_ideas
 }
 
 historical_units = {

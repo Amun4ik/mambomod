@@ -9,22 +9,22 @@ revolutionary_colors = { 2  0  10 }
 preferred_religion = protestant
 
 historical_idea_groups = {
-	justiz0
-	trade_ideas
+	maritime_ideas
+	economic_ideas
 	defensive_ideas
 	exploration_ideas
-	ancli0
 	quality_ideas
-	maritime_ideas
+	ancli0
+	trade_ideas
 	administrative_ideas
-	kriegsproduktion0
+	offensive_ideas
 	gross0
-	stehendesheer0
-	economic_ideas
-	nationalismus0
+	stateaffairs0
+	kriegsproduktion0
+	kolonialimperium0
 	entwicklung0
 	militarismus0
-	kolonialimperium0
+	gesundheit0
 }
 
 historical_units = {
