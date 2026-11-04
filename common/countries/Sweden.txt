@@ -9,7 +9,24 @@ revolutionary_colors = { 13  8  13 } #Fictional
 historical_score = 2100
 preferred_religion = protestant
 
-historical_idea_groups = {}
+historical_idea_groups = {
+	offensive_ideas
+	economic_ideas
+	influence_ideas
+	quantity_ideas
+	administrative_ideas
+	trade_ideas
+	quality_ideas
+	protestant0
+	maritime_ideas
+	stehendesheer0
+	stateaffairs0
+	galle0
+	kriegsproduktion0
+	zentra0
+	imperialismus0
+	militarismus0
+}
 
 historical_units = {
 	western_medieval_infantry

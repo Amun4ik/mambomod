@@ -8,7 +8,24 @@ revolutionary_colors = { 0  13  5 }
 
 historical_score = 5300
 
-historical_idea_groups = {}
+historical_idea_groups = {
+	offensive_ideas
+	economic_ideas
+	influence_ideas
+	quantity_ideas
+	administrative_ideas
+	trade_ideas
+	quality_ideas
+	orthodox0
+	assimilation0
+	wehrpflicht0
+	stateaffairs0
+	propaganda0
+	kriegsproduktion0
+	zentra0
+	gesellschaft0
+	militarismus0
+}
 
 historical_units = {
 	bardiche_infantry
