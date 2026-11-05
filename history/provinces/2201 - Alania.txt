@@ -2,7 +2,7 @@
 
 owner = CIR
 controller = CIR
-culture = circassian
+culture = ossetian
 religion = orthodox
 capital = "Dzaudzhikau"
 trade_goods = wool

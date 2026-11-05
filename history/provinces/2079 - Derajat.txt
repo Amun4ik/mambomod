@@ -2,7 +2,7 @@
 
 owner = MUL
 controller = MUL
-culture = panjabi
+culture = afghani
 religion = sunni
 capital = "Dera Ghazi Khan"
 trade_goods = wool

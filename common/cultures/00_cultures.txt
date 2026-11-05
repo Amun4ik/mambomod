@@ -2339,6 +2339,40 @@ carpathian = {
 			Tereza Teresa Vasilica Violeta Yolanda Voica Zina
 		}
 	}
+	aromanian = {
+		dynasty_names = {
+			"Basarab" "Danesti" "Draculesti"
+			Callimachi Ghica Cantacuzino Cantemiresti Racovita Caradja Sturdza 
+			Conachi Soutzos Golescu Vacarescu Mavrocordatos Craiovesti Hâjdau
+			Kogalniceanu Movilesti
+		}
+		male_names = {
+			Alexandru Radu Vlad Constantin Mihail Mircea George Grigore Mihnea Nicolae Besarab Vladislav Mattia 
+			Radu Ilias Scarlat Stefan Dan Alexandru Ilias Gabriel Ioan George Leon Moise Neagoie Besarab 
+			Leon Radu Mihnea Serban Simeon Teodosiu Vintila Vladut Milos Corneliu Flaviu Iuliu Octavian Sergiu 
+			Valeriu Petru Petrascu Radu 
+			Adrian Alexandru Alexander Anghel Angel Aron Bajan Balc Barbat Basarab Bogdan Bogdan Carol 
+			Ciprian Ciubar Claudiu
+			Corneliu Cornelius Costin Damjan Dan Dragos Dumitru Emerik Florin Franjo Francis Gavril 
+			Gheorghe George Grigore Gregory Iacob Gabriel
+			Iancu Ieremia Ilie Ioan John Iorghu Iosif Iuga Janos John Ladislau Latcu Laurentiu Laurence 
+			Litovoi Lucian Lucius Marin Marius
+			Mihai Milos Milosz Mircea Moise Nicolaie Petre Pirvu Radovan Radu Roman Sas Seneslav 
+			Sergiu Simion Simon
+			Stefan Stephen Stelian Teodor Theodore Tepes Tibor Tihomir Timotei Tudor Thierry Valentin 
+			Valentin Valeriu Vasile Basil Veaceslav
+			Victor Vilhelm William Vintila Vlad
+		}
+		female_names = {
+			Adelina Adriana Afina Alexandra Alexia Ana Anna Anastasia Anastasia Angela Arina Christina 
+			Christina Clara Clara Dana Ecatarina Catherine
+			Elena Helen Elisabeta Elisabeth Emilia Emily Eufroysina Euphrosyne Felicia Floarea Flora 
+			Ioana Ionela Irina Iulia Juliana Maria Maria Monica Iacoba
+			Natalia Olimpia Paraschiva Petra Roxana Ruxandra Smaranda Sophia Sophia Stana Stefana 
+			Stefania Stephania Teodora Rahela Flavia Cosmina
+			Tereza Teresa Vasilica Violeta Yolanda Voica Zina
+	    }
+	}
 }
 	
 east_slavic = {
@@ -3492,6 +3526,40 @@ caucasian = {
 			
 		}
 	}
+	abkhaz = { 
+	   	dynasty_names = { 
+			Bagrationi Mukhrani
+			# CKII
+			"Javakhishvili" "Jaqeli" "Sologashvili" "Tavdgiridze" "Vakhvakhishvili" 
+			"Andronikashvili" "Gurieli" "Machabeli" "Abazasdze" "Zevdginidze" "Amirejibi" "Abuladze" 
+			"Chkhetidze" "Gelovani" "Panaskerteli" "Agiashvili" "Chavchavadze" 
+			"Cholokashvili" "Diasamidze" "Shildisani" "Iashvili" "Anchabadze"
+			"Orbeliani" "Japaridze" "Jorjadze"
+			"Kakhaberisdze" "Kherkheulidze" "Khimshiashvili" "Shervashidze" "Dadiani" 
+			"Kobulashvili" "Lortkipanidze" "Machutadze" "Mikeladze" "Mkhetsidze" "Palavandishvili"
+		}
+		male_names = {
+			Giorgi David Vakhtang Bagrat Alexander Erekle Konstantine Luarsab Simon Teimuraz Archil Bakar Iesse 
+			Kaihosro Rostom-Mirza Levan Demetre Stefanoz Anzori Bebur Birtveli Djurkha Gulikho Kartlos Koki 
+			Lukhum Malkhazi Mushni Okhropir Orbeli Revaz Takha Torgva Tornike Tsotne Xareba Zviadi
+			Adarnase Atrnerseh Aghsartan Aleksandre Alexander Andronik Andronicus Anzori Archili Ashot 
+			Ashot Bagrat Bakur Bagour Davit David Demetre Demetrius Demna Djavakhi Erekle Heracles 
+			Gabriel Gagiki Gagik Giorgi George Grigoli Gregory Guaram Guaram Gubaz Kviria
+			Gurgen Lupo Iese Ioane John Ishkhanik Ishkhan Iveri Jarji Kaikhosro Keykhosrau Kakhi Koba 
+			Konstantine Constantine Kvarkvare Kvirike Levan Leo Luarsab Malkhazi Malkhas Mamia Merab 
+			Mikheil Michael Mukhran Nerse Narses Nikoloz Nicholas Okhropir Orbeli Gabrieli
+			Padla Samoeli Samuel Shanshe Shahanshah Shota Simon Simon Stepanoz Stephen Sumbat Smbat 
+			Teimuraz Teimuraz Tornike Tornik Ushisha Vache Vakhtang Vakhtank Zurab Zviad
+		}
+		female_names = {
+			Ana Anna Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Helen Eliso Endzela 
+			Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht Gorandukht Gvantsa Ia Judjuna Thamar
+			Kekela Ketevan Catherine Lamara Lamzira Lela Mariami Mariam Mathiko Mthvarisa Mzekhar Natia 
+			Nino Rusudan Sanatha Shorena Shukhia Suliko
+			Tamari Tamar Taplo Tinatini Tsiala Vardo
+		}
+	}
+	
 }
 
 turko_semitic = { #Levantine
@@ -4219,6 +4287,70 @@ iranian	= {
 			Shirin Soraya Touran Tourandokht Yasaman Yekta Zarrindokht Zeynab Zohreh Atiya
 		}
 	}
+	ossetian = {
+		primary = AFG
+		male_names = {
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanšah Jahanshah Cemšîd Jamshid Cevid Javeed Danûš Danush Darab Daryûš Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efšer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûširwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdešîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Ešot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Goštasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûrušê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûšihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Nošîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêšeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varšasp Varshasb Vîštap Vishtasb Xarmandar Kharmandar 
+			Xašayar Khashayar 
+			Xuršîd Khurshid Xusrew Khosrau Xušyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdešt Zartosht Zia
+			Šadî Shadhi Šahab Shahab Šahbaz Shahbaz Šahenšah Shahanshah Šahin Shahin Šahram Shahram Šahryar 
+			Shahryar Šahrux Shahrokh Šahruz Shahruz Šapur Shapur Šarvin Sharwin Šawur Shavur Šayan Shayan 
+			Šîrkûh Shirkuh
+		}
+		dynasty_names = {
+			"Osmanoglu" "Karamanoglu" "Menteseoglu" "Ramazanoglu" "Saruhanoglu"
+			"Dulkadiroglu" "Candaroglu" "Germiyanoglu" "Aydinoglu" "Eretnaoglu"
+			"Artukoglu" "Mutahhartenoglu" "Tekeoglu" "Hamidoglu" "Tacettinoglu"
+			"Oguzoglu" "Haciemiroglu" "Kubatoglu" "Bafraoglu" "Alaiyeoglu"
+			Afsharid Zand Qajar Qoli Zahedi Talish Safavid Zulqadr Shamlu Sahandlu Zanganeh
+			Zaman Ustajlu Tekkelu Jaberi Khuzani Kujuji Ordubadi Khalifeh Karaki 
+		}
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Aštî 
+			Badil Bahar Balnexšîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexšîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binefš Binevš Biyan Biškoj Biškurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxoš Dilxweš Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyšan Ezcan Felek Fener Ferašîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulšen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maša Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxoš Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexšîn
+			Nešmîl Nešmîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîšan Nîštîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîšan Pexšan Peyman Pirjîn Piršeng 
+			Piršing Pore Poršeng Pêlîn Pîroz Pîšeng 
+			Rana Rengîn Rewša Rewšen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûgeš Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîšan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê Šana Šanaz Šayan Šehrîban Šelal Šemam Šengê Šepal Šepirze Šermîn Ševba Ševîn 
+			Šêlaz Šîlan Šînî Šîwen
+		}
+    }
 }
 
 altaic = {
@@ -10337,7 +10469,17 @@ finnopermic_group = {
 			Nasta Katyö Ölga
 		}
 	}
+	    mari = {
+		male_names = {
+			Mikhail Yermolay Matvey Vasiley Pitirim Gerasim Isaak Iona Volod Gavril Yegor Ivan Mikulay Petyr 
+			Kos'ta Öndrey Stepan Ölyöksey Boris Danil Dmitry Pedot Illya Segö Semö Pedör 
+		}
+		female_names = {
+			Nasta Katyö Ölga
+		}
+	}
 }
+
 ainu_group = {
 	graphical_culture = inuitgfx
 	second_graphical_culture = asiangfx
@@ -10408,6 +10550,105 @@ georgian_group = {
 	graphical_culture = easterngfx
 	georgian = {
 		primary = GEO
+		dynasty_names = { 
+			Bagrationi Mukhrani
+			# CKII
+			"Javakhishvili" "Jaqeli" "Sologashvili" "Tavdgiridze" "Vakhvakhishvili" 
+			"Andronikashvili" "Gurieli" "Machabeli" "Abazasdze" "Zevdginidze" "Amirejibi" "Abuladze" 
+			"Chkhetidze" "Gelovani" "Panaskerteli" "Agiashvili" "Chavchavadze" 
+			"Cholokashvili" "Diasamidze" "Shildisani" "Iashvili" "Anchabadze"
+			"Orbeliani" "Japaridze" "Jorjadze"
+			"Kakhaberisdze" "Kherkheulidze" "Khimshiashvili" "Shervashidze" "Dadiani" 
+			"Kobulashvili" "Lortkipanidze" "Machutadze" "Mikeladze" "Mkhetsidze" "Palavandishvili"
+		}
+		male_names = {
+			Giorgi David Vakhtang Bagrat Alexander Erekle Konstantine Luarsab Simon Teimuraz Archil Bakar Iesse 
+			Kaihosro Rostom-Mirza Levan Demetre Stefanoz Anzori Bebur Birtveli Djurkha Gulikho Kartlos Koki 
+			Lukhum Malkhazi Mushni Okhropir Orbeli Revaz Takha Torgva Tornike Tsotne Xareba Zviadi
+			Adarnase Atrnerseh Aghsartan Aleksandre Alexander Andronik Andronicus Anzori Archili Ashot 
+			Ashot Bagrat Bakur Bagour Davit David Demetre Demetrius Demna Djavakhi Erekle Heracles 
+			Gabriel Gagiki Gagik Giorgi George Grigoli Gregory Guaram Guaram Gubaz Kviria
+			Gurgen Lupo Iese Ioane John Ishkhanik Ishkhan Iveri Jarji Kaikhosro Keykhosrau Kakhi Koba 
+			Konstantine Constantine Kvarkvare Kvirike Levan Leo Luarsab Malkhazi Malkhas Mamia Merab 
+			Mikheil Michael Mukhran Nerse Narses Nikoloz Nicholas Okhropir Orbeli Gabrieli
+			Padla Samoeli Samuel Shanshe Shahanshah Shota Simon Simon Stepanoz Stephen Sumbat Smbat 
+			Teimuraz Teimuraz Tornike Tornik Ushisha Vache Vakhtang Vakhtank Zurab Zviad
+		}
+		female_names = {
+			Ana Anna Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Helen Eliso Endzela 
+			Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht Gorandukht Gvantsa Ia Judjuna Thamar
+			Kekela Ketevan Catherine Lamara Lamzira Lela Mariami Mariam Mathiko Mthvarisa Mzekhar Natia 
+			Nino Rusudan Sanatha Shorena Shukhia Suliko
+			Tamari Tamar Taplo Tinatini Tsiala Vardo
+		}
+	}
+	mingrelian = {
+		dynasty_names = { 
+			Bagrationi Mukhrani
+			# CKII
+			"Javakhishvili" "Jaqeli" "Sologashvili" "Tavdgiridze" "Vakhvakhishvili" 
+			"Andronikashvili" "Gurieli" "Machabeli" "Abazasdze" "Zevdginidze" "Amirejibi" "Abuladze" 
+			"Chkhetidze" "Gelovani" "Panaskerteli" "Agiashvili" "Chavchavadze" 
+			"Cholokashvili" "Diasamidze" "Shildisani" "Iashvili" "Anchabadze"
+			"Orbeliani" "Japaridze" "Jorjadze"
+			"Kakhaberisdze" "Kherkheulidze" "Khimshiashvili" "Shervashidze" "Dadiani" 
+			"Kobulashvili" "Lortkipanidze" "Machutadze" "Mikeladze" "Mkhetsidze" "Palavandishvili"
+		}
+		male_names = {
+			Giorgi David Vakhtang Bagrat Alexander Erekle Konstantine Luarsab Simon Teimuraz Archil Bakar Iesse 
+			Kaihosro Rostom-Mirza Levan Demetre Stefanoz Anzori Bebur Birtveli Djurkha Gulikho Kartlos Koki 
+			Lukhum Malkhazi Mushni Okhropir Orbeli Revaz Takha Torgva Tornike Tsotne Xareba Zviadi
+			Adarnase Atrnerseh Aghsartan Aleksandre Alexander Andronik Andronicus Anzori Archili Ashot 
+			Ashot Bagrat Bakur Bagour Davit David Demetre Demetrius Demna Djavakhi Erekle Heracles 
+			Gabriel Gagiki Gagik Giorgi George Grigoli Gregory Guaram Guaram Gubaz Kviria
+			Gurgen Lupo Iese Ioane John Ishkhanik Ishkhan Iveri Jarji Kaikhosro Keykhosrau Kakhi Koba 
+			Konstantine Constantine Kvarkvare Kvirike Levan Leo Luarsab Malkhazi Malkhas Mamia Merab 
+			Mikheil Michael Mukhran Nerse Narses Nikoloz Nicholas Okhropir Orbeli Gabrieli
+			Padla Samoeli Samuel Shanshe Shahanshah Shota Simon Simon Stepanoz Stephen Sumbat Smbat 
+			Teimuraz Teimuraz Tornike Tornik Ushisha Vache Vakhtang Vakhtank Zurab Zviad
+		}
+		female_names = {
+			Ana Anna Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Helen Eliso Endzela 
+			Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht Gorandukht Gvantsa Ia Judjuna Thamar
+			Kekela Ketevan Catherine Lamara Lamzira Lela Mariami Mariam Mathiko Mthvarisa Mzekhar Natia 
+			Nino Rusudan Sanatha Shorena Shukhia Suliko
+			Tamari Tamar Taplo Tinatini Tsiala Vardo
+		}
+	}
+	laz = {
+		dynasty_names = { 
+			Bagrationi Mukhrani
+			# CKII
+			"Javakhishvili" "Jaqeli" "Sologashvili" "Tavdgiridze" "Vakhvakhishvili" 
+			"Andronikashvili" "Gurieli" "Machabeli" "Abazasdze" "Zevdginidze" "Amirejibi" "Abuladze" 
+			"Chkhetidze" "Gelovani" "Panaskerteli" "Agiashvili" "Chavchavadze" 
+			"Cholokashvili" "Diasamidze" "Shildisani" "Iashvili" "Anchabadze"
+			"Orbeliani" "Japaridze" "Jorjadze"
+			"Kakhaberisdze" "Kherkheulidze" "Khimshiashvili" "Shervashidze" "Dadiani" 
+			"Kobulashvili" "Lortkipanidze" "Machutadze" "Mikeladze" "Mkhetsidze" "Palavandishvili"
+		}
+		male_names = {
+			Giorgi David Vakhtang Bagrat Alexander Erekle Konstantine Luarsab Simon Teimuraz Archil Bakar Iesse 
+			Kaihosro Rostom-Mirza Levan Demetre Stefanoz Anzori Bebur Birtveli Djurkha Gulikho Kartlos Koki 
+			Lukhum Malkhazi Mushni Okhropir Orbeli Revaz Takha Torgva Tornike Tsotne Xareba Zviadi
+			Adarnase Atrnerseh Aghsartan Aleksandre Alexander Andronik Andronicus Anzori Archili Ashot 
+			Ashot Bagrat Bakur Bagour Davit David Demetre Demetrius Demna Djavakhi Erekle Heracles 
+			Gabriel Gagiki Gagik Giorgi George Grigoli Gregory Guaram Guaram Gubaz Kviria
+			Gurgen Lupo Iese Ioane John Ishkhanik Ishkhan Iveri Jarji Kaikhosro Keykhosrau Kakhi Koba 
+			Konstantine Constantine Kvarkvare Kvirike Levan Leo Luarsab Malkhazi Malkhas Mamia Merab 
+			Mikheil Michael Mukhran Nerse Narses Nikoloz Nicholas Okhropir Orbeli Gabrieli
+			Padla Samoeli Samuel Shanshe Shahanshah Shota Simon Simon Stepanoz Stephen Sumbat Smbat 
+			Teimuraz Teimuraz Tornike Tornik Ushisha Vache Vakhtang Vakhtank Zurab Zviad
+		}
+		female_names = {
+			Ana Anna Baia Bedisa Borena Chiora Chito Dali Dedika Duda Dzabuli Elene Helen Eliso Endzela 
+			Gogutsa Gulchara Guliko Gulisa Gulvardi Guranduht Gorandukht Gvantsa Ia Judjuna Thamar
+			Kekela Ketevan Catherine Lamara Lamzira Lela Mariami Mariam Mathiko Mthvarisa Mzekhar Natia 
+			Nino Rusudan Sanatha Shorena Shukhia Suliko
+			Tamari Tamar Taplo Tinatini Tsiala Vardo
+		}
+	}
+	svan = {
 		dynasty_names = { 
 			Bagrationi Mukhrani
 			# CKII

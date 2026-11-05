@@ -1,7 +1,7 @@
 #317 - Bursa
 owner = GEO
 controller = GEO
-culture = georgian
+culture = svan
 religion = orthodox
 capital = "Mestia"
 trade_goods = livestock

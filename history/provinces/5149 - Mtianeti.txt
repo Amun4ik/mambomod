@@ -1,7 +1,7 @@
 #317 - Bursa
 owner = GEO
 controller = GEO
-culture = georgian
+culture = ossetian
 religion = orthodox
 capital = "Mtskheta"
 trade_goods = wool

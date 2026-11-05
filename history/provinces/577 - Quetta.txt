@@ -2,7 +2,7 @@
 
 owner = BAL
 controller = BAL
-culture = baluchi
+culture = afghani
 religion = sunni
 capital = "Quetta"
 trade_goods = grain
