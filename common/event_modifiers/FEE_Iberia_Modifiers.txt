@@ -6,11 +6,11 @@ iberia_spanish_cortes = {
 	max_absolutism = -30
 }
 iberia_autonomous_regions = {
-	local_autonomy = 0.30
+	local_autonomy = 0.15
 	local_unrest = -2
 }
 iberia_restricted_autonomy = {
-	local_autonomy = 0.10
+	local_autonomy = 0.05
 	local_manpower_modifier = 0.20
 	local_unrest = -1
 }
@@ -18,7 +18,7 @@ iberia_abolished_local_privileges = {
 	local_autonomy = -0.10
 	local_manpower_modifier = 0.20
 	local_tax_modifier = 0.20
-	local_unrest = 3
+	local_unrest = 2
 }
 iberia_autonomy_curalied = {
 	yearly_absolutism = 1
