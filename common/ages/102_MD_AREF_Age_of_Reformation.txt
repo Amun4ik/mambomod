@@ -229,17 +229,8 @@ age_of_reformation = {
 		obj_md_humanism_religious = {
 			mambo_did_religious_ideas = yes
 		}
-		obj_md_unify_culture = {	
-			is_subject = no
-			all_province = {
-			    limit = {
-			        culture = ROOT
-			    }
-			    OR = {
-			        owned_by = ROOT
-			        is_subject_of = ROOT # Или вашему вассалу/субъекту
-			    }
-			}
+		obj_md_unify_culture = {
+			mambo_unifyculture = yes
 		}
 
 		# Religious Unity -------------------------------------------------------------------

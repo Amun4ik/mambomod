@@ -40,3 +40,9 @@ mambo_did_religious_ideas = {
 		full_idea_group = druze_ideas_0
 	}
 }
+mambo_unifyculture = {
+    is_subject = no
+    owns_all_provinces = {
+        culture = ROOT
+    }
+}
